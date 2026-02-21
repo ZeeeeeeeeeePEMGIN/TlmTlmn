@@ -1,9 +1,9 @@
 import time
+import json
 
 lovemeter = 0
 code = "0828"
 badges_collected = {"end1": "?", "end2": "?", "end3": "?", "end4": "?", "end5": "?", "end6": "?", "end7": "?"}
-
 
 def main_menu():
     print("They love me... They love me not.")
@@ -40,7 +40,6 @@ def main_menu():
         print("That path does not exist.")
         main_menu()
 
-
 def scenario1():
     global lovemeter
     print(
@@ -57,7 +56,6 @@ def scenario1():
     else:
         print("They seemed confused and felt a bit hurt from your ignorance.")
         lovemeter = lovemeter - 1
-
 
 def scenario2():
     global lovemeter
