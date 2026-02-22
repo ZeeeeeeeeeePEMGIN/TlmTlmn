@@ -8,7 +8,7 @@ def main_menu():
     print("They love me... They love me not.")
     time.sleep(1)
     print("===========================")
-    print("A. Start\nB. Locker\nC. Badegs\nD. Credits and honorable mentions")
+    print("A. Start\nB. Locker\nC. Endings\nD. Credits and honorable mentions")
     print("===========================")
     time.sleep(1)
     choice = str(input("Where shall I take you? "))
@@ -30,7 +30,7 @@ def main_menu():
     elif choice == "Take me to where they promised.":
         wedsecret()
     elif choice == "C" or choice == "c":
-        badges()
+        endings()
     elif choice == "D" or choice == "d":
         creds()
         time.sleep(2)
@@ -693,7 +693,7 @@ def locker():
         input("Press enter to return to main menu.")
         main_menu()
 
-def badges():
+def endings():
     try:  # checks for errors
         # opens the json file and saves it in the variable "data"
         filename = "endings.json"
