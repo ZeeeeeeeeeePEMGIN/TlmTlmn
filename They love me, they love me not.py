@@ -549,6 +549,8 @@ def final():
             time.sleep(4)
             print(f"{end1} end.")
             print("===========================")
+            input("Press enter to return to main menu.")
+            main_menu()
 
         elif lovemeter <= 25:
             print("blunt rejection")
@@ -558,6 +560,8 @@ def final():
             time.sleep(4)
             print(f"{end2} end.")
             print("===========================")
+            input("Press enter to return to main menu.")
+            main_menu()
 
         elif lovemeter <= 50:
             print("polite rejection")
@@ -567,6 +571,8 @@ def final():
             time.sleep(4)
             print(f"{end3} end.")
             print("===========================")
+            input("Press enter to return to main menu.")
+            main_menu()
 
         elif lovemeter <= 75:
             print("promise of a future")
@@ -576,6 +582,8 @@ def final():
             time.sleep(4)
             print(f"{end4} end.")
             print("===========================")
+            input("Press enter to return to main menu.")
+            main_menu()
 
         elif lovemeter <= 100:
             print("reciprocation")
@@ -585,6 +593,9 @@ def final():
             time.sleep(4)
             print(f"{end5} end.")
             print("===========================")
+            input("Press enter to return to main menu.")
+            main_menu()
+
         else:
             yansecret()
 
@@ -613,6 +624,8 @@ def yansecret():
             time.sleep(4)
             print(f"{end6} end.")
             print("===========================")
+            input("Press enter to return to main menu.")
+            main_menu()
 
         else:
             print("breakup scene")
@@ -622,6 +635,8 @@ def yansecret():
             time.sleep(4)
             print(f"{end7} end.")
             print("===========================")
+            input("Press enter to return to main menu.")
+            main_menu()
 
     # prints if errors are found
     except FileNotFoundError:
@@ -643,7 +658,7 @@ def wedsecret():
         time.sleep(4)
         print(f"{end8} end.")
         print("===========================")
-        time.sleep(2)
+        input("Press enter to return to main menu.")
         main_menu()
 
     # prints if errors are found
@@ -654,21 +669,28 @@ def wedsecret():
 
 def locker():
     choice = input("Go through their locker?\nYes\tor\tNo\n")
+    print("===========================")
     if choice == "yes" or choice == "Yes":
         input("You found: Phone!")
         input("You found their phone. Weirdly enough, you knew their password.")
         second_choice = input("Go through it?\nYes\tor\tNo\n")
+        print("===========================")
         if second_choice == "yes" or second_choice == "Yes":
-            input(
-                "You look through a couple selfies, their recent searches, then you entered a notes app.\nWait-- Creator's note??? You open it and see:\n\n===========================\nCreator's note\n\nTell EVEREST to take you to where they promised.\n(hint: EVEREST is the one who asks you what you want to do next.\n===========================")
+            input("You look through a couple selfies, their recent searches, then you entered a notes app.\nWait-- Creator's note??? You open it and see:\n\n===========================\nCreator's note\n\nTell EVEREST to take you to where they promised.\n(hint: EVEREST is the one who asks you what you want to do next.\n===========================")
             input("Um...")
-            input(
-                "\"Strange,\" you thought. You then heard the bell. \"I should go now...\"\nShutting the locker, you made your way to class.\n")
+            input("\"Strange,\" you thought. You then heard the bell. \"I should go now...\"\nShutting the locker, you made your way to class.\n")
+            print("===========================")
+            input("Press enter to return to main menu.")
+            main_menu()
         else:
-            input(
-                "\"I've already gone through their locker... their phone is a bit of a stretch,\" you told yourself. You put their phone back down and shut the locker.\n")
+            input("\"I've already gone through their locker... their phone is a bit of a stretch,\" you told yourself. You put their phone back down and shut the locker.\n")
+            print("===========================")
+            input("Press enter to return to main menu.")
+            main_menu()
     else:
         input("\"This is an invasion of their privacy,\" you thought to yourself. You decide to leave.\n")
+        print("===========================")
+        input("Press enter to return to main menu.")
         main_menu()
 
 def badges():
