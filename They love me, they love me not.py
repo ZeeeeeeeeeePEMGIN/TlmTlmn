@@ -718,6 +718,37 @@ def creds():
     print("===========================")
     time.sleep(2)
 
+def flower():
+    global lovemeter
+
+    if lovemeter < 75:
+        print("Pick a flower.")
+        print("Press enter to pluck a petal.")
+        print("===========================")
+        input("They love me...")
+        input("They love me not...")
+        input("They love me...")
+        input("They love me not...")
+        input("They love me...")
+        input("They love me not.")
+        print("===========================")
+        input("Press enter to continue.")
+        main_menu()
+
+    elif lovemeter >= 75:
+        print("Pick a flower.")
+        print("Press enter to pluck a petal.")
+        print("===========================")
+        input("They love me...")
+        input("They love me not...")
+        input("They love me...")
+        input("They love me not...")
+        input("They love me.")
+        print("===========================")
+        input("Press enter to continue.")
+        main_menu()
+
+
 def main():
     global charname
     global username
@@ -754,6 +785,8 @@ def main():
         print("DAY END.")
         print("===========================")
 
+        flower()
+
         print("===========================")
         input("☆｡⁠⁠✧.* ~ Day 2 ~ *⁠.⁠✧｡⁠☆ ")
         time.sleep(1)
@@ -769,6 +802,8 @@ def main():
         time.sleep(1)
         print("DAY END.")
         print("===========================")
+
+        flower()
 
         print("===========================")
         input("☆｡⁠⁠✧.* ~ Day 3 ~ *⁠.⁠✧｡⁠☆ ")
@@ -786,6 +821,8 @@ def main():
         print("DAY END.")
         print("===========================")
 
+        flower()
+
         print("===========================")
         input("☆｡⁠⁠✧.* ~Day 4 ~ *⁠.⁠✧｡⁠☆ ")
         time.sleep(1)
@@ -802,6 +839,8 @@ def main():
         print("DAY END.")
         print("===========================")
 
+        flower()
+
         print("===========================")
         input("☆｡⁠⁠✧.* ~ Day 5 ~ *⁠.⁠✧｡⁠☆")
         time.sleep(1)
@@ -817,6 +856,8 @@ def main():
         time.sleep(1)
         print("DAY END.")
         print("===========================")
+
+        flower()
 
         print("===========================")
         input("☆｡⁠⁠✧.* ~ Day 6 ~ *⁠.⁠✧｡⁠☆")
@@ -835,6 +876,8 @@ def main():
         print("DAY END.")
         print("===========================")
 
+        flower()
+
         print("===========================")
         input("☆｡⁠⁠✧.* ~ Day 7 ~ *⁠.⁠✧｡⁠☆")
         time.sleep(1)
@@ -851,6 +894,8 @@ def main():
         print("DAY END.")
         print("===========================")
 
+        flower()
+
         print("===========================")
         input("Day of confession.")
         time.sleep(1)
@@ -866,5 +911,4 @@ def main():
         else:
             main_menu()
 
-    main_menu()
-    # deluludevs so real
+main_menu()
