@@ -177,7 +177,7 @@ def scenario9():
     if choice == "A" or choice == "a":
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
-        print("They asked what you unsent, and you only responded by saying it was nothing. You regret all your life choices.")  # can we make this so that if they pick this, they wont be able to do situation 10???????
+        print("They asked what you unsent, and you only responded by saying it was nothing. You regret all your life choices.")
         lovemeter = lovemeter - 1
     else:
         lovemeter = lovemeter + 2
@@ -197,8 +197,6 @@ def scenario10():
     else:
         print("Although you felt bad for leaving them on read, you decided to give your heart a break, and slept it off.")
         lovemeter = lovemeter - 3
-
-# day three
 
 def scenario11():
     global lovemeter
@@ -537,73 +535,122 @@ def final():
     else:
         lovemeter = lovemeter + 6
 
-    if lovemeter < 5:
-        print("harsh rejection")
-        end1 = "Heartbroken"
-        endings["ending1"] = "Heartbroken"
-        time.sleep(4)
-        print(f"{end1} end.")
-        print("===========================")
+    try:  # checks for errors
+        # opens the json file and saves it in the variable "data"
+        filename = "endings.json"
+        with open(filename, 'r') as file:
+            data = json.load(file)
 
-    elif lovemeter <= 25:
-        print("blunt rejection")
-        end2 = "At least I tried"
-        endings["ending2"] = "At least I tried"
-        time.sleep(4)
-        print(f"{end2} end.")
-        print("===========================")
+        if lovemeter < 5:
+            print("harsh rejection")
+            end1 = "Heartbroken"
+            for endings in data:
+                endings["ending1"] = "Heartbroken"
+            time.sleep(4)
+            print(f"{end1} end.")
+            print("===========================")
 
-    elif lovemeter <= 50:
-        print("polite rejection")
-        end3 = "Just friends"
-        endings["ending3"] = "Just friends"
-        time.sleep(4)
-        print(f"{end3} end.")
-        print("===========================")
+        elif lovemeter <= 25:
+            print("blunt rejection")
+            end2 = "At least I tried"
+            for endings in data:
+                endings["ending2"] = "At least I tried"
+            time.sleep(4)
+            print(f"{end2} end.")
+            print("===========================")
 
-    elif lovemeter <= 75:
-        print("promise of a future")
-        end4 = "Hopeful"
-        endings["ending4"] = "Hopeful"
-        time.sleep(4)
-        print(f"{end4} end.")
-        print("===========================")
+        elif lovemeter <= 50:
+            print("polite rejection")
+            end3 = "Just friends"
+            for endings in data:
+                endings["ending3"] = "Just friends"
+            time.sleep(4)
+            print(f"{end3} end.")
+            print("===========================")
 
-    elif lovemeter <= 100:
-        print("reciprocation")
-        end5 = "Happy"
-        endings["ending5"] = "Happy"
-        time.sleep(4)
-        print(f"{end5} end.")
-        print("===========================")
-    else:
-        yansecret()
+        elif lovemeter <= 75:
+            print("promise of a future")
+            end4 = "Hopeful"
+            for endings in data:
+                endings["ending4"] = "Hopeful"
+            time.sleep(4)
+            print(f"{end4} end.")
+            print("===========================")
+
+        elif lovemeter <= 100:
+            print("reciprocation")
+            end5 = "Happy"
+            for endings in data:
+                endings["ending5"] = "Happy"
+            time.sleep(4)
+            print(f"{end5} end.")
+            print("===========================")
+        else:
+            yansecret()
+
+    # prints if errors are found
+    except FileNotFoundError:
+        print("Error: The file 'endings.json' was not found.")
+    except json.JSONDecodeError as e:
+        print(f"Failed to decode JSON: {e}")
 
 def yansecret():
     print("secret scene\nchoiceA\nchoiceB")
     time.sleep(4)
     choice = str(input("What is your choice? . . . "))
 
-    if choice == "A" or choice == "a":
-        print("Obsession scene")
-        end6 = "Happy...?"
-        endings["secretend1"] = "Happy...?"
-        time.sleep(4)
-        print(f"{end6} end.")
-        print("===========================")
+    try:  # checks for errors
+        # opens the json file and saves it in the variable "data"
+        filename = "endings.json"
+        with open(filename, 'r') as file:
+            data = json.load(file)
 
-    else:
-        print("breakup scene")
-        end7 = "Won't work out anymore"
-        endings["secretend2"] = "Won't work out anymore"
-        time.sleep(4)
-        print(f"{end7} end.")
-        print("===========================")
+        if choice == "A" or choice == "a":
+            print("Obsession scene")
+            end6 = "Happy...?"
+            for endings in data:
+                endings["secretend1"] = "Happy...?"
+            time.sleep(4)
+            print(f"{end6} end.")
+            print("===========================")
+
+        else:
+            print("breakup scene")
+            end7 = "Won't work out anymore"
+            for endings in data:
+                endings["secretend2"] = "Won't work out anymore"
+            time.sleep(4)
+            print(f"{end7} end.")
+            print("===========================")
+
+    # prints if errors are found
+    except FileNotFoundError:
+        print("Error: The file 'endings.json' was not found.")
+    except json.JSONDecodeError as e:
+        print(f"Failed to decode JSON: {e}")
 
 def wedsecret():
-    print("wedscene KWBDFBWDFBEWJFDFBDSUBDS")
-    time.sleep(5)
-    main_menu()
+    try:  # checks for errors
+        # opens the json file and saves it in the variable "data"
+        filename = "endings.json"
+        with open(filename, 'r') as file:
+            data = json.load(file)
+
+        print("wedscene KWBDFBWDFBEWJFDFBDSUBDS")
+        end8 = "The future promised"
+        for endings in data:
+            endings["secretend3"] = "The future promised"
+        time.sleep(4)
+        print(f"{end8} end.")
+        print("===========================")
+        time.sleep(2)
+        main_menu()
+
+    # prints if errors are found
+    except FileNotFoundError:
+        print("Error: The file 'endings.json' was not found.")
+    except json.JSONDecodeError as e:
+        print(f"Failed to decode JSON: {e}")
 
 def locker():
     choice = input("Go through their locker?\nYes\tor\tNo\n")
@@ -624,12 +671,23 @@ def locker():
         input("\"This is an invasion of their privacy,\" you thought to yourself. You decide to leave.\n")
         main_menu()
 
-def badges(badges_collected):
-    print("Ending 1: ", endings["ending1"], "\nEnding 2: ", endings["ending2"], "\nEnding 3: ",
-          endings["ending3"], "\nEnding 4: ", endings["ending4"], "\nEnding 5: ", endings["ending5"],
-          "\nEnding 6: ", endings["secretend1"], "\nEnding 7: ", endings["secretend2"], "\nEnding 8: ", endings["secretend3"])
-    input("Press Enter to return  to the main menu")
-    main_menu()
+def badges():
+    try:  # checks for errors
+        # opens the json file and saves it in the variable "data"
+        filename = "endings.json"
+        with open(filename, 'r') as file:
+            data = json.load(file)
+
+        for endings in data:
+            print("Ending 1: ", endings["ending1"], "\nEnding 2: ", endings["ending2"], "\nEnding 3: ", endings["ending3"], "\nEnding 4: ", endings["ending4"], "\nEnding 5: ", endings["ending5"],"\nEnding 6: ", endings["secretend1"], "\nEnding 7: ", endings["secretend2"], "\nEnding 8: ", endings["secretend3"])
+        input("Press Enter to return  to the main menu")
+        main_menu()
+
+    # prints if errors are found
+    except FileNotFoundError:
+        print("Error: The file 'endings.json' was not found.")
+    except json.JSONDecodeError as e:
+        print(f"Failed to decode JSON: {e}")
 
 def creds():
     print("===========================")
