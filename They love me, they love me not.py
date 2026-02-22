@@ -3,7 +3,6 @@ import json
 
 lovemeter = 0
 code = "0828"
-badges_collected = {"end1": "?", "end2": "?", "end3": "?", "end4": "?", "end5": "?", "end6": "?", "end7": "?"}
 
 def main_menu():
     print("They love me... They love me not.")
@@ -72,7 +71,6 @@ def scenario2():
         print("They greet you back and end up texting more before break ends. You think your conversation went well.")
         lovemeter = lovemeter + 4
 
-
 def scenario3():
     global lovemeter
     print("Lunch has finally arrived and you go down to the canteen, wanting to buy your food. You spot them---surprisingly---alone at a table and without food.\nA. You walk up to them, and ask them 'Do you want to eat lunch together?'\nB. You awkwardly walk up to them, but your brain freezes and you end up not saying ANYTHING and walk off, regretting your life decisions.\nC. You quietly leave their favorite food on their table.")
@@ -88,7 +86,6 @@ def scenario3():
     else:
         print("They stare at you once they realize you felt their favorite food at their table, and you saw as their face lit up. A well 65 pesos spent. ")
         lovemeter = lovemeter + 2
-
 
 def scenario4():
     global lovemeter
@@ -107,7 +104,6 @@ def scenario4():
         print("During the whole time you were staring them, they seemed a bit uncomfortable and kept avoiding your gaze. When you finally agreed, they nodded back awkwardly and mutter, 'Let's.. go then...'.")
         lovemeter = lovemeter - 1
 
-
 def scenario5():
     global lovemeter
     global charname
@@ -123,7 +119,6 @@ def scenario5():
         lovemeter = lovemeter + 6
     else:
         lovemeter = lovemeter + 4
-
 
 def scenario6():
     global lovemeter
@@ -141,7 +136,6 @@ def scenario6():
         print("You quietly sneak a small note underneath their desk, and get butterflies from the thought of them finding and reading it. You leave in hopes they'd see it.")
         lovemeter = lovemeter + 4
 
-
 def scenario7():
     global lovemeter
     print("While walking with one of your friends, they suddenly nudge you, raising their eyebrows while pointing at your crush. At the sight of them, your heart skips a beat. Suddenly, your friend pushes you towards them.\nA. Use your quick reaction time and dodge quickly, avoiding falling onto them.\nB. Let yourself fall on them, but afterwards apologize profusely.\nC. Pull your friend down as well and end up falling on your crush while being crushed by your friend.")
@@ -157,7 +151,6 @@ def scenario7():
     else:
         print("All of you yelled from pain at the same time as your crush and yourself got crushed. Once you got up, you apologized, and you ran from the embarrassment of crushing your crush.")
         lovemeter = lovemeter - 1
-
 
 def scenario8():
     global lovemeter
@@ -175,7 +168,6 @@ def scenario8():
         print("You hear their soft chuckle behind you, as your face flushes once more. After buying your food, you bolt straight out.")
         lovemeter = lovemeter + 2
 
-
 def scenario9():
     global lovemeter
     print("You’re finally back home when you decide to message them, telling them to stay safe while going home. After you sent it, you patiently waited for their response, but you were still left on delivered despite them being online\nA. Send another follow-up message, but don’t overthink it.\nB. Delete your message and follow up with a “Never mind”.\nC. Leave the message alone and assume they’re busy.")
@@ -189,7 +181,6 @@ def scenario9():
         lovemeter = lovemeter - 1
     else:
         lovemeter = lovemeter + 2
-
 
 def scenario10():
     global lovemeter
@@ -207,7 +198,6 @@ def scenario10():
         print("Although you felt bad for leaving them on read, you decided to give your heart a break, and slept it off.")
         lovemeter = lovemeter - 3
 
-
 # day three
 
 def scenario11():
@@ -223,7 +213,6 @@ def scenario11():
     else:
         lovemeter = lovemeter - 1
 
-
 def scenario12():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -236,7 +225,6 @@ def scenario12():
         lovemeter = lovemeter + 4
     else:
         lovemeter = lovemeter - 1
-
 
 def scenario13():
     global lovemeter
@@ -251,7 +239,6 @@ def scenario13():
     else:
         lovemeter = lovemeter + 4
 
-
 def scenario14():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -264,7 +251,6 @@ def scenario14():
         lovemeter = lovemeter - 1
     else:
         lovemeter = lovemeter + 2
-
 
 def scenario15():
     global lovemeter
@@ -279,7 +265,6 @@ def scenario15():
     else:
         lovemeter = lovemeter + 4
 
-
 def scenario16():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -292,7 +277,6 @@ def scenario16():
         lovemeter = lovemeter - 1
     else:
         lovemeter = lovemeter + 2
-
 
 def scenario17():
     global lovemeter
@@ -307,7 +291,6 @@ def scenario17():
     else:
         lovemeter = lovemeter + 4
 
-
 def scenario18():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -320,7 +303,6 @@ def scenario18():
         lovemeter = lovemeter + 4
     else:
         lovemeter = lovemeter - 1
-
 
 def scenario19():
     global lovemeter
@@ -335,7 +317,6 @@ def scenario19():
     else:
         lovemeter = lovemeter - 1
 
-
 def scenario20():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -348,7 +329,6 @@ def scenario20():
         lovemeter = lovemeter + 4
     else:
         lovemeter = lovemeter + 6
-
 
 def scenario21():
     global lovemeter
@@ -363,7 +343,6 @@ def scenario21():
     else:
         lovemeter = lovemeter + 2
 
-
 def scenario22():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -376,7 +355,6 @@ def scenario22():
         lovemeter = lovemeter + 4
     else:
         lovemeter = lovemeter + 2
-
 
 def scenario23():
     global lovemeter
@@ -391,7 +369,6 @@ def scenario23():
     else:
         lovemeter = lovemeter - 1
 
-
 def scenario24():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -404,7 +381,6 @@ def scenario24():
         lovemeter = lovemeter - 1
     else:
         lovemeter = lovemeter + 4
-
 
 def scenario25():
     global lovemeter
@@ -419,7 +395,6 @@ def scenario25():
     else:
         lovemeter = lovemeter - 3
 
-
 def scenario26():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -432,7 +407,6 @@ def scenario26():
         lovemeter = lovemeter - 1
     else:
         lovemeter = lovemeter + 2
-
 
 def scenario27():
     global lovemeter
@@ -447,7 +421,6 @@ def scenario27():
     else:
         lovemeter = lovemeter + 4
 
-
 def scenario28():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -460,7 +433,6 @@ def scenario28():
         lovemeter = lovemeter + 2
     else:
         lovemeter = lovemeter - 1
-
 
 def scenario29():
     global lovemeter
@@ -475,7 +447,6 @@ def scenario29():
     else:
         lovemeter = lovemeter - 1
 
-
 def scenario30():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -488,7 +459,6 @@ def scenario30():
         lovemeter = lovemeter + 6
     else:
         lovemeter = lovemeter - 3
-
 
 def scenario31():
     global lovemeter
@@ -503,7 +473,6 @@ def scenario31():
     else:
         lovemeter = lovemeter - 1
 
-
 def scenario32():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -516,7 +485,6 @@ def scenario32():
         lovemeter = lovemeter - 1
     else:
         lovemeter = lovemeter + 4
-
 
 def scenario33():
     global lovemeter
@@ -531,7 +499,6 @@ def scenario33():
     else:
         lovemeter = lovemeter - 1
 
-
 def scenario34():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -545,7 +512,6 @@ def scenario34():
     else:
         lovemeter = lovemeter + 2
 
-
 def scenario35():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -558,7 +524,6 @@ def scenario35():
         lovemeter = lovemeter - 3
     else:
         lovemeter = lovemeter + 6
-
 
 def final():
     global lovemeter
@@ -575,7 +540,7 @@ def final():
     if lovemeter < 5:
         print("harsh rejection")
         end1 = "Heartbroken"
-        badges_collected["end1"] = "Heartbroken"
+        endings["ending1"] = "Heartbroken"
         time.sleep(4)
         print(f"{end1} end.")
         print("===========================")
@@ -583,7 +548,7 @@ def final():
     elif lovemeter <= 25:
         print("blunt rejection")
         end2 = "At least I tried"
-        badges_collected["end2"] = "At least I tried"
+        endings["ending2"] = "At least I tried"
         time.sleep(4)
         print(f"{end2} end.")
         print("===========================")
@@ -591,7 +556,7 @@ def final():
     elif lovemeter <= 50:
         print("polite rejection")
         end3 = "Just friends"
-        badges_collected["end3"] = "Just friends"
+        endings["ending3"] = "Just friends"
         time.sleep(4)
         print(f"{end3} end.")
         print("===========================")
@@ -599,7 +564,7 @@ def final():
     elif lovemeter <= 75:
         print("promise of a future")
         end4 = "Hopeful"
-        badges_collected["end4"] = "Hopeful"
+        endings["ending4"] = "Hopeful"
         time.sleep(4)
         print(f"{end4} end.")
         print("===========================")
@@ -607,13 +572,12 @@ def final():
     elif lovemeter <= 100:
         print("reciprocation")
         end5 = "Happy"
-        badges_collected["end5"] = "Happy"
+        endings["ending5"] = "Happy"
         time.sleep(4)
         print(f"{end5} end.")
         print("===========================")
     else:
         yansecret()
-
 
 def yansecret():
     print("secret scene\nchoiceA\nchoiceB")
@@ -623,7 +587,7 @@ def yansecret():
     if choice == "A" or choice == "a":
         print("Obsession scene")
         end6 = "Happy...?"
-        badges_collected["end6"] = "Happy...?"
+        endings["secretend1"] = "Happy...?"
         time.sleep(4)
         print(f"{end6} end.")
         print("===========================")
@@ -631,17 +595,15 @@ def yansecret():
     else:
         print("breakup scene")
         end7 = "Won't work out anymore"
-        badges_collected["end7"] = "Won't work out anymore"
+        endings["secretend2"] = "Won't work out anymore"
         time.sleep(4)
         print(f"{end7} end.")
         print("===========================")
-
 
 def wedsecret():
     print("wedscene KWBDFBWDFBEWJFDFBDSUBDS")
     time.sleep(5)
     main_menu()
-
 
 def locker():
     choice = input("Go through their locker?\nYes\tor\tNo\n")
@@ -662,14 +624,12 @@ def locker():
         input("\"This is an invasion of their privacy,\" you thought to yourself. You decide to leave.\n")
         main_menu()
 
-
 def badges(badges_collected):
-    print("Ending 1: ", badges_collected["end1"], "\nEnding 2: ", badges_collected["end2"], "\nEnding 3: ",
-          badges_collected["end3"], "\nEnding 4: ", badges_collected["end4"], "\nEnding 5: ", badges_collected["end5"],
-          "\nEnding 6: ", badges_collected["end6"], "\nEnding 7: ", badges_collected["end7"])
+    print("Ending 1: ", endings["ending1"], "\nEnding 2: ", endings["ending2"], "\nEnding 3: ",
+          endings["ending3"], "\nEnding 4: ", endings["ending4"], "\nEnding 5: ", endings["ending5"],
+          "\nEnding 6: ", endings["secretend1"], "\nEnding 7: ", endings["secretend2"], "\nEnding 8: ", endings["secretend3"])
     input("Press Enter to return  to the main menu")
     main_menu()
-
 
 def creds():
     print("===========================")
@@ -677,7 +637,6 @@ def creds():
         "They love me... They love me not.\nMade by --- The deluludevs\nDeveloper --- Zeryl Gonadan, Krisha Villa, Lordwyn Demoni\nMain coder --- Zeryl Gonadan\nSecondary coder --- Lordwyn Demoni, Krisha Villa\nStorywriter --- Lordwyn Demoni, Zeryl Gonadan, Krisha Villa\n'SHOUTOUT TO MY (Zeryl) ONE AND ONLY INSPIRATION!!!!!'")
     print("===========================")
     time.sleep(2)
-
 
 def main():
     global charname
