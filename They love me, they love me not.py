@@ -667,7 +667,7 @@ def badges(badges_collected):
     print("Ending 1: ", badges_collected["end1"], "\nEnding 2: ", badges_collected["end2"], "\nEnding 3: ",
           badges_collected["end3"], "\nEnding 4: ", badges_collected["end4"], "\nEnding 5: ", badges_collected["end5"],
           "\nEnding 6: ", badges_collected["end6"], "\nEnding 7: ", badges_collected["end7"])
-    input("Press Enter to return to the main menu")
+    input("Press Enter to return  to the main menu")
     main_menu()
 
 
