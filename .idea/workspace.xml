@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="" />
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="added flower function">
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/Project Proposal Document - They Love me, They Love Me Not.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/Project Proposal Document - They Love me, They Love Me Not.pdf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../They love me, they love me not" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ZeeeeeeeeeePEMGIN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ZeeeeeeeeeePEMGIN/tlmtlmn.git&quot;,
+    &quot;accountId&quot;: &quot;0b662e9b-b513-4340-9f76-15a93f1311f1&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -31,9 +46,17 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Khloe Zeryl/PycharmProjects/They love me, they love me not&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Khloe Zeryl\PycharmProjects\They love me, they love me not" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,6 +72,93 @@
       <option name="presentableId" value="Default" />
       <updated>1771643923112</updated>
     </task>
+    <task id="LOCAL-00001" summary="jason?????????👀👀👀">
+      <option name="closed" value="true" />
+      <created>1771645544147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771645544147</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed the print format or smthsmth">
+      <option name="closed" value="true" />
+      <created>1771645827680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771645827680</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added json file">
+      <option name="closed" value="true" />
+      <created>1771737274389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771737274389</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changed variables">
+      <option name="closed" value="true" />
+      <created>1771738174484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771738174484</updated>
+    </task>
+    <task id="LOCAL-00005" summary="used json for the endings">
+      <option name="closed" value="true" />
+      <created>1771739651847</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1771739651847</updated>
+    </task>
+    <task id="LOCAL-00006" summary="enter to return to the main menu">
+      <option name="closed" value="true" />
+      <created>1771740172095</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1771740172095</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed function name to &quot;endings&quot;">
+      <option name="closed" value="true" />
+      <created>1771740349748</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771740349748</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added flower function">
+      <option name="closed" value="true" />
+      <created>1771761205524</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771761205524</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jason?????????" />
+    <MESSAGE value="Fixed the print format or smthsmth" />
+    <MESSAGE value="added json file" />
+    <MESSAGE value="changed variables" />
+    <MESSAGE value="used json for the endings" />
+    <MESSAGE value="enter to return to the main menu" />
+    <MESSAGE value="changed function name to &quot;endings&quot;" />
+    <MESSAGE value="added flower function" />
+    <option name="LAST_COMMIT_MESSAGE" value="added flower function" />
   </component>
 </project>
