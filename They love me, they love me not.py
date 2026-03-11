@@ -197,23 +197,26 @@ def scenario10():
     else:
         print("Although you felt bad for leaving them on read, you decided to give your heart a break, and slept it off.")
         lovemeter = lovemeter - 3
-
+#day 3
 def scenario11():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print(" It was break time and you decided to take a quick, sneak peek at them in their classroom; however, once you were outside of their room, you realized that they weren’t there at all. You come up with a conclusion that they were absent, worrying you.\nA. Text them asking if they're alright.\nB. Spam message them until break is over, crashing out because they’re absent and you think they’re dead.\nC. Send them a message saying ‘ y r u absent. ‘, thinking that nonchalantness will show you’re not desperate for them.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        print("They text back saying, 'I'm just sick so it's fine'.")
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
+        print("Once they read your messages, they reply to everything, ensuring you they are indeed not dead!")
         lovemeter = lovemeter + 4
     else:
+        print("They text back saying, 'just sick ig'. It stung you a bit, thinking you might've said the wrong thing.")
         lovemeter = lovemeter - 1
 
 def scenario12():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("Class is over and you realize you know their address ( stalker ), you contemplate whether you should go visit them to see if they’re alright, and you decide to go! Before going, you decide to buy a few things for them to help them.\nA. Cup noodles and tissue\nB. Chicken broth and medication\nC. E n e r g y  drink 🤪")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -226,7 +229,7 @@ def scenario12():
 
 def scenario13():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print(" Buying everything you need, you embark on your journey towards their humble abode… However, you pause in your tracks, trying to remember a crucial detail…?\nA. You dismiss it, and walk straight to their home!\nB. You walk to their home under the excuse of knowing their address from asking their friends.\n#C. You remember to text them to ask for their address so you won’t seem like a creep/stalker for knowing where they live.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -239,7 +242,7 @@ def scenario13():
 
 def scenario14():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("They invite you to their home, grateful that you came by and cared enough about them. They led you into the living room and asked, “How are you?”\nA. Chat with them as you place the things that you brought down on the table and sit on the couch.\nB. Fart and then stare at them awkwardly. \nC. Stiffly sit down on their couch and be super awkward.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -252,7 +255,7 @@ def scenario14():
 
 def scenario15():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("You decide you’ve stayed for too long and tell them that you’ll be leaving soon.\nA. Get up and pat their head before leaving.\nB. Get up and just leave.\nC. Get up and say bye before leaving.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -262,7 +265,7 @@ def scenario15():
         lovemeter = lovemeter - 3
     else:
         lovemeter = lovemeter + 4
-
+#Day 4
 def scenario16():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -327,7 +330,7 @@ def scenario20():
         lovemeter = lovemeter + 4
     else:
         lovemeter = lovemeter + 6
-
+#Day 5
 def scenario21():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -392,10 +395,10 @@ def scenario25():
         lovemeter = lovemeter + 6
     else:
         lovemeter = lovemeter - 3
-
+#Day 6
 def scenario26():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("It’s the weekend, and you find yourself bored out of your mind. You grab your phone, and you make a bold decision to start a conversation with them online.\nA. 'good morningg, what are you doing rn?'\nB. 'Morning. What are you doing.'\nC. 'sup bro, whatcha doin’?'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -408,7 +411,7 @@ def scenario26():
 
 def scenario27():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print(" They text you back after a couple of minutes, and they reply with a “good morning”, and,”doing nothing rn, hbu?”\nA. 'nuthin really'\nB. “Nothing.”\nC. 'nothing muchh'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -421,7 +424,7 @@ def scenario27():
 
 def scenario28():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("They leave you on read and you panic a bit. To continue the conversation, you say:\nA. 'Actually, I messaged u cuz I wanted to see if we can hang out together tmr?'\nB. “ya down to hang out tmr bro? Smth casual i dunno”\nC. 'Want to hang out.'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -434,7 +437,7 @@ def scenario28():
 
 def scenario29():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("'tomorrow? I’m free so sure'\nA. 'great!'\nB. 'nice, where u wanna go?'\nC. 'Okay. Where.'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -447,15 +450,18 @@ def scenario29():
 
 def scenario30():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("'when and where do you wanna meet up?'\nA. 'uhhh lunch probs in town'\nB. 'maybeee around lunch at town?'\nC. '12 PM sharp. Town.'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        print("sure then!")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
+         print("sure then!")
         lovemeter = lovemeter + 6
     else:
+         print("uhhhh okay then")
         lovemeter = lovemeter - 3
 
 def scenario31():
