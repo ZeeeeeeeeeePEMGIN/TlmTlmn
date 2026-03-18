@@ -459,10 +459,10 @@ def scenario30():
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
          print("sure then!")
-        lovemeter = lovemeter + 6
+         lovemeter = lovemeter + 6
     else:
          print("uhhhh okay then")
-        lovemeter = lovemeter - 3
+         lovemeter = lovemeter - 3
 
 def scenario31():
     global lovemeter
