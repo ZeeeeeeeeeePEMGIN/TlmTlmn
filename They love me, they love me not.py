@@ -38,7 +38,7 @@ def main_menu():
     else:
         print("That path does not exist.")
         main_menu()
-
+# Day 1
 def scenario1():
     global lovemeter
     print("As you pass by their classroom on the way to your own, your eyes wandered to their figure, sitting down on their seat as usual. They notice you, and you lock eyes...\nA. Wave enthusiastically and give them a soft smile. \nB. Stare at them for a full 5 seconds and wave awkwardly.\nC. Turn away immediately and walk off.")
@@ -119,7 +119,7 @@ def scenario5():
         lovemeter = lovemeter + 6
     else:
         lovemeter = lovemeter + 4
-
+# Day 2
 def scenario6():
     global lovemeter
     print("You arrived at school earlier than usual and haven’t seen them in their classroom yet; their seat still left empty.\nA. Steal one of their pens that’s on their table and keep it.\nB. Don’t do anything and just leave.\nc. Leave a small note underneath their desk and quietly leave.")
@@ -197,7 +197,7 @@ def scenario10():
     else:
         print("Although you felt bad for leaving them on read, you decided to give your heart a break, and slept it off.")
         lovemeter = lovemeter - 3
-#day 3
+# Day 3
 def scenario11():
     global lovemeter
     print(" It was break time and you decided to take a quick, sneak peek at them in their classroom; however, once you were outside of their room, you realized that they weren’t there at all. You come up with a conclusion that they were absent, worrying you.\nA. Text them asking if they're alright.\nB. Spam message them until break is over, crashing out because they’re absent and you think they’re dead.\nC. Send them a message saying ‘ y r u absent. ‘, thinking that nonchalantness will show you’re not desperate for them.")
@@ -265,7 +265,7 @@ def scenario15():
         lovemeter = lovemeter - 3
     else:
         lovemeter = lovemeter + 4
-#Day 4
+# Day 4
 def scenario16():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -330,7 +330,7 @@ def scenario20():
         lovemeter = lovemeter + 4
     else:
         lovemeter = lovemeter + 6
-#Day 5
+# Day 5
 def scenario21():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -395,7 +395,7 @@ def scenario25():
         lovemeter = lovemeter + 6
     else:
         lovemeter = lovemeter - 3
-#Day 6
+# Day 6
 def scenario26():
     global lovemeter
     print("It’s the weekend, and you find yourself bored out of your mind. You grab your phone, and you make a bold decision to start a conversation with them online.\nA. 'good morningg, what are you doing rn?'\nB. 'Morning. What are you doing.'\nC. 'sup bro, whatcha doin’?'")
@@ -463,7 +463,7 @@ def scenario30():
     else:
          print("uhhhh okay then")
          lovemeter = lovemeter - 3
-
+# Day 7
 def scenario31():
     global lovemeter
     print("#scenario\n#choiceA\n#choiceB\n#choiceC")
@@ -753,7 +753,6 @@ def flower():
         print("===========================")
         input("Press enter to continue.")
         main_menu()
-
 
 def main():
     global charname

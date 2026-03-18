@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="added flower function">
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="polished code">
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/Project Proposal Document - They Love me, They Love Me Not.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/Project Proposal Document - They Love me, They Love Me Not.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771761205524</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated project proposal--pseudocode">
+      <option name="closed" value="true" />
+      <created>1772594588863</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772594588863</updated>
+    </task>
+    <task id="LOCAL-00010" summary="polished code">
+      <option name="closed" value="true" />
+      <created>1773803058808</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1773803058808</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +175,8 @@
     <MESSAGE value="enter to return to the main menu" />
     <MESSAGE value="changed function name to &quot;endings&quot;" />
     <MESSAGE value="added flower function" />
-    <option name="LAST_COMMIT_MESSAGE" value="added flower function" />
+    <MESSAGE value="updated project proposal--pseudocode" />
+    <MESSAGE value="polished code" />
+    <option name="LAST_COMMIT_MESSAGE" value="polished code" />
   </component>
 </project>
