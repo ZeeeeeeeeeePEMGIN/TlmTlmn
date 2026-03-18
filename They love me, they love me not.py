@@ -761,13 +761,13 @@ def main():
     username = input("What shall we call you? ")
     if username == "Kaye" or username == "kaye":
         print("Welcome to \"They love me, they love me not,\" our beloved teacher!")
-        charname = input("What shall 'their' name be? ")
-        if charname == "Zeryl" or charname == "zeryl":
-            print("Unless ur a certain camia, she wants nothing to do with u /lh")
-        elif charname == "Krisha" or charname == "krisha":
-            print("Unless ur a fictional character, u better GET OUUUUU--")
-        elif charname == "Lordwyn" or charname == "lordwyn":
-            print("You must be one shady guy...")
+    charname = input("What shall 'their' name be? ")
+    if charname == "Zeryl" or charname == "zeryl":
+        print("Unless ur a certain camia, she wants nothing to do with u /lh")
+    elif charname == "Krisha" or charname == "krisha":
+        print("Unless ur a fictional character, u better GET OUUUUU--")
+    elif charname == "Lordwyn" or charname == "lordwyn":
+        print("You must be one shady guy...")
     input(
             "MINOR WARNING!!!\nThis character has their own fixed persona---If you attempt this with your special someone, it's not guaranteed they'll like you back (ehe)")
 
