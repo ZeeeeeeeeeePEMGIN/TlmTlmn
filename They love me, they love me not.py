@@ -73,7 +73,7 @@ def scenario2():
 
 def scenario3():
     global lovemeter
-    print("Lunch has finally arrived and you go down to the canteen, wanting to buy your food. You spot them---surprisingly---alone at a table and without food.\nA. You walk up to them, and ask them 'Do you want to eat lunch together?'\nB. You awkwardly walk up to them, but your brain freezes and you end up not saying ANYTHING and walk off, regretting your life decisions.\nC. You quietly leave their favorite food on their table.")
+    print("\nLunch has finally arrived and you go down to the canteen, wanting to buy your food. You spot them---surprisingly---alone at a table and without food.\nA. You walk up to them, and ask them 'Do you want to eat lunch together?'\nB. You awkwardly walk up to them, but your brain freezes and you end up not saying ANYTHING and walk off, regretting your life decisions.\nC. You quietly leave their favorite food on their table.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -91,7 +91,7 @@ def scenario4():
     global lovemeter
     global charname
     global username
-    print(f"It's finally dismissal and you get to go home! But before you could exit through the gate, a tap on your shoulder. It was {charname}! \"Hey, {username}, wanna maybe... walk together? I've been a bit lonely lately.\"\nA. You nod awkwardly, a sheepish smile on your face.\nB. You accept without hesitation, a bright smile on your face knowing you could spend time with them.\nC. Stare at them for a full minute before accepting.")
+    print(f"\nIt's finally dismissal and you get to go home! But before you could exit through the gate, a tap on your shoulder. It was {charname}! \"Hey, {username}, wanna maybe... walk together? I've been a bit lonely lately.\"\nA. You nod awkwardly, a sheepish smile on your face.\nB. You accept without hesitation, a bright smile on your face knowing you could spend time with them.\nC. Stare at them for a full minute before accepting.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -107,7 +107,7 @@ def scenario4():
 def scenario5():
     global lovemeter
     global charname
-    print(f"Walking beside {charname}, you can't help the fast beating of your heart against your chest. But... the silence was getting a bit awkward.\nA. You decide to begin a conversation, but while they speak, you act rather indifferent.\nB. You begin a conversation, asking about their day and telling jokes, ultimately painting a bright smile on their face.\nC. You begin a conversation, though while telling a joke, you stumble over your words and elicit a soft laugh from {charname}.")
+    print(f"\nWalking beside {charname}, you can't help the fast beating of your heart against your chest. But... the silence was getting a bit awkward.\nA. You decide to begin a conversation, but while they speak, you act rather indifferent.\nB. You begin a conversation, asking about their day and telling jokes, ultimately painting a bright smile on their face.\nC. You begin a conversation, though while telling a joke, you stumble over your words and elicit a soft laugh from {charname}.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -123,7 +123,7 @@ def scenario5():
 # Day 2
 def scenario6():
     global lovemeter
-    print("You arrived at school earlier than usual and haven’t seen them in their classroom yet; their seat still left empty.\nA. Steal one of their pens that’s on their table and keep it.\nB. Don’t do anything and just leave.\nc. Leave a small note underneath their desk and quietly leave.")
+    print("\nYou arrived at school earlier than usual and haven’t seen them in their classroom yet; their seat still left empty.\nA. Steal one of their pens that’s on their table and keep it.\nB. Don’t do anything and just leave.\nc. Leave a small note underneath their desk and quietly leave.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -139,7 +139,7 @@ def scenario6():
 
 def scenario7():
     global lovemeter
-    print("While walking with one of your friends, they suddenly nudge you, raising their eyebrows while pointing at your crush. At the sight of them, your heart skips a beat. Suddenly, your friend pushes you towards them.\nA. Use your quick reaction time and dodge quickly, avoiding falling onto them.\nB. Let yourself fall on them, but afterwards apologize profusely.\nC. Pull your friend down as well and end up falling on your crush while being crushed by your friend.")
+    print("\nWhile walking with one of your friends, they suddenly nudge you, raising their eyebrows while pointing at your crush. At the sight of them, your heart skips a beat. Suddenly, your friend pushes you towards them.\nA. Use your quick reaction time and dodge quickly, avoiding falling onto them.\nB. Let yourself fall on them, but afterwards apologize profusely.\nC. Pull your friend down as well and end up falling on your crush while being crushed by your friend.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -155,7 +155,7 @@ def scenario7():
 
 def scenario8():
     global lovemeter
-    print("You’re standing in line to buy food from the canteen, and you realize they're behind you, waiting to buy food as well.\nA. Start a conversation with them.\nB. You begin to sweat profusely and quickly exit the line to spare your racing heart.\nC. You get so nervous that you forget that the line was moving so you end up standing there awkwardly before quickly moving with embarrassment.")
+    print("\nYou’re standing in line to buy food from the canteen, and you realize they're behind you, waiting to buy food as well.\nA. Start a conversation with them.\nB. You begin to sweat profusely and quickly exit the line to spare your racing heart.\nC. You get so nervous that you forget that the line was moving so you end up standing there awkwardly before quickly moving with embarrassment.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -171,7 +171,7 @@ def scenario8():
 
 def scenario9():
     global lovemeter
-    print("You’re finally back home when you decide to message them, telling them to stay safe while going home. After you sent it, you patiently waited for their response, but you were still left on delivered despite them being online\nA. Send another follow-up message, but don’t overthink it.\nB. Delete your message and follow up with a “Never mind”.\nC. Leave the message alone and assume they’re busy.")
+    print("\nYou’re finally back home when you decide to message them, telling them to stay safe while going home. After you sent it, you patiently waited for their response, but you were still left on delivered despite them being online\nA. Send another follow-up message, but don’t overthink it.\nB. Delete your message and follow up with a “Never mind”.\nC. Leave the message alone and assume they’re busy.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -187,7 +187,7 @@ def scenario9():
 
 def scenario10():
     global lovemeter
-    print("After a few hours, they decide to reply to your message, and they ask you how you were doing and how your night was so far.\nA. You keep the conversation flowing however you fumble so bad you end up misspelling most of your messages.\nB.Reply but you think first before sending the message, carefully considering how it would affect this conversation.\nC. Leave them on read because you’re too nervous to reply and because you’re overthinking it too much.")
+    print("\nAfter a few hours, they decide to reply to your message, and they ask you how you were doing and how your night was so far.\nA. You keep the conversation flowing however you fumble so bad you end up misspelling most of your messages.\nB.Reply but you think first before sending the message, carefully considering how it would affect this conversation.\nC. Leave them on read because you’re too nervous to reply and because you’re overthinking it too much.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -203,7 +203,7 @@ def scenario10():
 # Day 3
 def scenario11():
     global lovemeter
-    print(" It was break time and you decided to take a quick, sneak peek at them in their classroom; however, once you were outside of their room, you realized that they weren’t there at all. You come up with a conclusion that they were absent, worrying you.\nA. Text them asking if they're alright.\nB. Spam message them until break is over, crashing out because they’re absent and you think they’re dead.\nC. Send them a message saying ‘ y r u absent. ‘, thinking that nonchalantness will show you’re not desperate for them.")
+    print("\nIt was break time and you decided to take a quick, sneak peek at them in their classroom; however, once you were outside of their room, you realized that they weren’t there at all. You come up with a conclusion that they were absent, worrying you.\nA. Text them asking if they're alright.\nB. Spam message them until break is over, crashing out because they’re absent and you think they’re dead.\nC. Send them a message saying ‘ y r u absent. ‘, thinking that nonchalantness will show you’re not desperate for them.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -219,7 +219,7 @@ def scenario11():
 
 def scenario12():
     global lovemeter
-    print("Class is over and you realize you know their address ( stalker ), you contemplate whether you should go visit them to see if they’re alright, and you decide to go! Before going, you decide to buy a few things for them to help them.\nA. Cup noodles and tissue\nB. Chicken broth and medication\nC. E n e r g y  drink 🤪")
+    print("\nClass is over and you realize you know their address ( stalker ), you contemplate whether you should go visit them to see if they’re alright, and you decide to go! Before going, you decide to buy a few things for them to help them.\nA. Cup noodles and tissue\nB. Chicken broth and medication\nC. E n e r g y  drink 🤪")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -235,7 +235,7 @@ def scenario12():
 
 def scenario13():
     global lovemeter
-    print(" Buying everything you need, you embark on your journey towards their humble abode… However, you pause in your tracks, trying to remember a crucial detail…?\nA. You dismiss it, and walk straight to their home!\nB. You walk to their home under the excuse of knowing their address from asking their friends.\nC. You remember to text them to ask for their address so you won’t seem like a creep/stalker for knowing where they live.")
+    print("\nBuying everything you need, you embark on your journey towards their humble abode… However, you pause in your tracks, trying to remember a crucial detail…?\nA. You dismiss it, and walk straight to their home!\nB. You walk to their home under the excuse of knowing their address from asking their friends.\nC. You remember to text them to ask for their address so you won’t seem like a creep/stalker for knowing where they live.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -251,7 +251,7 @@ def scenario13():
 
 def scenario14():
     global lovemeter
-    print("They invite you to their home, grateful that you came by and cared enough about them. They led you into the living room and asked, “How are you?”\nA. Chat with them as you place the things that you brought down on the table and sit on the couch.\nB. Fart and then stare at them awkwardly. \nC. Stiffly sit down on their couch and be super awkward.")
+    print("\nThey invite you to their home, grateful that you came by and cared enough about them. They led you into the living room and asked, “How are you?”\nA. Chat with them as you place the things that you brought down on the table and sit on the couch.\nB. Fart and then stare at them awkwardly. \nC. Stiffly sit down on their couch and be super awkward.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -267,7 +267,7 @@ def scenario14():
 
 def scenario15():
     global lovemeter
-    print("You decide you’ve stayed for too long and tell them that you’ll be leaving soon.\nA. Get up and pat their head before leaving.\nB. Get up and just leave.\nC. Get up and say bye before leaving.")
+    print("\nYou decide you’ve stayed for too long and tell them that you’ll be leaving soon.\nA. Get up and pat their head before leaving.\nB. Get up and just leave.\nC. Get up and say bye before leaving.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -283,7 +283,7 @@ def scenario15():
 # Day 4
 def scenario16():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -296,7 +296,7 @@ def scenario16():
 
 def scenario17():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -309,7 +309,7 @@ def scenario17():
 
 def scenario18():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -322,7 +322,7 @@ def scenario18():
 
 def scenario19():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -335,7 +335,7 @@ def scenario19():
 
 def scenario20():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -348,7 +348,7 @@ def scenario20():
 # Day 5
 def scenario21():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -361,7 +361,7 @@ def scenario21():
 
 def scenario22():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -374,7 +374,7 @@ def scenario22():
 
 def scenario23():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -387,7 +387,7 @@ def scenario23():
 
 def scenario24():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -400,7 +400,7 @@ def scenario24():
 
 def scenario25():
     global lovemeter
-    print("#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -413,7 +413,7 @@ def scenario25():
 # Day 6
 def scenario26():
     global lovemeter
-    print("It’s the weekend, and you find yourself bored out of your mind. You grab your phone, and you make a bold decision to start a conversation with them online.\nA. 'good morningg, what are you doing rn?'\nB. 'Morning. What are you doing.'\nC. 'sup bro, whatcha doin’?'")
+    print("\nIt’s the weekend, and you find yourself bored out of your mind. You grab your phone, and you make a bold decision to start a conversation with them online.\nA. 'good morningg, what are you doing rn?'\nB. 'Morning. What are you doing.'\nC. 'sup bro, whatcha doin’?'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -429,7 +429,7 @@ def scenario26():
 
 def scenario27():
     global lovemeter
-    print(" They text you back after a couple of minutes, and they reply with a 'good morning', and a 'doing nothing rn, hbu?'\nA. 'nuthin really'\nB. “Nothing.”\nC. 'nothing muchh'")
+    print("\nThey text you back after a couple of minutes, and they reply with a 'good morning', and a 'doing nothing rn, hbu?'\nA. 'nuthin really'\nB. “Nothing.”\nC. 'nothing muchh'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -445,7 +445,7 @@ def scenario27():
 
 def scenario28():
     global lovemeter
-    print("They leave you on read and you panic a bit. To continue the conversation, you say:\nA. 'Actually, I messaged u cuz I wanted to see if we can hang out together tmr?'\nB. “ya down to hang out tmr bro? Smth casual i dunno”\nC. 'Want to hang out.'")
+    print("\nThey leave you on read and you panic a bit. To continue the conversation, you say:\nA. 'Actually, I messaged u cuz I wanted to see if we can hang out together tmr?'\nB. “ya down to hang out tmr bro? Smth casual i dunno”\nC. 'Want to hang out.'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -461,7 +461,7 @@ def scenario28():
 
 def scenario29():
     global lovemeter
-    print("They reply moments after, saying, 'tomorrow? I’m free so sure'. What do you say after?\nA. 'Okay.'\nB. 'great!'\nC. 'k'")
+    print("\nThey reply moments after, saying, 'tomorrow? I’m free so sure'. What do you say after?\nA. 'Okay.'\nB. 'great!'\nC. 'k'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -477,7 +477,7 @@ def scenario29():
 
 def scenario30():
     global lovemeter
-    print("They continue talking, saying, 'when and where do you wanna meet up?'. You say: \nA. 'uhhh lunch probs in town'\nB. 'maybeee around lunch at town?'\nC. '12 PM sharp. Town.'")
+    print("\nThey continue talking, saying, 'when and where do you wanna meet up?'. You say: \nA. 'uhhh lunch probs in town'\nB. 'maybeee around lunch at town?'\nC. '12 PM sharp. Town.'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -494,7 +494,7 @@ def scenario30():
 
 def scenario31():
     global lovemeter
-    print("Today is the day you and your crush will go out together. You’re unsure whether it’ll be a date or not, but you feel happy knowing you get to spend time with them. What do you wear?\nA. Formal attire\nB. alpha wolf shirt and some random ahh jeans\nC. Casual attire")
+    print("\nToday is the day you and your crush will go out together. You’re unsure whether it’ll be a date or not, but you feel happy knowing you get to spend time with them. What do you wear?\nA. Formal attire\nB. alpha wolf shirt and some random ahh jeans\nC. Casual attire")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -510,7 +510,7 @@ def scenario31():
 
 def scenario32():
     global lovemeter
-    print("After getting dressed, you leave momentarily and go towards your designated meet-up spot with them. You start getting butterflies knowing they can arrive any second, and hesitate whether this was a good idea or not, but either way, you know you can’t go back. \nMoments later, they finally arrive. You take a deep breath and say,\nA. Nothing. You say nothing and stare deep into their soul awkwardly.\nB. “You look lovely.”\nC. “You look like shrek.” ")
+    print("\nAfter getting dressed, you leave momentarily and go towards your designated meet-up spot with them. You start getting butterflies knowing they can arrive any second, and hesitate whether this was a good idea or not, but either way, you know you can’t go back. \nMoments later, they finally arrive. You take a deep breath and say,\nA. Nothing. You say nothing and stare deep into their soul awkwardly.\nB. “You look lovely.”\nC. “You look like shrek.” ")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -526,7 +526,7 @@ def scenario32():
 
 def scenario33():
     global lovemeter
-    print("They suggest going to grab a bite to eat since it was already 1 PM. You agree, but you’re unsure where you’re going to take them. Where will you take them to?\nA. Sari sari store\nB. Cafe\nC. Jollibee")
+    print("\nThey suggest going to grab a bite to eat since it was already 1 PM. You agree, but you’re unsure where you’re going to take them. Where will you take them to?\nA. Sari sari store\nB. Cafe\nC. Jollibee")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -542,7 +542,7 @@ def scenario33():
 
 def scenario34():
     global lovemeter
-    print("You arrive at the place you’ll eat at. You both order, and while waiting, you decide to break the silence with friendly banter. \nYour food arrives momentarily, and while eating, you notice a bug on your crush’s cheek.\nA. You brush the back of your hand on their cheek to swat away the bug. \nB. Tell them that there is a bug on their face.\nC. Slap their face where the bug is.")
+    print("\nYou arrive at the place you’ll eat at. You both order, and while waiting, you decide to break the silence with friendly banter. \nYour food arrives momentarily, and while eating, you notice a bug on your crush’s cheek.\nA. You brush the back of your hand on their cheek to swat away the bug. \nB. Tell them that there is a bug on their face.\nC. Slap their face where the bug is.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -558,7 +558,7 @@ def scenario34():
         
 def scenario35():
     global lovemeter
-    print("After eating, you both decide to take a stroll around town and find a place you think you would both like. \nA. Tap their shoulder and point to the place as you start walking there.\nB. Walk towards the place without notifying them.\nC.  Grab their hand and walk towards the place they might like.")
+    print("\nAfter eating, you both decide to take a stroll around town and find a place you think you would both like. \nA. Tap their shoulder and point to the place as you start walking there.\nB. Walk towards the place without notifying them.\nC.  Grab their hand and walk towards the place they might like.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
