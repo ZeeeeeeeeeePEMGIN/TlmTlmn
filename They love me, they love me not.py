@@ -51,9 +51,12 @@ def scenario1():
     elif choice == "B" or choice == "b":
         input("They chuckle a bit, and wave back at you.")
         lovemeter = lovemeter + 2
-    else:
+    elif choice == "C" or choice == "c":
         input("They seemed confused and felt a bit hurt from your ignorance.")
         lovemeter = lovemeter - 1
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario1()
 
 def scenario2():
     global lovemeter
@@ -67,9 +70,12 @@ def scenario2():
     elif choice == "B" or choice == "b":
         input("You didn't know what else to react, so you simply tap on the quick reaction. \nThey later responded with a like emoji as well, and you think it went relatively well?")
         lovemeter = lovemeter + 2
-    else:
+    elif choice == "C" or choice == "c":
         input("They greet you back and end up texting more before break ends. You think your conversation went well.")
         lovemeter = lovemeter + 4
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario2()
 
 def scenario3():
     global lovemeter
@@ -83,9 +89,12 @@ def scenario3():
     elif choice == "B" or choice == "b":
         input("They stared at you during that whole sequence of events, and seemed a bit uncomfortable. You feel like you should kill yourself already. ")
         lovemeter = lovemeter - 1
-    else:
+    elif choice == "C" or choice == "c":
         input("They stare at you once they realize you felt their favorite food at their table, and you saw as their face lit up. A well 65 pesos spent. ")
         lovemeter = lovemeter + 2
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario3()
 
 def scenario4():
     global lovemeter
@@ -100,9 +109,12 @@ def scenario4():
     elif choice == "B" or choice == "b":
         input("They notice your sudden enthusiasm and chuckle a bit. \n'Let's go then.' They tell you, as your face flush from hearing their voice.")
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "C" or choice == "c":
         input("During the whole time you were staring them, they seemed a bit uncomfortable and kept avoiding your gaze. When you finally agreed, they nodded back awkwardly and mutter, 'Let's.. go then...'.")
         lovemeter = lovemeter - 1
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario4()
 
 def scenario5():
     global lovemeter
@@ -117,9 +129,12 @@ def scenario5():
     elif choice == "B" or choice == "b":
         input("The whole walk home, both of you enjoyed each other's presence, cackling about silly jokes and talking as if your normal friends, and you felt as if your face was red the entire time.\nYou finally reached your destination, as you see them with a disappointed expression.\nYou give them a final wave, as they struck you with another sincere smile, waving back.\nYou think you both enjoyed that interaction.")
         lovemeter = lovemeter + 6
-    else:
+    elif choice == "C" or choice == "c":
         input("You're face becomes flushed from sheer embarassment, yet seeing them smile makes u forget all about it, laughing with them in the process.\nThe whole walk home felt pretty normal; the conversations sometimes felt awkward, but in a good way.\nYou finally arrive at your destination, and they flash you with their gentle smile.\nYou reciprocate them with a smile of yours and leave.\n You think you both felt it was a pleasant interaction between you both.")
         lovemeter = lovemeter + 4
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario5()
 # Day 2
 def scenario6():
     global lovemeter
@@ -133,9 +148,12 @@ def scenario6():
     elif choice == "B" or choice == "b":
         input("With nothing to do, you leave their desk be, and dip.")
         lovemeter = lovemeter + 2
-    else:
+    elif choice == "C" or choice == "c":
         input("You quietly sneak a small note underneath their desk, and get butterflies from the thought of them finding and reading it. You leave in hopes they'd see it.")
         lovemeter = lovemeter + 4
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario6()
 
 def scenario7():
     global lovemeter
@@ -149,9 +167,12 @@ def scenario7():
     elif choice == "B" or choice == "b":
         input("They tell you it's okay and to stop apologizing, for some reason with a bright smile plastered on your face.\nYou nod awkwardly, as you drag your friend away to crash out to them.")
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "C" or choice == "c":
         input("All of you yelled from pain at the same time as your crush and yourself got crushed. Once you got up, you apologized, and you ran from the embarrassment of crushing your crush.")
         lovemeter = lovemeter - 1
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario7()
 
 def scenario8():
     global lovemeter
@@ -165,9 +186,12 @@ def scenario8():
     elif choice == "B" or choice == "b":
         input("Once you're out of there, you couldn't help but overthink the fact that they may have felt you were ignoring them, since you DID sprint out of there once realizing their presence. ")
         lovemeter = lovemeter - 1
-    else:
+    elif choice == "C" or choice == "c":
         input("You hear their soft chuckle behind you, as your face flushes once more. After buying your food, you bolt straight out.")
         lovemeter = lovemeter + 2
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario8()
 
 def scenario9():
     global lovemeter
@@ -181,9 +205,12 @@ def scenario9():
     elif choice == "B" or choice == "b":
         input("You regret all your life choices.")
         lovemeter = lovemeter - 1
-    else:
+    elif choice == "C" or choice == "c":
         input("You set your phone aside and simply think they're doing something important and decide to not overthink it that much.")
         lovemeter = lovemeter + 2
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario9()
 
 def scenario10():
     global lovemeter
@@ -197,9 +224,12 @@ def scenario10():
     elif choice == "B" or choice == "b":
         input("You ended up texting all night long, as you found out more information about them. You felt warm in the inside knowing you got to spend so much time with them via messaging.")  # user gains hint about crush's fav flowers and things to help in confessing and giving gift?
         lovemeter = lovemeter + 6
-    else:
+    elif choice == "C" or choice == "c":
         input("Although you felt bad for leaving them on read, you decided to give your heart a break, and slept it off.")
         lovemeter = lovemeter - 3
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario10()
 # Day 3
 def scenario11():
     global lovemeter
@@ -213,9 +243,12 @@ def scenario11():
     elif choice == "B" or choice == "b":
         input("Once they read your messages, they reply to everything, ensuring you they are indeed not dead!")
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "C" or choice == "c":
         input("They text back saying, 'just sick ig'. It stung you a bit, thinking you might've said the wrong thing.")
         lovemeter = lovemeter - 1
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario11()
 
 def scenario12():
     global lovemeter
@@ -229,9 +262,12 @@ def scenario12():
     elif choice == "B" or choice == "b":
         input("By buying the things a sick person will need, you feel they'll greatly appreciate you for this.")
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "C" or choice == "c":
         input("Even you yourself didn't know why you bought it. Is energy drinks really the best thing to buy for a sick person? \nYou shrug it off, thinking it's probably fine, \nbut you feel they probably won't enjoy an energy drink in their current state very much.")
         lovemeter = lovemeter - 1
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario12()
 
 def scenario13():
     global lovemeter
@@ -245,9 +281,12 @@ def scenario13():
     elif choice == "B" or choice == "b":
         input("You arrived at their house, and you take a deep breath before knocking on the door, and moments after, they open it to see you.\nAs you were about to greet them, you were abruptly cut off with a 'How do you know where I live?' from them. \nHowever, you were prepared for this exact situation, telling them you know because of their friends.")
         lovemeter = lovemeter + 2
-    else:
+    elif choice == "C" or choice == "c":
         input("Once they texted you their address, you knew it was safe to approach...You arrived and there they were, waiting and expecting for you!")
         lovemeter = lovemeter + 4
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario13()
 
 def scenario14():
     global lovemeter
@@ -261,9 +300,12 @@ def scenario14():
     elif choice == "B" or choice == "b":
         input("You both don't say anything for a while, and you felt as if you were dying inside.\nThe silence was then abruptly cut off by them, saying they'll just go grab something in the other room. You regret living.")
         lovemeter = lovemeter - 1
-    else:
+    elif choice == "C" or choice == "c":
         input("They let out a chuckle and say, 'You can relax, make yourself at home.' \nYou feel a bit relieved after that and you both start chatting.")
         lovemeter = lovemeter + 2
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario14()
 
 def scenario15():
     global lovemeter
@@ -277,9 +319,12 @@ def scenario15():
     elif choice == "B" or choice == "b":
         input("You straight up just leave and exit out their door. You hear their voice faintly saying goodbye, and you feel bad for leaving abruptly. \nYou feel as if you made the wrong choice just leaving like that.")
         lovemeter = lovemeter - 3
-    else:
+    elif choice == "C" or choice == "c":
         input("They say wave and say goodbye to you as well, escorting you out their home.")
         lovemeter = lovemeter + 4
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario15()
 # Day 4
 def scenario16():
     global lovemeter
@@ -291,8 +336,11 @@ def scenario16():
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter - 1
-    else:
+    elif choice == "C" or choice == "c":
         lovemeter = lovemeter + 2
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario16()
 
 def scenario17():
     global lovemeter
@@ -304,8 +352,11 @@ def scenario17():
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter - 1
-    else:
+    elif choice == "C" or choice == "c":
         lovemeter = lovemeter + 4
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario17()
 
 def scenario18():
     global lovemeter
@@ -317,8 +368,11 @@ def scenario18():
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter + 4
+    elif choice == "C" or choice == "c":
+        lovemeter = lovemeter -1
     else:
-        lovemeter = lovemeter - 1
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario18()
 
 def scenario19():
     global lovemeter
@@ -330,8 +384,11 @@ def scenario19():
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter + 2
-    else:
+    elif choice == "C" or choice == "c":
         lovemeter = lovemeter - 1
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario19()
 
 def scenario20():
     global lovemeter
@@ -343,8 +400,11 @@ def scenario20():
         lovemeter = lovemeter - 3
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "C" or choice == "c":
         lovemeter = lovemeter + 6
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario20()
 # Day 5
 def scenario21():
     global lovemeter
@@ -356,8 +416,11 @@ def scenario21():
         lovemeter = lovemeter - 1
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "C" or choice == "c":
         lovemeter = lovemeter + 2
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario21()
 
 def scenario22():
     global lovemeter
@@ -369,8 +432,11 @@ def scenario22():
         lovemeter = lovemeter - 1
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "C" or choice == "c":
         lovemeter = lovemeter + 2
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario22()
 
 def scenario23():
     global lovemeter
@@ -382,8 +448,11 @@ def scenario23():
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "C" or choice == "c":
         lovemeter = lovemeter - 1
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario23()
 
 def scenario24():
     global lovemeter
@@ -395,8 +464,11 @@ def scenario24():
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter - 1
-    else:
+    elif choice == "C" or choice == "c":
         lovemeter = lovemeter + 4
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario24()
 
 def scenario25():
     global lovemeter
@@ -408,8 +480,11 @@ def scenario25():
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter + 6
-    else:
+    elif choice == "C" or choice == "c":
         lovemeter = lovemeter - 3
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario25()
 # Day 6
 def scenario26():
     global lovemeter
@@ -423,9 +498,12 @@ def scenario26():
     elif choice == "B" or choice == "b":
         input("You overthink and end up with a way too formal message, yet it's too late to change or delete now.")
         lovemeter = lovemeter - 1
-    else:
+    elif choice == "C" or choice == "c":
         input("You decide on a kind of laid back message to start the conversation, thinking it'll suffice for now.")
         lovemeter = lovemeter + 2
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario26()
 
 def scenario27():
     global lovemeter
@@ -439,9 +517,12 @@ def scenario27():
     elif choice == "B" or choice == "b":
         input("After sending it, you realize how ominous it sounds, and you came to regret sending it.")
         lovemeter = lovemeter - 1
-    else:
+    elif choice == "C" or choice == "c":
         input("By adding an extra 'h', you feel like you'll sound less monotonous and that they'd feel more comfortable.")
         lovemeter = lovemeter + 4
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario27()
 
 def scenario28():
     global lovemeter
@@ -455,9 +536,12 @@ def scenario28():
     elif choice == "B" or choice == "b":
         input("You feel you're invite to going out tomorrow was too casual.")
         lovemeter = lovemeter + 2
-    else:
+    elif choice == "C" or choice == "c":
         input("What are you? A robot?")
         lovemeter = lovemeter - 1
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario28()
 
 def scenario29():
     global lovemeter
@@ -471,9 +555,12 @@ def scenario29():
     elif choice == "B" or choice == "b":
         input("You reply with some enthusiasm in order to imply you're happy you both can hang out!")
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "C" or choice == "c":
         input("You realize how monotonous you are from that one message and regret everything in life.")
         lovemeter = lovemeter - 1
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario29()
 
 def scenario30():
     global lovemeter
@@ -487,9 +574,12 @@ def scenario30():
     elif choice == "B" or choice == "b":
         input("They reply shortly afterwards with a 'sure then!'")
         lovemeter = lovemeter + 6
-    else:
+    elif choice == "C" or choice == "c":
         input("Are you going to assassinate them or something? Because of that they left you on read.")
         lovemeter = lovemeter - 3
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario30()
 # Day 7
 def scenario31():
     global lovemeter
@@ -503,9 +593,12 @@ def scenario31():
     elif choice == "B" or choice == "b":
         input("Putting on whatever your alpha wolf instincts tells you, you look at yourself in the mirror and see the most alpha-est person you've ever seen.")
         lovemeter = lovemeter - 1
-    else:
+    elif choice == "C" or choice == "c":
         input("You wear something casual and fitting for the outing, nothing extraordinary, but you think they'd like it.")
         lovemeter = lovemeter + 4
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario31()
 
 def scenario32():
     global lovemeter
@@ -519,9 +612,12 @@ def scenario32():
     elif choice == "B" or choice == "b":
         input("You could've sworn you saw them get flustered a little, but you decide it was impossible and shrug it off.\nIn response, they compliment you back.")
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "C" or choice == "c":
         input("They stare at you awkwardly for a bit, before laughing it off, yet you could see through their facade. \nYou ended up hurting them a bit from that supposed joke.")
         lovemeter = lovemeter - 1
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario32()
 
 def scenario33():
     global lovemeter
@@ -535,9 +631,12 @@ def scenario33():
     elif choice == "B" or choice == "b":
         input("You pick a small, cozy cafe, perfect for casual outings like this that they seem to like as well.")
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "C" or choice == "c":
         input("You pick a rather familiar fast food restaurant, Jollibee, which they didn't mind at all.")
         lovemeter = lovemeter + 2
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario33()
 
 def scenario34():
     global lovemeter
@@ -551,9 +650,12 @@ def scenario34():
     elif choice == "B" or choice == "b":
         input("After you told them that, they swatted it away themselves and carry on with eating and chatting.")
         lovemeter = lovemeter + 2
-    else:
+    elif choice == "C" or choice == "c":
         input("After slapping them, they look at you seemingly upset and you apologize over and over, telling them your reason on why you did that. They forgive you, but the entire rest of the conversations felt off. ")
         lovemeter = lovemeter - 1
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario34()
 
 def scenario35():
     global lovemeter
@@ -567,9 +669,12 @@ def scenario35():
     elif choice == "B" or choice == "b":
         input("You were headed towards a garden, when you realize they weren't following behind you. \nYou realized you forgot to notify them to go with you as your phone lights up from a notification. \nThey said they decided to leave since you left them all alone abruptly, and you felt you're chest tightening and suffocating you.. \nYou head to the garden you were supposed to both go to and admire flowers alone. \nTomorrow is the day.")
         lovemeter = lovemeter - 3
-    else:
+    elif choice == "C" or choice == "c":
         input("You make the bold decision to grab their hand, as you head to a garden you thought you'd both like as a final place to end the day. \nYou feel yourself getting more and more flustered, feeling the sensation of their hand, as you both start strolling around the garden together. \nYou admire flowers and plants, still holding their hand, enjoying the time you have left together. \nDuring that stroll, you also find out they really like a peculiar flower, insert flower here. \nThe day soon ends and you both say goodbye. \nTomorrow is the day.")
         lovemeter = lovemeter + 6
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        scenario35()
 
 def final():
     global lovemeter
@@ -578,19 +683,56 @@ def final():
     print("\nToday is the day. Confession day. You don't know what's going to happen; however you trust in the choices you've made this entire week. \nBefore you go, you realize you should, of course, buy something to give during your confession. \nA. Plushie\nB. Sweets\nC. A bouquet of flowers")
     choice = input("\nWhat do you get them? ")
     if choice == "A" or choice == "a":
-        lovemeter = lovemeter + 4
+        print("A. A fluffy and derpy black cat plushie\nB. A cute blue penguin plushie\nC. A fluffy and cute purple cat plushie\nD. A chonky pufferfish plusie")
+        second_choice = input("What kind of plushie do you get them? ")
+        if charname == "Lordwyn" or "lordwyn":
+            if second_choice == "A" or second_choice == "a":
+                lovemeter = lovemeter + 4
+            else:
+                lovemeter = lovemeter + 2
+        elif charname == "Zeryl" or "zeryl":
+            if second_choice == "B" or second_choice == "b":
+                lovemeter = lovemeter + 4
+            else:
+                lovemeter = lovemeter + 2
+        elif charname == "Krisha" or "krisha":
+            if second_choice == "C" or second_choice == "c":
+                lovemeter = lovemeter + 4
+            else:
+                lovemeter = lovemeter + 2
+        else:
+            if second_choice == "D" or second_choice == "d":
+                lovemeter = lovemeter + 4
+            else:
+                lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
-        lovemeter = lovemeter + 2
-    else:
+        print("\nA. A whole bag of Potchi placed in a black and white box\nB. Packs of dried mangoes placed in a pale green box\nC. Trick question: They don't like sweets---libre them food instead\nD. A box of white chocolates with a blue ribbon tied around it")
+        second_choice = input("What kind of sweet do you get them? ")
+        if charname == "Lordwyn" or "lordwyn":
+            if second_choice == "A" or second_choice == "a":
+                lovemeter = lovemeter + 2
+            else:
+                lovemeter = lovemeter + 1
+        elif charname == "Zeryl" or "zeryl":
+            if second_choice == "B" or second_choice == "b":
+                lovemeter = lovemeter + 2
+            else:
+                lovemeter = lovemeter + 1
+        elif charname == "Krisha" or "krisha":
+            if second_choice == "C" or second_choice == "c":
+                lovemeter = lovemeter + 2
+            else:
+                lovemeter = lovemeter + 1
+        else:
+            if second_choice == "D" or second_choice == "d":
+                lovemeter = lovemeter + 2
+            else:
+                lovemeter = lovemeter + 1
+    elif choice == "C" or choice == "c":
         print("\nA. Azaleas \nB. Hibiscus flowers \nC. Roses\nD. Sunflowers")
         second_choice = input("What kind of flowers do you get them? ")
         if charname == "Lordwyn" or "lordwyn":
             if second_choice == "A" or second_choice == "a":
-                lovemeter = lovemeter + 6
-            else:
-                lovemeter = lovemeter + 4
-        elif charname == "Krisha" or "krisha":
-            if second_choice == "C" or second_choice == "c":
                 lovemeter = lovemeter + 6
             else:
                 lovemeter = lovemeter + 4
@@ -599,11 +741,19 @@ def final():
                 lovemeter = lovemeter + 6
             else:
                 lovemeter = lovemeter + 4
+        elif charname == "Krisha" or "krisha":
+            if second_choice == "C" or second_choice == "c":
+                lovemeter = lovemeter + 6
+            else:
+                lovemeter = lovemeter + 4
         else:
             if second_choice == "D" or second_choice == "d":
                 lovemeter = lovemeter + 6
             else:
                 lovemeter = lovemeter + 4
+    else:
+        input("Please choose an existing option. (Enter to continue.)")
+        final()
 
     try:  # checks for errors
         # opens the json file and saves it in the variable "data"

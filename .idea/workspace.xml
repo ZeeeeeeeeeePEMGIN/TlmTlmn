@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="fixed a json error in the code">
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="added an exit option in the main menu">
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774244352120</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added an exit option in the main menu">
+      <option name="closed" value="true" />
+      <created>1774244905578</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1774244905578</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +274,7 @@
     <MESSAGE value="added comments + added scenarios + finished final scenario" />
     <MESSAGE value="changed the json file" />
     <MESSAGE value="fixed a json error in the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed a json error in the code" />
+    <MESSAGE value="added an exit option in the main menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="added an exit option in the main menu" />
   </component>
 </project>
