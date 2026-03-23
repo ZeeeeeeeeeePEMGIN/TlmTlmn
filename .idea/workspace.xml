@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="adjusted some text errors in the situations">
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="added day 4 situations">
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774251109033</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="added day 4 situations">
+      <option name="closed" value="true" />
+      <created>1774253192627</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1774253192627</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,6 +320,7 @@
     <MESSAGE value="fixed the formatting of the texts" />
     <MESSAGE value="fixed a json error" />
     <MESSAGE value="adjusted some text errors in the situations" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusted some text errors in the situations" />
+    <MESSAGE value="added day 4 situations" />
+    <option name="LAST_COMMIT_MESSAGE" value="added day 4 situations" />
   </component>
 </project>

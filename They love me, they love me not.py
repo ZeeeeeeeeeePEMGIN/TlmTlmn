@@ -379,7 +379,7 @@ def scenario18():
 
 def scenario19():
     global lovemeter
-    print("\nThe day is almost over---you were getting bored doing your assignment in your free time. So you decided to go to the grounds and walk around for a while. You then spot them playing in the court for their PE. You decide to sit down on a bench and watch them for a while, before noticing that they were sweating and panting heavily. You thought of buying them a drink, so you made your way to the canteen and bought...?\n#choiceA\n#choiceB\n#choiceC")
+    print("\nThe day is almost over, and you were getting bored during your free time. So you decided to go to the grounds and walk around for a while. You then spot them playing in a volleyball match for their PE. You decide to sit down on a bench and watch them for a while.\nA. Cheer for their team!\nB. Just keep watching intently\nC. Stare straight at them eerily")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -388,6 +388,7 @@ def scenario19():
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter + 2
     elif choice == "C" or choice == "c":
+        input("They notice your intense gaze at THEM only and begin to get nervous. They made many mistakes during their game and feel guilty for their team's loss.")
         lovemeter = lovemeter - 1
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -475,11 +476,12 @@ def scenario24():
 
 def scenario25():
     global lovemeter
-    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\nIt’s once again the end of classes, and you exit your classroom. Heading outside, you realize that it’s raining and pull out your umbrella from your bag. Before you could open it and leave, you catch them standing near the entrance, shivering from the cold air. They seemed to not have an umbrella and was waiting for the rain to clear.\nA. Give them your umbrella and accept the fact you’ll just run home drenched.\nB. Walk up to them, offer to share your umbrella, and walk them home.\nC. Look at them for a few seconds and contemplate whether or not to give them your umbrella. You decide not to and leave.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("They stare at you for a moment before stopping you, offering to walk home together so you wouldn't get sick.\nYou feel your ears flush as they chuckled at your awkward nod.")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter + 6
