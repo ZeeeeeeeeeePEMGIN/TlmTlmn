@@ -8,7 +8,7 @@ def main_menu():
     print("They love me... They love me not.")
     time.sleep(1)
     print("===========================")
-    print("A. Start\nB. Locker\nC. Endings\nD. Credits and honorable mentions")
+    print("A. Start\nB. Locker\nC. Endings\nD. Credits and honorable mentions\nE. Exit")
     print("===========================")
     time.sleep(1)
     choice = str(input("Where shall I take you? "))
@@ -33,8 +33,8 @@ def main_menu():
         endings()
     elif choice == "D" or choice == "d":
         creds()
-        time.sleep(2)
-        main_menu()
+    elif choice  == "E" or choice == "e":
+        quit()
     else:
         print("That path does not exist.")
         main_menu()
@@ -783,10 +783,10 @@ def endings():
 
 def creds():
     print("===========================")
-    print(
-        "They love me... They love me not.\nMade by --- The deluludevs\nDeveloper --- Zeryl Gonadan, Krisha Villa, Lordwyn Demoni\nMain coder --- Zeryl Gonadan\nSecondary coder --- Lordwyn Demoni, Krisha Villa\nStorywriter --- Lordwyn Demoni, Zeryl Gonadan, Krisha Villa\n'SHOUTOUT TO MY (Zeryl) ONE AND ONLY INSPIRATION!!!!!'")
+    print("They love me... They love me not.\nMade by --- The deluludevs\nDeveloper --- Zeryl Gonadan, Krisha Villa, Lordwyn Demoni\nMain coder --- Zeryl Gonadan\nSecondary coder --- Lordwyn Demoni, Krisha Villa\nStorywriter --- Lordwyn Demoni, Zeryl Gonadan, Krisha Villa\n'SHOUTOUT TO MY (Zeryl) ONE AND ONLY INSPIRATION!!!!!'")
     print("===========================")
-    time.sleep(2)
+    input("Press Enter to return to the main menu.")
+    main_menu()
 
 def flower():
     global lovemeter
@@ -816,7 +816,6 @@ def flower():
         input("They love me.")
         print("===========================")
         input("Press enter to continue.")
-
 
 def main():
     global charname
