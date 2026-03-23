@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="fixed the formatting of the texts" />
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="fixed a json error">
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/endings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/endings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -254,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774248443643</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fixed a json error">
+      <option name="closed" value="true" />
+      <created>1774248711795</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1774248711795</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +302,7 @@
     <MESSAGE value="added an exit option in the main menu" />
     <MESSAGE value="fixed an error in scenarios + added more options in final scenario" />
     <MESSAGE value="fixed the formatting of the texts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the formatting of the texts" />
+    <MESSAGE value="fixed a json error" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a json error" />
   </component>
 </project>

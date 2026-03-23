@@ -90,7 +90,7 @@ def scenario3():
         input("They stared at you during that whole sequence of events, and seemed a bit uncomfortable. You feel like you should kill yourself already. ")
         lovemeter = lovemeter - 1
     elif choice == "C" or choice == "c":
-        input("They stare at you once they realize you felt their favorite food at their table, and you saw as their face lit up. A well 65 pesos spent. ")
+        input("They stare at you once they realize you left their favorite food at their table, and you saw as their face lit up. A well 65 pesos spent. ")
         lovemeter = lovemeter + 2
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -659,7 +659,7 @@ def scenario34():
 
 def scenario35():
     global lovemeter
-    print("\nAfter eating, you both decide to take a stroll around town and find a place you think you would both like. \nA. Tap their shoulder and point to the place as you start walking there.\nB. Walk towards the place without notifying them.\nC.  Grab their hand and walk towards the place they might like.")
+    print("\nAfter eating, you both decide to take a stroll around town and find a place you think you would both like. \nA. Tap their shoulder and point to the place as you start walking there.\nB. Walk towards the place without notifying them.\nC. Grab their hand and walk towards the place they might like.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -946,7 +946,7 @@ def endings():
         print("Error: The file 'endings.json' was not found.")
     except json.JSONDecodeError as e:
         print(f"Failed to decode JSON: {e}")
-    input("Press Enter to return  to the main menu")
+    input("Press Enter to return to the main menu")
     main_menu()
 
 def creds():
