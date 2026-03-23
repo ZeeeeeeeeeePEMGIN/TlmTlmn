@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="fixed an error in scenarios + added more options in final scenario">
-      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
-    </list>
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="fixed the formatting of the texts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -248,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774247037346</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="fixed the formatting of the texts">
+      <option name="closed" value="true" />
+      <created>1774248443643</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1774248443643</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,6 +290,7 @@
     <MESSAGE value="fixed a json error in the code" />
     <MESSAGE value="added an exit option in the main menu" />
     <MESSAGE value="fixed an error in scenarios + added more options in final scenario" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed an error in scenarios + added more options in final scenario" />
+    <MESSAGE value="fixed the formatting of the texts" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the formatting of the texts" />
   </component>
 </project>
