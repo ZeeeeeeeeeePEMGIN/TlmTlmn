@@ -771,15 +771,15 @@ def endings():
             data = json.load(file)
 
         for endings in data:
-            print("Ending 1: ", endings["ending1"], "\nEnding 2: ", endings["ending2"], "\nEnding 3: ", endings["ending3"], "\nEnding 4: ", endings["ending4"], "\nEnding 5: ", endings["ending5"],"\nEnding 6: ", endings["secretend1"], "\nEnding 7: ", endings["secretend2"], "\nEnding 8: ", endings["secretend3"])
-        input("Press Enter to return  to the main menu")
-        main_menu()
+            print(f"Ending 1: {endings["ending1"]}\nEnding 2: {endings["ending2"]}\nEnding 3: {endings["ending3"]}\nEnding 4: {endings["ending4"]}\nEnding 5: {endings["ending5"]}\nEnding 6: {endings["secretend1"]}\nEnding 7: {endings["secretend2"]}\nEnding 8: {endings["secretend3"]}")
 
     # prints if errors are found
     except FileNotFoundError:
         print("Error: The file 'endings.json' was not found.")
     except json.JSONDecodeError as e:
         print(f"Failed to decode JSON: {e}")
+    input("Press Enter to return  to the main menu")
+    main_menu()
 
 def creds():
     print("===========================")
