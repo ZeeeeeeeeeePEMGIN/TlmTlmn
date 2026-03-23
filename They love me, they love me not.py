@@ -41,7 +41,7 @@ def main_menu():
 # Day 1
 def scenario1():
     global lovemeter
-    print("\nAs you pass by their classroom on the way to your own, your eyes wandered to their figure, sitting down on their seat as usual. They notice you, and you lock eyes...\nA. Wave enthusiastically and give them a soft smile. \nB. Stare at them for a full 5 seconds and wave awkwardly.\nC. Turn away immediately and walk off.")
+    print("\nAs you pass by their classroom on the way to your own, your eyes wandered to their figure, sitting down on their seat as usual.\nThey notice you, and you lock eyes...\nA. Wave enthusiastically and give them a soft smile. \nB. Stare at them for a full 5 seconds and wave awkwardly.\nC. Turn away immediately and walk off.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -60,7 +60,7 @@ def scenario1():
 
 def scenario2():
     global lovemeter
-    print("\nIt's finally break, and you decide not to leave your classroom. You pull out your phone and your eyes catches the green dot on their profile. They're active! Your heart skips a beat. \nA. Archive them so your heart can rest.\nB. Send them a like emoji without further explanation.\nC. Greet them with a simple 'good morning'.")
+    print("\nIt's finally break, and you decide not to leave your classroom. You pull out your phone and your eyes catches the green dot on their profile.\nThey're active! Your heart skips a beat. \nA. Archive them so your heart can rest.\nB. Send them a like emoji without further explanation.\nC. Greet them with a simple 'good morning'.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -79,7 +79,7 @@ def scenario2():
 
 def scenario3():
     global lovemeter
-    print("\nLunch has finally arrived and you go down to the canteen, wanting to buy your food. You spot them---surprisingly---alone at a table and without food.\nA. You walk up to them, and ask them 'Do you want to eat lunch together?'\nB. You awkwardly walk up to them, but your brain freezes and you end up not saying ANYTHING and walk off, regretting your life decisions.\nC. You quietly leave their favorite food on their table.")
+    print("\nLunch has finally arrived and you go down to the canteen, wanting to buy your food. You spot them—surprisingly—alone at a table and without food.\nA. You walk up to them, and ask them 'Do you want to eat lunch together?'\nB. You awkwardly walk up to them, but your brain freezes and you end up not saying ANYTHING and walk off, regretting your life decisions.\nC. You quietly leave their favorite food on their table.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -100,7 +100,7 @@ def scenario4():
     global lovemeter
     global charname
     global username
-    print(f"\nIt's finally dismissal and you get to go home! But before you could exit through the gate, a tap on your shoulder. It was {charname}! \"Hey, {username}, wanna maybe... walk together? I've been a bit lonely lately.\"\nA. You nod awkwardly, a sheepish smile on your face.\nB. You accept without hesitation, a bright smile on your face knowing you could spend time with them.\nC. Stare at them for a full minute before accepting.")
+    print(f"\nIt's finally dismissal and you get to go home! But before you could exit through the gate, a tap on your shoulder.\nIt was {charname}! \"Hey, {username}, wanna maybe... walk together? I've been a bit lonely lately.\"\nA. You nod awkwardly, a sheepish smile on your face.\nB. You accept without hesitation, a bright smile on your face knowing you could spend time with them.\nC. Stare at them for a full minute before accepting.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -149,7 +149,7 @@ def scenario6():
         input("With nothing to do, you leave their desk be, and dip.")
         lovemeter = lovemeter + 2
     elif choice == "C" or choice == "c":
-        input("You quietly sneak a small note underneath their desk, and get butterflies from the thought of them finding and reading it. You leave in hopes they'd see it.")
+        input("You quietly sneak a small note underneath their desk, and get butterflies from the thought of them finding and reading it.\nYou leave in hopes they'd see it.")
         lovemeter = lovemeter + 4
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -157,18 +157,18 @@ def scenario6():
 
 def scenario7():
     global lovemeter
-    print("\nWhile walking with one of your friends, they suddenly nudge you, raising their eyebrows while pointing at your crush. At the sight of them, your heart skips a beat. Suddenly, your friend pushes you towards them.\nA. Use your quick reaction time and dodge quickly, avoiding falling onto them.\nB. Let yourself fall on them, but afterwards apologize profusely.\nC. Pull your friend down as well and end up falling on your crush while being crushed by your friend.")
+    print("\nWhile walking with one of your friends, they suddenly nudge you, raising their eyebrows while pointing at your crush.\nAt the sight of them, your heart skips a beat. Suddenly, your friend pushes you towards them.\nA. Use your quick reaction time and dodge quickly, avoiding falling onto them.\nB. Let yourself fall on them, but afterwards apologize profusely.\nC. Pull your friend down as well and end up falling on your crush while being crushed by your friend.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
-        input("Your crush and yourself were thankfully left unscathed, as you quickly get up and scold your friend, laughing maniacally. You hear them trying to hold back their laugh, as your face flushes from embarrassment. You drag your friend away and finally leave.")
+        input("Your crush and yourself were thankfully left unscathed, as you quickly get up and scold your friend, laughing maniacally.\nYou hear them trying to hold back their laugh, as your face flushes from embarrassment. You drag your friend away and finally leave.")
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
         input("They tell you it's okay and to stop apologizing, for some reason with a bright smile plastered on your face.\nYou nod awkwardly, as you drag your friend away to crash out to them.")
         lovemeter = lovemeter + 4
     elif choice == "C" or choice == "c":
-        input("All of you yelled from pain at the same time as your crush and yourself got crushed. Once you got up, you apologized, and you ran from the embarrassment of crushing your crush.")
+        input("All of you yelled from pain at the same time as your crush and yourself got crushed.\nOnce you got up, you apologized, and you ran from the embarrassment of crushing your crush.")
         lovemeter = lovemeter - 1
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -195,7 +195,7 @@ def scenario8():
 
 def scenario9():
     global lovemeter
-    print("\nYou’re finally back home when you decide to message them, telling them to stay safe while going home. After you sent it, you patiently waited for their response, but you were still left on delivered despite them being online\nA. Send another follow-up message, but don’t overthink it.\nB. Delete your message and follow up with a “Never mind”.\nC. Leave the message alone and assume they’re busy.")
+    print("\nYou’re finally back home when you decide to message them, telling them to stay safe while going home.\nAfter you sent it, you patiently waited for their response, but you were still left on delivered despite them being online.\nA. Send another follow-up message, but don’t overthink it.\nB. Delete your message and follow up with a “Never mind”.\nC. Leave the message alone and assume they’re busy.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -214,15 +214,15 @@ def scenario9():
 
 def scenario10():
     global lovemeter
-    print("\nAfter a few hours, they decide to reply to your message, and they ask you how you were doing and how your night was so far.\nA. You keep the conversation flowing however you fumble so bad you end up misspelling most of your messages.\nB.Reply but you think first before sending the message, carefully considering how it would affect this conversation.\nC. Leave them on read because you’re too nervous to reply and because you’re overthinking it too much.")
+    print("\nAfter a few hours, they decide to reply to your message, and they ask you how you were doing and how your night was so far.\nA. You keep the conversation flowing however you fumble so bad you end up misspelling most of your messages.\nB. Reply but you think first before sending the message, carefully considering how it would affect this conversation.\nC. Leave them on read because you’re too nervous to reply and because you’re overthinking it too much.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
-        input("Despite your constant misspelling of words, you think they didn't mind at all, and you even had fun talking to them, as night falls, and you eventually tell each other good night.")
+        input("Despite your constant misspelling of words, you think they didn't mind at all, and you even had fun talking to them. As night falls, you eventually tell each other good night.")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
-        input("You ended up texting all night long, as you found out more information about them. You felt warm in the inside knowing you got to spend so much time with them via messaging.")  # user gains hint about crush's fav flowers and things to help in confessing and giving gift?
+        input("You ended up texting all night long, as you found out more information about them. You felt warm in the inside knowing you got to spend so much time with them via messaging.")
         lovemeter = lovemeter + 6
     elif choice == "C" or choice == "c":
         input("Although you felt bad for leaving them on read, you decided to give your heart a break, and slept it off.")
@@ -233,7 +233,7 @@ def scenario10():
 # Day 3
 def scenario11():
     global lovemeter
-    print("\nIt was break time and you decided to take a quick, sneak peek at them in their classroom; however, once you were outside of their room, you realized that they weren’t there at all. You come up with a conclusion that they were absent, worrying you.\nA. Text them asking if they're alright.\nB. Spam message them until break is over, crashing out because they’re absent and you think they’re dead.\nC. Send them a message saying ‘ y r u absent. ‘, thinking that nonchalantness will show you’re not desperate for them.")
+    print("\nIt was break time and you decided to take a quick, sneak peek at them in their classroom; however, once you were outside of their room,\nyou realized that they weren’t there at all. You come up with a conclusion that they were absent, worrying you.\nA. Text them asking if they're alright.\nB. Spam message them until break is over, crashing out because they’re absent and you think they’re dead.\nC. Send them a message saying ‘ y r u absent. ‘, thinking that nonchalantness will show you’re not desperate for them.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -252,12 +252,12 @@ def scenario11():
 
 def scenario12():
     global lovemeter
-    print("\nClass is over and you realize you know their address ( stalker ), you contemplate whether you should go visit them to see if they’re alright, and you decide to go! Before going, you decide to buy a few things for them to help them.\nA. Cup noodles and tissue\nB. Chicken broth and medication\nC. E n e r g y  drink 🤪")
+    print("\nClass is over and you realize you know their address ( stalker ), you contemplate whether you should go visit them to see if they’re alright,\nand you decide to go! Before going, you decide to buy a few things for them to help them.\nA. Cup noodles and tissue\nB. Chicken broth and medication\nC. E n e r g y  drink 🤪")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
-        input("Although cup noodles isn't the best for sick people and they most likely have their own tissue at home, you still believe it will make them feel at least a bit better.")
+        input("Although cup noodles isn't the best for sick people and they most likely have their own tissue at home,\nyou still believe it will make them feel at least a bit better.")
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
         input("By buying the things a sick person will need, you feel they'll greatly appreciate you for this.")
@@ -271,7 +271,7 @@ def scenario12():
 
 def scenario13():
     global lovemeter
-    print("\nBuying everything you need, you embark on your journey towards their humble abode… However, you pause in your tracks, trying to remember a crucial detail…?\nA. You dismiss it, and walk straight to their home!\nB. You walk to their home under the excuse of knowing their address from asking their friends.\nC. You remember to text them to ask for their address so you won’t seem like a creep/stalker for knowing where they live.")
+    print("\nBuying everything you need, you embark on your journey towards their humble abode…\nHowever, you pause in your tracks, trying to remember a crucial detail…?\nA. You dismiss it, and walk straight to their home!\nB. You walk to their home under the excuse of knowing their address from asking their friends.\nC. You remember to text them to ask for their address so you won’t seem like a creep/stalker for knowing where they live.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -583,7 +583,7 @@ def scenario30():
 # Day 7
 def scenario31():
     global lovemeter
-    print("\nToday is the day you and your crush will go out together. You’re unsure whether it’ll be a date or not, but you feel happy knowing you get to spend time with them. What do you wear?\nA. Formal attire\nB. alpha wolf shirt and some random ahh jeans\nC. Casual attire")
+    print("\nToday is the day you and your crush will go out together.\nYou’re unsure whether it’ll be a date or not, but you feel happy knowing you get to spend time with them. What do you wear?\nA. Formal attire\nB. Alpha wolf shirt and some random ahh jeans\nC. Casual attire")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -602,7 +602,7 @@ def scenario31():
 
 def scenario32():
     global lovemeter
-    print("\nAfter getting dressed, you leave momentarily and go towards your designated meet-up spot with them. You start getting butterflies knowing they can arrive any second, and hesitate whether this was a good idea or not, but either way, you know you can’t go back. \nMoments later, they finally arrive. You take a deep breath and say,\nA. Nothing. You say nothing and stare deep into their soul awkwardly.\nB. “You look lovely.”\nC. “You look like shrek.” ")
+    print("\nAfter getting dressed, you leave momentarily and go towards your designated meet-up spot with them.\nYou start getting butterflies knowing they can arrive any second, and hesitate whether this was a good idea or not, but either way, you know you can’t go back.\nMoments later, they finally arrive. You take a deep breath and say,\nA. Nothing. You say nothing and stare deep into their soul awkwardly.\nB. “You look lovely.”\nC. “You look like shrek.” ")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -621,7 +621,7 @@ def scenario32():
 
 def scenario33():
     global lovemeter
-    print("\nThey suggest going to grab a bite to eat since it was already 1 PM. You agree, but you’re unsure where you’re going to take them. Where will you take them to?\nA. Sari sari store\nB. Cafe\nC. Jollibee")
+    print("\nThey suggest going to grab a bite to eat since it was already 1 PM. You agree, but you’re unsure where you’re going to take them.\nWhere will you take them to?\nA. Sari sari store\nB. Cafe\nC. Jollibee")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -640,18 +640,18 @@ def scenario33():
 
 def scenario34():
     global lovemeter
-    print("\nYou arrive at the place you’ll eat at. You both order, and while waiting, you decide to break the silence with friendly banter. \nYour food arrives momentarily, and while eating, you notice a bug on your crush’s cheek.\nA. You brush the back of your hand on their cheek to swat away the bug. \nB. Tell them that there is a bug on their face.\nC. Slap their face where the bug is.")
+    print("\nYou arrive at the place you’ll eat at. You both order, and while waiting, you decide to break the silence with friendly chatter.\nYour food arrives momentarily, and while eating, you notice a bug on your crush’s cheek.\nA. You brush the back of your hand on their cheek to swat away the bug. \nB. Tell them that there is a bug on their face.\nC. Slap their face where the bug is.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
-        input("After realizing your rather bold gesture, you quickly sit back down on your seat and apologize, yet when you look back at them, they look as if they're as flustered as you.")
+        input("After realizing your rather bold gesture, you quickly sit back down on your seat and apologize,\nyet when you look back at them, they look as if they're as flustered as you.")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
         input("After you told them that, they swatted it away themselves and carry on with eating and chatting.")
         lovemeter = lovemeter + 2
     elif choice == "C" or choice == "c":
-        input("After slapping them, they look at you seemingly upset and you apologize over and over, telling them your reason on why you did that. They forgive you, but the entire rest of the conversations felt off. ")
+        input("After slapping them, they look at you seemingly upset and you apologize over and over, telling them your reason on why you did that.\nThey forgive you, but the entire rest of the conversations felt off. ")
         lovemeter = lovemeter - 1
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -841,6 +841,7 @@ def yansecret():
             end6 = "Happy...?"
             for endings in data:
                 endings["secretend1"] = "Happy...?"
+
             time.sleep(4)
             print(f"\n{end6} end.")
             print("===========================")
