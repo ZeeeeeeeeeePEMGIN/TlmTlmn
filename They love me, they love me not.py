@@ -256,10 +256,13 @@ def scenario14():
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("You both started chatting and you were relieved seeing them not as sick as you thought.")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
+        input("You both don't say anything for a while, and you felt as if you were dying inside.\nThe silence was then abruptly cut off by them, saying they'll just go grab something in the other room. You regret living.")
         lovemeter = lovemeter - 1
     else:
+        input("They let out a chuckle and say, 'You can relax, make yourself at home.' \nYou feel a bit relieved after that and you both start chatting.")
         lovemeter = lovemeter + 2
 
 def scenario15():
@@ -269,10 +272,13 @@ def scenario15():
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("You noticed they got a bit startled from your sudden action, but they didn't try to reject it or anything. \nThey wave goodbye as they escorted you out, and you feel content as you walked back home.")
         lovemeter = lovemeter + 6
     elif choice == "B" or choice == "b":
+        input("You straight up just leave and exit out their door. You hear their voice faintly saying goodbye, and you feel bad for leaving abruptly. \nYou feel as if you made the wrong choice just leaving like that.")
         lovemeter = lovemeter - 3
     else:
+        input("They say wave and say goodbye to you as well, escorting you out their home.")
         lovemeter = lovemeter + 4
 # Day 4
 def scenario16():
@@ -412,23 +418,29 @@ def scenario26():
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("You feel it's a relatively normal conversation starter and go with it.")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
+        input("You overthink and end up with a way too formal message, yet it's too late to change or delete now.")
         lovemeter = lovemeter - 1
     else:
+        input("You decide on a kind of laid back message to start the conversation, thinking it'll suffice for now.")
         lovemeter = lovemeter + 2
 
 def scenario27():
     global lovemeter
-    print("\nThey text you back after a couple of minutes, and they reply with a “good morning”, and,”doing nothing rn, hbu?”\nA. 'nuthin really'\nB. “Nothing.”\nC. 'nothing muchh'")
+    print("\nThey text you back after a couple of minutes, and they reply with a 'good morning', and a 'doing nothing rn, hbu?'\nA. 'nuthin really'\nB. “Nothing.”\nC. 'nothing muchh'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("You give them a chill response you think they'd be happy with.")
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
+        input("After sending it, you realize how ominous it sounds, and you came to regret sending it.")
         lovemeter = lovemeter - 1
     else:
+        input("By adding an extra 'h', you feel like you'll sound less monotonous and that they'd feel more comfortable.")
         lovemeter = lovemeter + 4
 
 def scenario28():
@@ -438,117 +450,160 @@ def scenario28():
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("To save the dying conversation, you end up casually asking them to hang out tomorrow!")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
+        input("You feel you're invite to going out tomorrow was too casual.")
         lovemeter = lovemeter + 2
     else:
+        input("What are you? A robot?")
         lovemeter = lovemeter - 1
 
 def scenario29():
     global lovemeter
-    print("\n'tomorrow? I’m free so sure'\nA. 'great!'\nB. 'nice, where u wanna go?'\nC. 'Okay. Where.'")
+    print("\nThey reply moments after, saying, 'tomorrow? I’m free so sure'. What do you say after?\nA. 'Okay.'\nB. 'great!'\nC. 'k'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("It feels a bit monotonous, but it's better than 'k'!")
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
+        input("You reply with some enthusiasm in order to imply you're happy you both can hang out!")
         lovemeter = lovemeter + 4
     else:
+        input("You realize how monotonous you are from that one message and regret everything in life.")
         lovemeter = lovemeter - 1
 
 def scenario30():
     global lovemeter
-    print("\n'when and where do you wanna meet up?'\nA. 'uhhh lunch probs in town'\nB. 'maybeee around lunch at town?'\nC. '12 PM sharp. Town.'")
+    print("\nThey continue talking, saying, 'when and where do you wanna meet up?'. You say: \nA. 'uhhh lunch probs in town'\nB. 'maybeee around lunch at town?'\nC. '12 PM sharp. Town.'")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
-        print("sure then!")
+        input("They reply shortly afterwards with a 'sure then!'")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
-         print("sure then!")
-         lovemeter = lovemeter + 6
+        input("They reply shortly afterwards with a 'sure then!'")
+        lovemeter = lovemeter + 6
     else:
-         print("uhhhh okay then")
-         lovemeter = lovemeter - 3
+        input("Are you going to assassinate them or something? Because of that they left you on read.")
+        lovemeter = lovemeter - 3
 # Day 7
 def scenario31():
     global lovemeter
-    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\nToday is the day you and your crush will go out together. You’re unsure whether it’ll be a date or not, but you feel happy knowing you get to spend time with them. What do you wear?\nA. Formal attire\nB. alpha wolf shirt and some random ahh jeans\nC. Casual attire")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
-        lovemeter = lovemeter + 4
-    elif choice == "B" or choice == "b":
+        input("You're unsure what to wear so you wear your best, formal outfit. \nYou look at yourself in the mirror and think it looks nice, yet feels like it might be too much for a regular outing.")
         lovemeter = lovemeter + 2
-    else:
+    elif choice == "B" or choice == "b":
+        input("Putting on whatever your alpha wolf instincts tells you, you look at yourself in the mirror and see the most alpha-est person you've ever seen.")
         lovemeter = lovemeter - 1
+    else:
+        input("You wear something casual and fitting for the outing, nothing extraordinary, but you think they'd like it.")
+        lovemeter = lovemeter + 4
 
 def scenario32():
     global lovemeter
-    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\nAfter getting dressed, you leave momentarily and go towards your designated meet-up spot with them. You start getting butterflies knowing they can arrive any second, and hesitate whether this was a good idea or not, but either way, you know you can’t go back. \nMoments later, they finally arrive. You take a deep breath and say,\nA. Nothing. You say nothing and stare deep into their soul awkwardly.\nB. “You look lovely.”\nC. “You look like shrek.” ")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("'Uhh...hello?' They waved at you several times, as you feel yourself getting more and more flustered. \nYou weren't sure how to act so you just stood still which emitted a soft chuckle out of them. \nYou join them, realizing this isn't that different as the other times you hung out together.")
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
-        lovemeter = lovemeter - 1
-    else:
+        input("You could've sworn you saw them get flustered a little, but you decide it was impossible and shrug it off.\nIn response, they compliment you back.")
         lovemeter = lovemeter + 4
+    else:
+        input("They stare at you awkwardly for a bit, before laughing it off, yet you could see through their facade. \nYou ended up hurting them a bit from that supposed joke.")
+        lovemeter = lovemeter - 1
 
 def scenario33():
     global lovemeter
-    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\nThey suggest going to grab a bite to eat since it was already 1 PM. You agree, but you’re unsure where you’re going to take them. Where will you take them to?\nA. Sari sari store\nB. Cafe\nC. Jollibee")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
-        lovemeter = lovemeter + 2
+        input("They give you a skeptical look once you both arrive at a Sari sari store of all places, and they tell you they’ll pick where to eat instead.")
+        lovemeter = lovemeter - 1
     elif choice == "B" or choice == "b":
+        input("You pick a small, cozy cafe, perfect for casual outings like this that they seem to like as well.")
         lovemeter = lovemeter + 4
     else:
-        lovemeter = lovemeter - 1
+        input("You pick a rather familiar fast food restaurant, Jollibee, which they didn't mind at all.")
+        lovemeter = lovemeter + 2
 
 def scenario34():
     global lovemeter
-    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\nYou arrive at the place you’ll eat at. You both order, and while waiting, you decide to break the silence with friendly banter. \nYour food arrives momentarily, and while eating, you notice a bug on your crush’s cheek.\nA. You brush the back of your hand on their cheek to swat away the bug. \nB. Tell them that there is a bug on their face.\nC. Slap their face where the bug is.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
-        lovemeter = lovemeter - 1
-    elif choice == "B" or choice == "b":
+        input("After realizing your rather bold gesture, you quickly sit back down on your seat and apologize, yet when you look back at them, they look as if they're as flustered as you.")
         lovemeter = lovemeter + 4
-    else:
+    elif choice == "B" or choice == "b":
+        input("After you told them that, they swatted it away themselves and carry on with eating and chatting.")
         lovemeter = lovemeter + 2
+    else:
+        input("After slapping them, they look at you seemingly upset and you apologize over and over, telling them your reason on why you did that. They forgive you, but the entire rest of the conversations felt off. ")
+        lovemeter = lovemeter - 1
 
 def scenario35():
     global lovemeter
-    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\nAfter eating, you both decide to take a stroll around town and find a place you think you would both like. \nA. Tap their shoulder and point to the place as you start walking there.\nB. Walk towards the place without notifying them.\nC.  Grab their hand and walk towards the place they might like.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("After you notify them, you both head towards a garden you're directing them to, as a final place to end the day. \nYou walked around the garden together, taking pictures of individual flowers, and over all have a chill time with them. \nDuring that stroll, you also find out they really like a peculiar flower, insert flower here.\nThe day soon ends and you both say goodbye. \nTomorrow is the day.")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
+        input("You were headed towards a garden, when you realize they weren't following behind you. \nYou realized you forgot to notify them to go with you as your phone lights up from a notification. \nThey said they decided to leave since you left them all alone abruptly, and you felt you're chest tightening and suffocating you.. \nYou head to the garden you were supposed to both go to and admire flowers alone. \nTomorrow is the day.")
         lovemeter = lovemeter - 3
     else:
+        input("You make the bold decision to grab their hand, as you head to a garden you thought you'd both like as a final place to end the day. \nYou feel yourself getting more and more flustered, feeling the sensation of their hand, as you both start strolling around the garden together. \nYou admire flowers and plants, still holding their hand, enjoying the time you have left together. \nDuring that stroll, you also find out they really like a peculiar flower, insert flower here. \nThe day soon ends and you both say goodbye. \nTomorrow is the day.")
         lovemeter = lovemeter + 6
 
 def final():
     global lovemeter
-    print("\nEnd scene")
-
+    global charname
+    global username
+    print("\nToday is the day. Confession day. You don't know what's going to happen; however you trust in the choices you've made this entire week. \nBefore you go, you realize you should, of course, buy something to give during your confession. \nA. Plushie\nB. Sweets\nC. A bouquet of flowers")
     choice = input("\nWhat do you get them? ")
     if choice == "A" or choice == "a":
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
         lovemeter = lovemeter + 2
     else:
-        lovemeter = lovemeter + 6
+        print("\nA. Azaleas \nB. Hibiscus flowers \nC. Roses\nD. Sunflowers")
+        second_choice = input("What kind of flowers do you get them? ")
+        if charname == "Lordwyn" or "lordwyn":
+            if second_choice == "A" or second_choice == "a":
+                lovemeter = lovemeter + 6
+            else:
+                lovemeter = lovemeter + 4
+        elif charname == "Krisha" or "krisha":
+            if second_choice == "C" or second_choice == "c":
+                lovemeter = lovemeter + 6
+            else:
+                lovemeter = lovemeter + 4
+        elif charname == "Zeryl" or "zeryl":
+            if second_choice == "B" or second_choice == "b":
+                lovemeter = lovemeter + 6
+            else:
+                lovemeter = lovemeter + 4
+        else:
+            if second_choice == "D" or second_choice == "d":
+                lovemeter = lovemeter + 6
+            else:
+                lovemeter = lovemeter + 4
 
     try:  # checks for errors
         # opens the json file and saves it in the variable "data"
