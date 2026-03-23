@@ -118,6 +118,7 @@ def scenario5():
         input("The whole walk home, both of you enjoyed each other's presence, cackling about silly jokes and talking as if your normal friends, and you felt as if your face was red the entire time.\nYou finally reached your destination, as you see them with a disappointed expression.\nYou give them a final wave, as they struck you with another sincere smile, waving back.\nYou think you both enjoyed that interaction.")
         lovemeter = lovemeter + 6
     else:
+        input("You're face becomes flushed from sheer embarassment, yet seeing them smile makes u forget all about it, laughing with them in the process.\nThe whole walk home felt pretty normal; the conversations sometimes felt awkward, but in a good way.\nYou finally arrive at your destination, and they flash you with their gentle smile.\nYou reciprocate them with a smile of yours and leave.\n You think you both felt it was a pleasant interaction between you both.")
         lovemeter = lovemeter + 4
 # Day 2
 def scenario6():
@@ -175,11 +176,13 @@ def scenario9():
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("Because you calmed yourself and your overthinkingness down, \nyou feel that everything is going to be okay and that one message being unread isn't the end of the world.")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
-        input("They asked what you unsent, and you only responded by saying it was nothing. You regret all your life choices.")
+        input("You regret all your life choices.")
         lovemeter = lovemeter - 1
     else:
+        input("You set your phone aside and simply think they're doing something important and decide to not overthink it that much.")
         lovemeter = lovemeter + 2
 
 def scenario10():
@@ -221,23 +224,29 @@ def scenario12():
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("Although cup noodles isn't the best for sick people and they most likely have their own tissue at home, you still believe it will make them feel at least a bit better.")
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
+        input("By buying the things a sick person will need, you feel they'll greatly appreciate you for this.")
         lovemeter = lovemeter + 4
     else:
+        input("Even you yourself didn't know why you bought it. Is energy drinks really the best thing to buy for a sick person? \nYou shrug it off, thinking it's probably fine, \nbut you feel they probably won't enjoy an energy drink in their current state very much.")
         lovemeter = lovemeter - 1
 
 def scenario13():
     global lovemeter
-    print("\nBuying everything you need, you embark on your journey towards their humble abode… However, you pause in your tracks, trying to remember a crucial detail…?\nA. You dismiss it, and walk straight to their home!\nB. You walk to their home under the excuse of knowing their address from asking their friends.\n#C. You remember to text them to ask for their address so you won’t seem like a creep/stalker for knowing where they live.")
+    print("\nBuying everything you need, you embark on your journey towards their humble abode… However, you pause in your tracks, trying to remember a crucial detail…?\nA. You dismiss it, and walk straight to their home!\nB. You walk to their home under the excuse of knowing their address from asking their friends.\nC. You remember to text them to ask for their address so you won’t seem like a creep/stalker for knowing where they live.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("Once you arrived, you took a deep breath and knocked on their door, and moments after, they open the door to see you.\nYou get ready to greet them, but was cut off with a 'How do you know where I live?' from them. \nThen dread overwhelms you, realizing what that crucial detail was earlier.\nYou make up some excuse, and they just nod in doubt.")
         lovemeter = lovemeter - 1
     elif choice == "B" or choice == "b":
+        input("You arrived at their house, and you take a deep breath before knocking on the door, and moments after, they open it to see you.\nAs you were about to greet them, you were abruptly cut off with a 'How do you know where I live?' from them. \nHowever, you were prepared for this exact situation, telling them you know because of their friends.")
         lovemeter = lovemeter + 2
     else:
+        input("Once they texted you their address, you knew it was safe to approach...You arrived and there they were, waiting and expecting for you!")
         lovemeter = lovemeter + 4
 
 def scenario14():
