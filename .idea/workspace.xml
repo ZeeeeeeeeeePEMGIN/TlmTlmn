@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="fixed a json error">
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="adjusted some text errors in the situations">
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/endings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/endings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774248711795</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="adjusted some text errors in the situations">
+      <option name="closed" value="true" />
+      <created>1774251109033</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1774251109033</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,6 +310,7 @@
     <MESSAGE value="fixed an error in scenarios + added more options in final scenario" />
     <MESSAGE value="fixed the formatting of the texts" />
     <MESSAGE value="fixed a json error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed a json error" />
+    <MESSAGE value="adjusted some text errors in the situations" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted some text errors in the situations" />
   </component>
 </project>

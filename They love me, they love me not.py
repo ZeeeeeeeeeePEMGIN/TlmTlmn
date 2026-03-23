@@ -328,15 +328,18 @@ def scenario15():
 # Day 4
 def scenario16():
     global lovemeter
-    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\nA new day arrives, and as you walk through the gates of the school, you spot them on a bench scrolling through their phone. You didn’t notice that you were already walking towards them.\nToo mesmerized by them, you suddenly realized that you were closer than before, noting how your body moved before you could think.\nA. Sit down and start a conversation, then say bye and leave when classes are about to start.\nB. Sit down then get up and leave.\nC. Sit down and awkwardly greet them 'good morning', then get up and wave bye when classes are about to start.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
+        input("")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
+        input("")
         lovemeter = lovemeter - 1
     elif choice == "C" or choice == "c":
+        input("")
         lovemeter = lovemeter + 2
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -344,7 +347,7 @@ def scenario16():
 
 def scenario17():
     global lovemeter
-    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\nBreak finally arrived, and you exited the classroom. As you got in line at the canteen, you suddenly got the idea to buy them a snack, and so you did.\nWalking towards their classroom, you take a deep breath and enter the classroom ( YOU SECTION HOPPER ).\n You see them sitting on their table while looking at their phone.\nA. Come up to them and tap their shoulder, and give them the snacks before walk out.\nB. You choose not to approach him and instead throw the snack toward their table then immediately leave.\nC. Come up to them and start a conversation. When break time is almost over, you give them the snacks and wave bye as you leave.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -360,7 +363,7 @@ def scenario17():
 
 def scenario18():
     global lovemeter
-    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\nIt’s already lunchtime, and you decided that you didn’t want to eat. You chose to relax near the fountain, and as you get closer to the fountain you notice them sitting down.\nYou decide to sit beside them. As you make yourself comfortable, you put on your earpods and play some music. You then noticed them just staring ahead at nothing.\nYou had a bold decision to give them one of your earpods.\nA. Tap their shoulder and drop the earpod in their hand.\nB. Tap their shoulder and ask, 'Do you wanna listen too?'\nC. Swat away the idea and choose not to give them an earpod.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
@@ -376,7 +379,7 @@ def scenario18():
 
 def scenario19():
     global lovemeter
-    print("\n#scenario\n#choiceA\n#choiceB\n#choiceC")
+    print("\nThe day is almost over---you were getting bored doing your assignment in your free time. So you decided to go to the grounds and walk around for a while. You then spot them playing in the court for their PE. You decide to sit down on a bench and watch them for a while, before noticing that they were sweating and panting heavily. You thought of buying them a drink, so you made your way to the canteen and bought...?\n#choiceA\n#choiceB\n#choiceC")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
