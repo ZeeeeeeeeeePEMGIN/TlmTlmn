@@ -21,9 +21,9 @@ def main_menu():
     print("                  __/ |")
     print("                 |___/")
     time.sleep(1)
-    print("===========================")
+    print("=======================================================================================")
     print("A. Start\nB. Locker\nC. Endings\nD. Credits and honorable mentions\nE. Exit")
-    print("===========================")
+    print("=======================================================================================")
     time.sleep(1)
     choice = str(input("Where shall I take you? "))
 
