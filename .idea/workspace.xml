@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="ascii art :D">
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/endings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/endings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +44,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.They love me, they love me not.executor": "Run",
-    "Python.eggo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Khloe Zeryl/PycharmProjects/They love me, they love me not"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.They love me, they love me not.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eggo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Khloe Zeryl/PycharmProjects/They love me, they love me not&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Khloe Zeryl\PycharmProjects\They love me, they love me not" />
@@ -305,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774313525922</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="ascii art :D">
+      <option name="closed" value="true" />
+      <created>1774333207205</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1774333207205</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
