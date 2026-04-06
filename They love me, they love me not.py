@@ -1025,7 +1025,8 @@ def main():
             f"\nAugust 21, 20xx. One more week until you finally confess.\n\nIt's been a whole year ever since you first laid your eyes on them...\nYou had enough of watching from afar.. This week.. It's going to be different..!\nYou...\nWill make the first move...")
 
     print("===========================")
-    input("☆｡⁠⁠✧.* ~ Day 1 ~ *⁠.⁠✧｡⁠☆ ")
+    input("   ☆｡⁠⁠✧.* ~ Day 1 ~ *⁠.⁠✧｡⁠☆ ")
+    print("===========================")
     time.sleep(1)
     scenario1()
     time.sleep(1)
@@ -1043,7 +1044,8 @@ def main():
     flower()
 
     print("===========================")
-    input("☆｡⁠⁠✧.* ~ Day 2 ~ *⁠.⁠✧｡⁠☆ ")
+    input("   ☆｡⁠⁠✧.* ~ Day 2 ~ *⁠.⁠✧｡⁠☆ ")
+    print("===========================")
     time.sleep(1)
     scenario6()
     time.sleep(1)
@@ -1061,7 +1063,8 @@ def main():
     flower()
 
     print("===========================")
-    input("☆｡⁠⁠✧.* ~ Day 3 ~ *⁠.⁠✧｡⁠☆ ")
+    input("   ☆｡⁠⁠✧.* ~ Day 3 ~ *⁠.⁠✧｡⁠☆ ")
+    print("===========================")
     time.sleep(1)
     scenario11()
     time.sleep(1)
@@ -1079,7 +1082,8 @@ def main():
     flower()
 
     print("===========================")
-    input("☆｡⁠⁠✧.* ~Day 4 ~ *⁠.⁠✧｡⁠☆ ")
+    input("   ☆｡⁠⁠✧.* ~Day 4 ~ *⁠.⁠✧｡⁠☆ ")
+    print("===========================")
     time.sleep(1)
     scenario16()
     time.sleep(1)
@@ -1097,7 +1101,8 @@ def main():
     flower()
 
     print("===========================")
-    input("☆｡⁠⁠✧.* ~ Day 5 ~ *⁠.⁠✧｡⁠☆")
+    input("   ☆｡⁠⁠✧.* ~ Day 5 ~ *⁠.⁠✧｡⁠☆")
+    print("===========================")
     time.sleep(1)
     scenario21()
     time.sleep(1)
@@ -1115,7 +1120,8 @@ def main():
     flower()
 
     print("===========================")
-    input("☆｡⁠⁠✧.* ~ Day 6 ~ *⁠.⁠✧｡⁠☆")
+    input("   ☆｡⁠⁠✧.* ~ Day 6 ~ *⁠.⁠✧｡⁠☆")
+    print("===========================")
     time.sleep(1)
     scenario26()
     time.sleep(1)
@@ -1134,7 +1140,8 @@ def main():
     flower()
 
     print("===========================")
-    input("☆｡⁠⁠✧.* ~ Day 7 ~ *⁠.⁠✧｡⁠☆")
+    input("   ☆｡⁠⁠✧.* ~ Day 7 ~ *⁠.⁠✧｡⁠☆")
+    print("===========================")
     time.sleep(1)
     scenario31()
     time.sleep(1)
@@ -1152,7 +1159,8 @@ def main():
     flower()
 
     print("===========================")
-    input("Day of confession.")
+    input("     Day of confession.")
+    print("===========================")
     time.sleep(1)
     final()
     time.sleep(4)
