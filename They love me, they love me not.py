@@ -144,7 +144,7 @@ def scenario5():
         input("The whole walk home, both of you enjoyed each other's presence, cackling about silly jokes and talking as if your normal friends, and you felt as if your face was red the entire time.\nYou finally reached your destination, as you see them with a disappointed expression.\nYou give them a final wave, as they struck you with another sincere smile, waving back.\nYou think you both enjoyed that interaction.")
         lovemeter = lovemeter + 6
     elif choice == "C" or choice == "c":
-        input("You're face becomes flushed from sheer embarassment, yet seeing them smile makes u forget all about it, laughing with them in the process.\nThe whole walk home felt pretty normal; the conversations sometimes felt awkward, but in a good way.\nYou finally arrive at your destination, and they flash you with their gentle smile.\nYou reciprocate them with a smile of yours and leave.\n You think you both felt it was a pleasant interaction between you both.")
+        input("Your face becomes flushed from sheer embarrassment, yet seeing them smile makes you forget all about it, laughing with them in the process.\nThe whole walk home felt pretty normal; the conversations sometimes felt awkward, but in a good way.\nYou finally arrive at your destination, and they flash you with their gentle smile.\nYou reciprocate them with a smile of yours and leave.\n You think you both felt it was a pleasant interaction between you both.")
         lovemeter = lovemeter + 4
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -780,7 +780,7 @@ def final():
         with open(filename, 'r') as file:
             data = json.load(file)
 
-        if lovemeter < 5:
+        if lovemeter < 0:
             print("\nThe sunset was beyond you both, its golden rays fell on their perfect face.\nThe air was cold and humid, and you felt yourself shivering, not because of the cold, but because it was time for you to let out the feelings you’ve been meaning to say for a year.\nYou take a deep breath and look at them, staring right back at you expectantly, and there, you pour out everything.\nFrom the day you first fell in love with them, to the week you’ve both spent being together.\nEvery word.\nEvery smile.\nEvery moment.\nEverything.\nAnd finally, you say the three magic words.\n\n“I love you.”\n\nYet after you said the phrase that’s been eating you up all year, you saw their eyes narrow, as you see them looking at you with pure utter disgust.\nYou could feel their resentment towards you, and you come to regret everything you’ve just said.\nYour chest starts tightening up and your heart starts pounding as if it’s going to flee from your chest at any moment.\nYou panic, stumbling your words, as you decide to just apologize in an attempt to nullify the damage, yet you’re cut off by them.\n\n“How could I ever love someone as horrid as you?”\n\nYou feel yourself collapsing from hearing that sentence, as tears start blurring your image of them.\nYou collapse down on the ground, as you hear the sound of their footsteps fading.\nThey left.\nAnd the vivid image of them staring at you with pure resentment haunts you.\n\nIt feels as if your heart is breaking.\n\nYou throw away the gift you were supposed to give them and simply weep.")
             end1 = "Heartbroken"
             for endings in data:
@@ -806,7 +806,7 @@ def final():
             input("Press enter to return to main menu.")
             main_menu()
 
-        elif lovemeter <= 50:
+        elif lovemeter <= 60:
             print("\npolite rejection")
             end3 = "Just friends"
             for endings in data:
@@ -819,7 +819,7 @@ def final():
             input("Press enter to return to main menu.")
             main_menu()
 
-        elif lovemeter <= 75:
+        elif lovemeter <= 100:
             print("\npromise of a future")
             end4 = "Hopeful"
             for endings in data:
@@ -832,7 +832,7 @@ def final():
             input("Press enter to return to main menu.")
             main_menu()
 
-        elif lovemeter <= 100:
+        elif lovemeter <= 150:
             print("\nreciprocation")
             end5 = "Happy"
             for endings in data:

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="Added harsh ending" />
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="adjusted the formatting">
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -319,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774591814807</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="adjusted the formatting">
+      <option name="closed" value="true" />
+      <created>1775445016906</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1775445016906</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,7 +345,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="used json for the endings" />
     <MESSAGE value="enter to return to the main menu" />
     <MESSAGE value="changed function name to &quot;endings&quot;" />
     <MESSAGE value="added flower function" />
@@ -359,6 +369,7 @@
     <MESSAGE value="fixed the spacing :P" />
     <MESSAGE value="ascii art :D" />
     <MESSAGE value="Added harsh ending" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added harsh ending" />
+    <MESSAGE value="adjusted the formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusted the formatting" />
   </component>
 </project>
