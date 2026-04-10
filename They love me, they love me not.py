@@ -347,13 +347,13 @@ def scenario16():
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
-        input("")
+        input("You feel content knowing you both can talk naturally to each other!")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
-        input("")
+        input("Their confused gaze stare at your back, dashing away from embarrassment.")
         lovemeter = lovemeter - 1
     elif choice == "C" or choice == "c":
-        input("")
+        input("They cooly reply with a 'Good morning to you too', and you cry internally because they seem so cool and you're just a tomato. :(")
         lovemeter = lovemeter + 2
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -361,7 +361,7 @@ def scenario16():
 
 def scenario17():
     global lovemeter
-    print("\nBreak finally arrived, and you exited the classroom. As you got in line at the canteen, you suddenly got the idea to buy them a snack, and so you did.\nWalking towards their classroom, you take a deep breath and enter the classroom ( YOU SECTION HOPPER ).\n You see them sitting on their table while looking at their phone.\nA. Come up to them and tap their shoulder, and give them the snacks before walk out.\nB. You choose not to approach him and instead throw the snack toward their table then immediately leave.\nC. Come up to them and start a conversation. When break time is almost over, you give them the snacks and wave bye as you leave.")
+    print("\nBreak finally arrived, and you exited the classroom. As you got in line at the canteen, you suddenly got the idea to buy them a snack, and so you did!\nWalking towards their classroom, you take a deep breath and enter the classroom ( YOU SECTION HOPPER ).\n You see them sitting on their table while looking at their phone.\nA. Come up to them and tap their shoulder, and give them the snacks before walk out.\nB. You choose not to approach him and instead throw the snack toward their table then immediately leave.\nC. Come up to them and start a conversation. When break time is almost over, you give them the snacks and wave bye as you leave.")
     time.sleep(1)
     choice = str(input("What do you do? "))
 
