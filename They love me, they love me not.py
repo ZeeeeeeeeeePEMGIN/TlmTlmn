@@ -683,13 +683,13 @@ def scenario35():
     choice = str(input("What do you do? "))
 
     if choice == "A" or choice == "a":
-        input("After you notify them, you both head towards a garden you're directing them to, as a final place to end the day. \nYou walked around the garden together, taking pictures of individual flowers, and over all have a chill time with them. \nDuring that stroll, you also find out they really like a peculiar flower, insert flower here.\nThe day soon ends and you both say goodbye. \nTomorrow is the day.")
+        input("After you notify them, you both head towards a garden you're directing them to, as a final place to end the day. \nYou walked around the garden together, taking pictures of individual flowers, and over all have a chill time with them. \nDuring that stroll, you also find out they really like a peculiar flower, Zinnias.\nThe day soon ends and you both say goodbye. \nTomorrow is the day.")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
         input("You were headed towards a garden, when you realize they weren't following behind you. \nYou realized you forgot to notify them to go with you as your phone lights up from a notification. \nThey said they decided to leave since you left them all alone abruptly, and you felt you're chest tightening and suffocating you.. \nYou head to the garden you were supposed to both go to and admire flowers alone. \nTomorrow is the day.")
         lovemeter = lovemeter - 3
     elif choice == "C" or choice == "c":
-        input("You make the bold decision to grab their hand, as you head to a garden you thought you'd both like as a final place to end the day. \nYou feel yourself getting more and more flustered, feeling the sensation of their hand, as you both start strolling around the garden together. \nYou admire flowers and plants, still holding their hand, enjoying the time you have left together. \nDuring that stroll, you also find out they really like a peculiar flower, insert flower here. \nThe day soon ends and you both say goodbye. \nTomorrow is the day.")
+        input("You make the bold decision to grab their hand, as you head to a garden you thought you'd both like as a final place to end the day. \nYou feel yourself getting more and more flustered, feeling the sensation of their hand, as you both start strolling around the garden together. \nYou admire flowers and plants, still holding their hand, enjoying the time you have left together. \nDuring that stroll, you also find out they really like a peculiar flower, Zinnias. \nThe day soon ends and you both say goodbye. \nTomorrow is the day.")
         lovemeter = lovemeter + 6
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -748,7 +748,7 @@ def final():
             else:
                 lovemeter = lovemeter + 1
     elif choice == "C" or choice == "c":
-        print("\nA. Azaleas \nB. Hibiscus flowers \nC. Roses\nD. Sunflowers")
+        print("\nA. Azaleas \nB. Asters \nC. Roses\nD. Zinnias")
         second_choice = input("What kind of flowers do you get them? ")
         if charname == "Lordwyn" or "lordwyn":
             if second_choice == "A" or second_choice == "a":
@@ -781,59 +781,65 @@ def final():
             data = json.load(file)
 
         if lovemeter < 0:
-            print("\nThe sunset was beyond you both, its golden rays fell on their perfect face.\nThe air was cold and humid, and you felt yourself shivering, not because of the cold, but because it was time for you to let out the feelings you’ve been meaning to say for a year.\nYou take a deep breath and look at them, staring right back at you expectantly, and there, you pour out everything.\nFrom the day you first fell in love with them, to the week you’ve both spent being together.\nEvery word.\nEvery smile.\nEvery moment.\nEverything.\nAnd finally, you say the three magic words.\n\n“I love you.”\n\nYet after you said the phrase that’s been eating you up all year, you saw their eyes narrow, as you see them looking at you with pure utter disgust.\nYou could feel their resentment towards you, and you come to regret everything you’ve just said.\nYour chest starts tightening up and your heart starts pounding as if it’s going to flee from your chest at any moment.\nYou panic, stumbling your words, as you decide to just apologize in an attempt to nullify the damage, yet you’re cut off by them.\n\n“How could I ever love someone as horrid as you?”\n\nYou feel yourself collapsing from hearing that sentence, as tears start blurring your image of them.\nYou collapse down on the ground, as you hear the sound of their footsteps fading.\nThey left.\nAnd the vivid image of them staring at you with pure resentment haunts you.\n\nIt feels as if your heart is breaking.\n\nYou throw away the gift you were supposed to give them and simply weep.")
+            input("\nThe sunset was beyond you both, its golden rays fell on their perfect face.\nThe air was cold and humid, and you felt yourself shivering, not because of the cold, but because it was time for you to let out the feelings you’ve been meaning to say for a year.\nYou take a deep breath and look at them, staring right back at you expectantly, and there, you pour out everything.\nFrom the day you first fell in love with them, to the week you’ve both spent being together.\nEvery word.\nEvery smile.\nEvery moment.\nEverything.\nAnd finally, you say the three magic words.\n\n“I love you.”\n\n. . .")
+            time.sleep(1)
+            input("Yet after you said the phrase that’s been eating you up all year,\nyou saw their eyes narrow, as you see them looking at you with pure utter disgust.\nYou could feel their resentment towards you, and you come to regret everything you’ve just said.\nYour chest starts tightening up and your heart starts pounding as if it’s going to flee from your chest at any moment.\nYou panic, stumbling your words, as you decide to just apologize in an attempt to nullify the damage, yet you’re cut off by them.\n\n“How could I ever love someone as horrid as you?”\n\nYou feel yourself collapsing from hearing that sentence, as tears start blurring your image of them.\nYou collapse down on the ground, as you hear the sound of their footsteps fading.\nThey left.\nAnd the vivid image of them staring at you with pure resentment haunts you.\n\nIt feels as if your heart is breaking.\n\nYou clutch on to the gift you were supposed to give them and quietly weep.")
             end1 = "Heartbroken"
             for endings in data:
                 endings["ending1"] = "Heartbroken"
             with open(filename, 'w') as file:
                 json.dump(data, file)
-            time.sleep(4)
             print(f"\n{end1} end.")
             print("===========================")
             input("Press enter to return to main menu.")
             main_menu()
 
         elif lovemeter <= 25:
-            print("\nblunt rejection")
+            input(f"\nThe sunset was beyond you and {charname}, as its rays landed on their perfect face, creating a scene that looked straight out of a movie.\nDiverting your eyes away from them, their piercing eyes stare at you expectantly, wondering why you called them here.\nTerrified, you hear the sound of your heart beat ringing in your ears. You couldn’t help but feel afraid.\nHowever, despite your fears and your overwhelming thoughts, you open your mouth and decide to just go for it.\n\nYour story starts on how you initially fell in love with them, and how it grew further and further as the year went by up until the recent week you spent together.\nYou let out everything you’ve kept from them and say everything you’ve been meaning to say all this time.\nAnd tying it all together, you finally say it,\n\n“I love you.”\n\n. . .")
+            time.sleep(1)
+            input("You unintentionally close your eyes in fear, as dread immediately creeps in.\nYou said it. You said everything you wanted to say after a year of longing.\nYet when you opened your eyes to look at them for the last time, your eyes caught the look of pity in their eyes.\nYour chest tightened and your heart felt like it was crying out seeing that.\nFlinching from them opening their mouth, you hear a sentence you were expecting.\n\n“I’m sorry, but I don’t think I feel the same way.”\n\nWith a sad pitiful look from them, you give {charname} a forced, bittersweet smile, as you hold back tears.\nThey wave you goodbye and leave momentarily, as you return with another goodbye.\n\nMaking sure they left, you collapse on the floor.\nCrying, you clutch on to the gift you were supposed to give them, as a sad, bittersweet feeling lingered in your heart.\nHowever, after every tear in your heart has been wiped away, you get up, and instead of feeling helpless,\nyou look up to the golden, setting sun beyond you.\nWith a deep breath, you compose yourself.\nDespite them not reciprocating your feelings, you’re glad that you still took the chance to confess, and who knows?\nMaybe this fateful encounter was meant to happen, and this was merely character development?\n\nBut whatever it was, at least you tried.")
             end2 = "At least I tried"
             for endings in data:
                 endings["ending2"] = "At least I tried"
             with open(filename, 'w') as file:
                 json.dump(data, file)
-            time.sleep(4)
             print(f"\n{end2} end.")
             print("===========================")
             input("Press enter to return to main menu.")
             main_menu()
 
         elif lovemeter <= 60:
-            print("\npolite rejection")
+            input(f"\nClutching on to the gift you’re going to give them, you wait for {charname} expectantly.\nAfter taking a deep breath, your mind starts compiling everything you were meant to say to them over the past year you’ve liked them.\nFrom the day you first laid your eyes on them, to the week you’ve both spent hanging out together.\nYou begin to think back on the decisions you’ve made this past week and trust yourself that you’ve made the right choices.\nWhatever those decisions were, you knew it was going to significantly impact this moment.\nA few minutes later, and there they were.\nTheir expecting eyes watched you while you attempted to compose yourself.\nAfter another deep breath, everything that was hidden finally poured out like a raging flood.\nThe feelings you’ve kept away.\nThe secrets you’ve held in your heart.\nThe emotions you yourself can’t explain whenever you’re with them.\nYou let it all out. And to tie all you have said together, you uttered the final words,\n\n“I love you.”\n\n. . .")
+            time.sleep(1)
+            input("\nYou felt a wave of relief at some point. That is, until you looked into their eyes.\nIs it... pity? No, something about the way their gaze locked onto yours felt rather bittersweet.\nSuddenly, you start panicking.\nWas this a mistake?\nShould I have done this?\nWhile you are contemplating everything, your thoughts pause from hearing their soft voice, reaching you amidst your sea of thoughts.\n\n“Look, you're really cool and all, but...”\n\n“To be completely honest, I only see you as a friend.”\n\nYou felt your chest tighten from that sentence alone. It felt as though your heart was slowly and agonizingly cracking. They continue,\n\n“But I hope this won't change anything. So... friends?”\n\nThey say as they offer their hand as a gesture of companionship.\nYou shake their hand and nod, then suddently you feel tears trickle down your cheeks.\nThey pull you into an embrace and begin to comfort you as you quietly weep; they whisper and console you, telling you that everything will be just fine.\nDespite the bittersweet feeling festering within the fathoms of your heart, you chose to accept the fact you will never be anything more than friends.\nYou might not move on or heal for a while,\nyet you know you must keep going forward.")
             end3 = "Just friends"
             for endings in data:
                 endings["ending3"] = "Just friends"
             with open(filename, 'w') as file:
                 json.dump(data, file)
-            time.sleep(4)
             print(f"\n{end3} end.")
             print("===========================")
             input("Press enter to return to main menu.")
             main_menu()
 
         elif lovemeter <= 100:
-            print("\npromise of a future")
+            input("")
             end4 = "Hopeful"
             for endings in data:
                 endings["ending4"] = "Hopeful"
             with open(filename, 'w') as file:
                 json.dump(data, file)
-            time.sleep(4)
             print(f"\n{end4} end.")
             print("===========================")
             input("Press enter to return to main menu.")
             main_menu()
 
         elif lovemeter <= 150:
-            print("\nreciprocation")
+            input(f"\nSitting in your classroom, you await your impending doom as you watch the clock’s hand intensely, anxiously waiting for dismissal.\nYou take a deep breath once again.\nMinutes upon minutes of tirelessly trying to compose yourself were in vain\nas realization that there were only 5 more minutes until the end of classes struck.\nDread begins overwhelming you, as your thoughts begin convincing you to schedule this for another day; the clock then strikes five.\nThe teacher dismisses you, and your hand goes to grab your bag while your other clutched onto the gift.\n\nPlacing your bag down outside of your classroom, you begin readying yourself physically, mentally, and emotionally (and maybe spiritually).\nWhile preparing youself for your impending doom, your eyes wander outside to find them already stationed, waiting at the amphitheater.\n\nHow were they already there??\n\nYou silently curse under your breath, knowing how underprepared you are. However, you know you can’t keep them waiting for too long.\nAfter slowly counting to ten in your head, you begin to walk towards them, your gait so slow it was almost comparable to a toddler.\nHowever, it was a given. You’re planning to confess after a year of yearning.\nA year of hiding your feelings, emotions. And it’s scary.\nBut it was now or never.\nYour mind begins recalling the decisions you’ve made over the past week, and you finally decide that you should stop being a coward,\nand trust the decisions you’ve made.\nWith newfound confidence, you quicken your pace, and your eyes meet.\nImmediately beaming in your presence, they get up to greet you, and your heart feels it's been struck by Cupid's arrow.\nFor a moment, you felt moonstruck, yet shrugged off the feeling since this wasn’t the time for that; it was time to confess.\nDeclaring the feelings you’ve hidden for so long, you begin saying everything you’ve been meaning to say.\nYou don’t care that your voice was shaking, all that mattered was that you were finally saying it.\nYou utter your kept feelings towards them, the reasons why you love them, and the secrets you’ve bottled up for the longest time.\nYou felt yourself running out of breath.\nAnd to wrap up all you've poured out, your speech ends with an awaited phrase,\n\n“I love you.”\n\n. . .")
+            time.sleep(1)
+            input(f"Your chest tightens; it feels as though something was piercing through your chest.\n\n'Was this a mistake? Maybe I shouldn’t have done this.'\n\nFor a while, {charname} remained quiet, and the silence slowly enveloped the both of you—a far cry from your loud, overthinking thoughts.\nYou hung your head, eyes fixated towards the concrete pavement beneath your feet, not daring to look back up at them.\nMore and more anxious thoughts continued to feed your fear.\nBefore you drown in your sea of thoughts, you hear their voice pull you out of the waters.\n\n“I love you too.”\n\n. . .")
+            time.sleep(1)
+            input(f"\n\n“What?”\n\n“I said I love you too, {username}.”\n\nThere you looked up at {charname}, their smile clearing every negative thought you’ve had before.\nIt was as if everything got renewed in color again.\nThe sun’s golden rays fell upon both your faces.\nThe flowers beside you felt like they bloomed twice, and for the first time, you felt hopeful rather than uneasy.\nAfter a year of loving, yearning, and longing for them, it finally happened. Something you never thought would happen, happened.\nYou remained speechless. It just felt so... surreal.\nFor a while, you couldn’t help but think this was all another delusion of yours.\nBut you knew it came down to either you accepting this reality, or letting your thoughts twist this into 'just another fantasy'.\nWith eventual confidence, you chose the former.\nDiscarding your previous inner thoughts, you feel... hopeful.\nYou both smile from ear to ear, and even they couldn’t believe it.\n\nAfter dozens of flowers plucked,\n\nhundreds of petals fallen,\nthey love you back.")
             end5 = "Happy"
             for endings in data:
                 endings["ending5"] = "Happy"
