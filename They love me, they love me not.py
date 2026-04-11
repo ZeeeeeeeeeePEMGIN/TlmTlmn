@@ -1170,10 +1170,11 @@ def minigame2():
     print("║ ║├─┘├┤ ├┬┘├─┤ │ ││ ││││o    ║ ╦│ │├┤ └─┐└─┐  │││├─┤├─┤ │    │ ├─┤├┤ └┬┘├┬┘├┤    │ ├─┤││││├┴┐│││││ ┬  │ │├┤ │")
     print("╚═╝┴  └─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘o    ╚═╝└─┘└─┘└─┘└─┘  └┴┘┴ ┴┴ ┴ ┴    ┴ ┴ ┴└─┘ ┴ ┴└─└─┘   ┴ ┴ ┴┴┘└┘┴ ┴┴┘└┘└─┘  └─┘└  o")
     print("=======================================================================================")
-    print("Guess what they're thinking about! Guess correctly to gain +4 love! (Total of 6 tries)")
+    print("They want you to try and guess the word they're thinking of! Guess the 7 letter word correctly to gain +4 love! (Total of 7 tries)\n\"✅️\": The letter is in the right spot\n\"➕\": The letter is in the word, but in the wrong spot\n\"❌\": The letter is in the wrong spot\nHint: The word is related to this game!")
     print("=======================================================================================")
-    hidden_word = "flower"
-    attempt = 6
+    words = ["flowers", "confess", "longing", "passion", "choices", "present", "promise"]
+    hidden_word = random.choice(words)
+    attempt = 7
     while attempt > 0:
         guess = str(input("Guess the word: "))
         if guess == hidden_word:
@@ -1187,7 +1188,7 @@ def minigame2():
             print(f"you have {attempt} attempt(s) left.")
             for char, word in zip(hidden_word, guess):
                 if word in hidden_word and word in char:
-                    print(word + " ✔ ")
+                    print(word + " ✅️ ")
                 elif word in hidden_word:
                     print(word + " ➕ ")
                 else:
