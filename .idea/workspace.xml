@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="added minigames!">
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="updated minigame 2!">
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -409,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775896242094</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="updated minigame 2!">
+      <option name="closed" value="true" />
+      <created>1775897336148</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1775897336148</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,7 +432,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comments after each choice" />
     <MESSAGE value="added comments + added scenarios + finished final scenario" />
     <MESSAGE value="changed the json file" />
     <MESSAGE value="fixed a json error in the code" />
@@ -449,6 +456,7 @@
     <MESSAGE value="added day 5 (FINALLY)" />
     <MESSAGE value="continued the secret scene" />
     <MESSAGE value="added minigames!" />
-    <option name="LAST_COMMIT_MESSAGE" value="added minigames!" />
+    <MESSAGE value="updated minigame 2!" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated minigame 2!" />
   </component>
 </project>

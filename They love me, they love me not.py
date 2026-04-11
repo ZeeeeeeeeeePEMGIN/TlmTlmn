@@ -1049,7 +1049,7 @@ def mini_games():
     print("║║║│││││  ║ ╦├─┤│││├┤ └─┐")
     print("╩ ╩┴┘└┘┴  ╚═╝┴ ┴┴ ┴└─┘└─┘")
     print("=======================================================================================")
-    print("❀࿐ Play to try increasing the lovemeter's fixed value!\n(WARNING : The lovemeter's fixed value will reset to 0 after exiting the game)\n\nA. Pick a flower (+2 love)\nB. Operation: Guess what they're thinking of! (+4 love)\nC. How well do you know them? (+6 love)")
+    print("˚˖᪥ Play to try increasing the lovemeter's fixed value!\n(WARNING : The lovemeter's fixed value will reset to 0 after exiting the game)\n\nA. Pick a flower (+2 love)\nB. Operation: Guess what they're thinking of! (+4 love)\nC. How well do you know them? (+6 love)")
     print("=======================================================================================")
     choice = input("Game choice: ")
     if choice == "A" or choice == "a":
@@ -1069,7 +1069,7 @@ def minigame1():
     print("├─┘││  ├┴┐  ├─┤  ├┤ │  │ ││││├┤ ├┬┘ ")
     print("┴  ┴└─┘┴ ┴  ┴ ┴  └  ┴─┘└─┘└┴┘└─┘┴└─o")
     print("=======================================================================================")
-    input("Press enter to pick a flower.")
+    input("˚˖᪥ Press enter to pick a flower.")
     print("=======================================================================================")
     flower_choice = random.randint(1,2)
     if flower_choice == 1:
@@ -1079,7 +1079,7 @@ def minigame1():
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⠛⠉⢇⣀⣸⠁⠀⠉⠳⡄⠀⠀⠀⠀⠀⠀⠀⠀")
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠓⡄⠀⣠⡎⠀⠈⢧⣄⣠⠎⠀⠀⠀⠀⠀⠀⠀⠀⠀")
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠊⠁⣇⣀⡀⡸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-        print("Press enter to pluck a petal.")
+        print("˚˖᪥ Press enter to pluck a petal.")
         print("===========================")
         input("~ They love me...")
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡞⠉⠊⢱⠀⠀⠀⠀⠀")
@@ -1116,7 +1116,7 @@ def minigame1():
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀      ⡷⠒⢧⠀⠀⠀⠀⠀⠀⠀")
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀     ⢇⣀⣸⠀⠀⠀⠀⠀⠀⠀⠀")
         print("=======================================================================================")
-        print("+0 love gained. . .")
+        print("˚˖᪥ +0 love gained. . .")
         input("Press enter to return to the main menu.")
         main_menu()
     else:
@@ -1126,7 +1126,7 @@ def minigame1():
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⠛⠉⢇⣀⣸⠁⠀⠉⠳⡄⠀⠀")
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠓⡄⠀⣠⡎⠀⠈⢧⣄⣠⠎⠀⠀")
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠊⠁⣇⣀⡀⡸⠀⠀⠀")
-        print("Press enter to pluck a petal.")
+        print("˚˖᪥ Press enter to pluck a petal.")
         print("===========================")
         input("~ They love me...")
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀.⡞⠉⠊⢱⠀⠀")
@@ -1158,7 +1158,7 @@ def minigame1():
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀      ⡷⠒⢧⠀⠀⠀⠀⠀⠀⠀")
         print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀     ⢇⣀⣸⠀⠀⠀⠀⠀⠀⠀⠀")
         print("=======================================================================================")
-        print("+2 love gained!")
+        print("˚˖᪥ +2 love gained!")
         lovemeter = 2
         input("Press enter to return to the main menu.")
         main_menu()
@@ -1170,22 +1170,22 @@ def minigame2():
     print("║ ║├─┘├┤ ├┬┘├─┤ │ ││ ││││o    ║ ╦│ │├┤ └─┐└─┐  │││├─┤├─┤ │    │ ├─┤├┤ └┬┘├┬┘├┤    │ ├─┤││││├┴┐│││││ ┬  │ │├┤ │")
     print("╚═╝┴  └─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘o    ╚═╝└─┘└─┘└─┘└─┘  └┴┘┴ ┴┴ ┴ ┴    ┴ ┴ ┴└─┘ ┴ ┴└─└─┘   ┴ ┴ ┴┴┘└┘┴ ┴┴┘└┘└─┘  └─┘└  o")
     print("=======================================================================================")
-    print("They want you to try and guess the word they're thinking of! Guess the 7 letter word correctly to gain +4 love! (Total of 7 tries)\n\"✅️\": The letter is in the right spot\n\"➕\": The letter is in the word, but in the wrong spot\n\"❌\": The letter is in the wrong spot\nHint: The word is related to this game!")
+    print("ᯓ★ They want you to try and guess the word they're thinking of! Guess the 7 letter word correctly to gain +4 love! (Total of 7 tries)\n\"✅️\": The letter is in the right spot\n\"➕\": The letter is in the word, but in the wrong spot\n\"❌\": The letter is in the wrong spot\nHint: The word is related to this game!")
     print("=======================================================================================")
     words = ["flowers", "confess", "longing", "passion", "choices", "present", "promise"]
     hidden_word = random.choice(words)
     attempt = 7
     while attempt > 0:
-        guess = str(input("Guess the word: "))
+        guess = str(input("ᯓ★ Guess the word: "))
         if guess == hidden_word:
-            print("You guessed what they were thinking of!\n+4 love gained!")
+            print("ᯓ★ You guessed what they were thinking of!\n˚˖᪥ +4 love gained!")
             lovemeter = 4
             print("=======================================================================================")
             input("Press enter to return to the main menu.")
             break
         else:
             attempt = attempt - 1
-            print(f"you have {attempt} attempt(s) left.")
+            print(f"ᯓ★ You have {attempt} attempt(s) left.")
             for char, word in zip(hidden_word, guess):
                 if word in hidden_word and word in char:
                     print(word + " ✅️ ")
@@ -1194,7 +1194,7 @@ def minigame2():
                 else:
                     print(word + " ❌ ")
             if attempt == 0:
-                print("You could not guess what they were thinking of...\n+0 love gained...")
+                print("ᯓ★ You could not guess what they were thinking of...\n˚˖᪥ +0 love gained...")
                 print("=======================================================================================")
                 print("Press enter to return to the main menu.")
                 main_menu()
@@ -1207,66 +1207,66 @@ def minigame3():
     print("╠═╣│ ││││  ║║║├┤ │  │     ║║│ │  ╚╦╝│ ││ │  ╠╩╗││││ ││││   ║ ├─┤├┤ │││ ┌┘")
     print("╩ ╩└─┘└┴┘  ╚╩╝└─┘┴─┘┴─┘  ═╩╝└─┘   ╩ └─┘└─┘  ╩ ╩┘└┘└─┘└┴┘   ╩ ┴ ┴└─┘┴ ┴ o")
     print("=======================================================================================")
-    print("We recommend you play this after at least 1 playthrough :)")
+    print("ᯓ★ We recommend you play this after at least 1 playthrough :)")
     choice = input("Continue?\nYes\tor\tNo")
     if choice == "Yes" or choice == "yes":
         score = 0
         print("=======================================================================================")
-        print("Answer questions about them! Get a passing score to gain +6 love! (Total of 5 questions)")
+        print("ᯓ★ Answer questions about them! Get a passing score to gain +6 love! (Total of 5 questions)")
         print("=======================================================================================")
-        print("First question:")
+        print("ᯓ★ First question:")
         time.sleep(1)
-        choice = input("How much does their favorite food cost?\nA. 50\nB. 45\nC. 65\n\nYour answer: ")
+        choice = input("˚˖᪥ How much does their favorite food cost?\nA. 50\nB. 45\nC. 65\n\nYour answer: ")
         if choice == "C" or choice == "c":
-            print("Correct!")
+            print("˚˖᪥ Correct!")
             score = score + 1
         else:
-            print("Incorrect! The answer was C.")
+            print("˚˖᪥ Incorrect! The answer was C.")
         print("===========================")
-        print("Second question:")
+        print("ᯓ★ Second question:")
         time.sleep(1)
-        choice = input("What is their favorite flower?\nA. Zinnias\nB. Sunflowers\nC. Peonies\n\nYour answer: ")
+        choice = input("˚˖᪥ What is their favorite flower?\nA. Zinnias\nB. Sunflowers\nC. Peonies\n\nYour answer: ")
         if choice == "A" or choice == "a":
-            print("Correct!")
+            print("˚˖᪥ Correct!")
             score = score + 1
         else:
-            print("Incorrect! The answer was A.")
+            print("˚˖᪥ Incorrect! The answer was A.")
         print("===========================")
-        print("Third question:")
+        print("ᯓ★ Third question:")
         time.sleep(1)
-        choice = input("What is their favorite animal?\nA. Dogs\nB. Cats\nC. Rabbits\n\nYour answer: ")
+        choice = input("˚˖᪥ What is their favorite animal?\nA. Dogs\nB. Cats\nC. Rabbits\n\nYour answer: ")
         if choice == "B" or choice == "b":
-            print("Correct!")
+            print("˚˖᪥ Correct!")
             score = score + 1
         else:
-            print("Incorrect! The answer was B.")
+            print("˚˖᪥ Incorrect! The answer was B.")
         print("===========================")
-        print("Fourth question:")
+        print("ᯓ★ Fourth question:")
         time.sleep(1)
-        choice = input("Do they like listening to music?\nA. Yes\nB. No\n\nYour answer: ")
+        choice = input("˚˖᪥ Do they like listening to music?\nA. Yes\nB. No\n\nYour answer: ")
         if choice == "A" or choice == "a":
-            print("Correct!")
+            print("˚˖᪥ Correct!")
             score = score + 1
         else:
-            print("Incorrect! The answer was A.")
+            print("˚˖᪥ Incorrect! The answer was A.")
         print("===========================")
-        print("Final question:")
+        print("ᯓ★ Final question:")
         time.sleep(1)
-        choice = input("Do they have a plushie in their room?\nA. Yes\nB. No\n\nYour answer: ")
+        choice = input("˚˖᪥ Do they have a plushie in their room?\nA. Yes\nB. No\n\nYour answer: ")
         if choice == "A" or choice == "a":
-            print("Correct!")
+            print("˚˖᪥ Correct!")
             score = score + 1
         else:
-            print("Incorrect! The answer was A.")
+            print("˚˖᪥ Incorrect! The answer was A.")
         print("=======================================================================================")
         if score >= 3:
-            print(f"Your score is: {score}/5\nYou passed!\n+6 love gained!")
+            print(f"ᯓ★ Your score is: {score}/5\nᯓ★ You passed!\n˚˖᪥ +6 love gained!")
             print("=======================================================================================")
             lovemeter = 6
             input("Press enter to return to the main menu.")
             main_menu()
         else:
-            print(f"Your score is: {score}/5\nYou failed...\n+0 love gained...")
+            print(f"ᯓ★ Your score is: {score}/5\nᯓ★ You failed...\n˚˖᪥ +0 love gained...")
             print("=======================================================================================")
             input("Press enter to return to the main menu.")
             main_menu()
