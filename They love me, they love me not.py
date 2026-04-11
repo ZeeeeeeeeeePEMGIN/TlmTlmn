@@ -9,8 +9,8 @@ def main_menu():
     print("╔╦╗┬ ┬┌─┐┬ ┬  ┬  ┌─┐┬  ┬┌─┐  ┌┬┐┌─┐   ╔╦╗┬ ┬┌─┐┬ ┬  ┬  ┌─┐┬  ┬┌─┐  ┌┬┐┌─┐  ┌┐┌┌─┐┌┬┐")
     print(" ║ ├─┤├┤ └┬┘  │  │ │└┐┌┘├┤   │││├┤     ║ ├─┤├┤ └┬┘  │  │ │└┐┌┘├┤   │││├┤   ││││ │ │ ")
     print(" ╩ ┴ ┴└─┘ ┴   ┴─┘└─┘ └┘ └─┘  ┴ ┴└─┘┘   ╩ ┴ ┴└─┘ ┴   ┴─┘└─┘ └┘ └─┘  ┴ ┴└─┘  ┘└┘└─┘ ┴o")
-    time.sleep(1)
     print("=======================================================================================")
+    time.sleep(1)
     print("A. Start\nB. Locker\nC. Endings\nD. Credits and honorable mentions\nE. Exit")
     print("=======================================================================================")
     time.sleep(1)
@@ -26,6 +26,7 @@ def main_menu():
             print("║ ║││││ │││││││├┤  ││  │  │ ││  ├┴┐├┤ ├┬┘")
             print("╚═╝┘└┘└─┘└┴┘┘└┘└─┘─┴┘  ┴─┘└─┘└─┘┴ ┴└─┘┴└─")
             print("=======================================================================================")
+            time.sleep(1)
             codeguess = input("~ Enter the 4 number code. ")
             if codeguess == code:
                 locker()
@@ -429,7 +430,6 @@ def scenario20():
     else:
         input("Please choose an existing option. (Enter to continue.)")
         scenario20()
-
 # Day 5 - library hangout
 def scenario21():
     global lovemeter
@@ -1132,17 +1132,16 @@ def main():
     if charname == "Zeryl" or charname == "zeryl":
         print("Unless ur a certain camia, she wants nothing to do with u /lh")
     elif charname == "Krisha" or charname == "krisha":
-        print("Unless ur a fictional character, u better GET OUUUUU--")
+        print("If ur not a fictional character, u better GET OUUUUU--/j ( Please stay. :( )")
     elif charname == "Lordwyn" or charname == "lordwyn":
         print("You must be one shady guy...")
-    input(
-            "MINOR WARNING!!!\nThis character has their own fixed persona---If you attempt this with your special someone, it's not guaranteed they'll like you back (ehe)")
 
-    input(
-            f"\nAugust 21, 20xx. One more week until you finally confess.\n\nIt's been a whole year ever since you first laid your eyes on them...\nYou had enough of watching from afar.. This week.. It's going to be different..!\nYou...\nWill make the first move...")
+    input("MINOR WARNING!!!\nThis character has their own fixed persona---If you attempt this with your special someone, it's not guaranteed they'll like you back (ehe)")
+
+    input(f"\nAugust 21, 20xx. One more week until you finally confess.\n\nIt's been a whole year ever since you first laid your eyes on them...\nYou had enough of watching from afar.. This week.. It's going to be different..!\nYou...\nWill make the first move...")
 
     print("===========================")
-    input("   ☆｡⁠⁠✧.* ❀࿐ Day 1 ࿐❀ *⁠.⁠✧｡⁠☆ ")
+    input(" ☆｡⁠⁠✧.* ❀࿐ Day 1 ࿐❀ *⁠.⁠✧｡⁠☆")
     print("===========================")
     time.sleep(1)
     scenario1()
@@ -1164,7 +1163,7 @@ def main():
     flower()
 
     print("===========================")
-    input("   ☆｡⁠⁠✧.* ❀࿐ Day 2 ࿐❀ *⁠.⁠✧｡⁠☆ ")
+    input(" ☆｡⁠⁠✧.* ❀࿐ Day 2 ࿐❀ *⁠.⁠✧｡⁠☆")
     print("===========================")
     time.sleep(1)
     scenario6()
@@ -1186,7 +1185,7 @@ def main():
     flower()
 
     print("===========================")
-    input("   ☆｡⁠⁠✧.* ❀࿐ Day 3 ࿐❀ *⁠.⁠✧｡⁠☆ ")
+    input(" ☆｡⁠⁠✧.* ❀࿐ Day 3 ࿐❀ *⁠.⁠✧｡⁠☆")
     print("===========================")
     time.sleep(1)
     scenario11()
@@ -1208,7 +1207,7 @@ def main():
     flower()
 
     print("===========================")
-    input("   ☆｡⁠⁠✧.* ❀࿐ Day 4 ࿐❀ *⁠.⁠✧｡⁠☆ ")
+    input(" ☆｡⁠⁠✧.* ❀࿐ Day 4 ࿐❀ *⁠.⁠✧｡⁠☆")
     print("===========================")
     time.sleep(1)
     scenario16()
@@ -1230,7 +1229,7 @@ def main():
     flower()
 
     print("===========================")
-    input("   ☆｡⁠⁠✧.* ❀࿐ Day 5 ࿐❀ *⁠.⁠✧｡⁠☆")
+    input(" ☆｡⁠⁠✧.* ❀࿐ Day 5 ࿐❀ *⁠.⁠✧｡⁠☆")
     print("===========================")
     time.sleep(1)
     scenario21()
@@ -1252,7 +1251,7 @@ def main():
     flower()
 
     print("===========================")
-    input("   ☆｡⁠⁠✧.* ❀࿐ Day 6 ࿐❀ *⁠.⁠✧｡⁠☆")
+    input(" ☆｡⁠⁠✧.* ❀࿐ Day 6 ࿐❀ *⁠.⁠✧｡⁠☆")
     print("===========================")
     time.sleep(1)
     scenario26()
@@ -1275,7 +1274,7 @@ def main():
     flower()
 
     print("===========================")
-    input("   ☆｡⁠⁠✧.* ❀࿐ Day 7 ࿐❀ *⁠.⁠✧｡⁠☆")
+    input(" ☆｡⁠⁠✧.* ❀࿐ Day 7 ࿐❀ *⁠.⁠✧｡⁠☆")
     print("===========================")
     time.sleep(1)
     scenario31()
@@ -1297,7 +1296,7 @@ def main():
     flower()
 
     print("===========================")
-    input("   ❀࿐ Day of confession. ࿐❀")
+    input(" ❀࿐ Day of confession. ࿐❀")
     print("===========================")
     time.sleep(1)
     final()

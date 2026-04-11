@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="added the ascii art for the note :P">
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="added secret scene for endings 6-7">
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
     </list>
@@ -370,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775844660548</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="added secret scene for endings 6-7">
+      <option name="closed" value="true" />
+      <created>1775848550972</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1775848550972</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +393,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed comments" />
     <MESSAGE value="fixed issue with main function" />
     <MESSAGE value="fixed issue with main function x2" />
     <MESSAGE value="fixed char comments" />
@@ -410,6 +417,7 @@
     <MESSAGE value="more comments hehe" />
     <MESSAGE value="added designs" />
     <MESSAGE value="added the ascii art for the note :P" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the ascii art for the note :P" />
+    <MESSAGE value="added secret scene for endings 6-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="added secret scene for endings 6-7" />
   </component>
 </project>
