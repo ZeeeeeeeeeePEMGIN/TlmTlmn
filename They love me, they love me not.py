@@ -395,18 +395,19 @@ def scenario18():
 
 def scenario19():
     global lovemeter
-    print("\n❀࿐ While listening to music, you remember that they had been sick yesterday. Recalling the events that took place the other day, you decided to ask them how they were doing.\nA. \nB. \nC. ")
+    global username
+    print("\n❀࿐ While listening to music, you remember that they had been sick yesterday. Recalling the events that took place the other day, you decided to ask them how they were doing.\nA. 'How are you feeling.'\nB. 'So uh... H-how're you doing?'\nC. 'Hey, uh... Are you feeling better now?'")
     time.sleep(1)
     choice = str(input("~ What do you do? "))
 
     if choice == "A" or choice == "a":
-        print("❀࿐ ")
-        lovemeter = lovemeter - 1
+        print("❀࿐ 'Much better,' they replied. 'Thanks for... asking?' They weren't sure if your statement was even a question,\nbut they appreciated your concern regardless.")
+        lovemeter = lovemeter + 1
     elif choice == "B" or choice == "b":
-        print("❀࿐ ")
+        print("❀࿐ 'I'm doing alright,' they replied. They smiled wider at your awkwardness, seeming to find it amusing.")
         lovemeter = lovemeter + 2
     elif choice == "C" or choice == "c":
-        print("❀࿐ ")
+        print(f"❀࿐ They nod, a small smirk on their face as they teased, 'I feel much better now. It's all thanks to you, Dr. {username}'.")
         lovemeter = lovemeter + 4
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -433,18 +434,18 @@ def scenario20():
 # Day 5 - library hangout
 def scenario21():
     global lovemeter
-    print("\n❀࿐ #scenario\nA. \nB. \nC. .")
+    print("\n❀࿐ It is now afternoon. After finishing your club activities, you decide to hang out in the library to continue reading the new book you bought! While writing your name in the logbook, you catch them standing in line behind you. They smile and greet you when as you lock eyes.\nA. You quickly turn your head and ignore them.\nB. You greet them back, albeit shyly.\nC. Caught off guard, you greet them nervously, stumbling over your words.")
     time.sleep(1)
     choice = str(input("~ What do you do? "))
 
     if choice == "A" or choice == "a":
-        print("❀࿐ ")
+        print("❀࿐ They seem hurt at being ignored.")
         lovemeter = lovemeter - 1
     elif choice == "B" or choice == "b":
-        print("❀࿐ ")
+        print("❀࿐ They smile cooly at your reply, nodding in acknowledgement.")
         lovemeter = lovemeter + 4
     elif choice == "C" or choice == "c":
-        print("❀࿐ ")
+        print("❀࿐ They chuckle softly at your nervous, stuttered reply.")
         lovemeter = lovemeter + 2
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -452,18 +453,18 @@ def scenario21():
 
 def scenario22():
     global lovemeter
-    print("\n❀࿐ #scenario\nA. \nB. \nC. .")
+    print("\n❀࿐ You take a seat in the library and begin to read the book. Deeply invested in the book, you didn't notice that they took a seat beside you.\nThey suddenly lean over with intrigue and ask, 'What are you reading?'\nA. 'None of your business.'\nB. Start yapping about the book you got with the passion of a sailor.\nC. 'Oh, it's one of my favorites, [insert book name]'.")
     time.sleep(1)
     choice = str(input("~ What do you do? "))
 
     if choice == "A" or choice == "a":
-        print("❀࿐ ")
+        print("❀࿐ They blink, retracting as they murmur under their breath, 'just asking...' They didn't seem to enjoy that exchange.")
         lovemeter = lovemeter - 1
     elif choice == "B" or choice == "b":
-        print("❀࿐ ")
+        print("❀࿐ Despite being caught off guard by your sudden yapping sesh, they chuckle and listen intently.")
         lovemeter = lovemeter + 4
     elif choice == "C" or choice == "c":
-        print("❀࿐ ")
+        print("❀࿐ 'Is it good?' They ask, clearly interested. You begin to tell them small details about the story.")
         lovemeter = lovemeter + 2
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -471,37 +472,56 @@ def scenario22():
 
 def scenario23():
     global lovemeter
-    print("\n❀࿐ #scenario\nA. \nB. \nC. .")
-    time.sleep(1)
-    choice = str(input("~ What do you do? "))
+    if lovemeter >= 60:
+        print("\n❀࿐ After a long moment of silence, they begin eating a small snack. You them remember that you haven't eaten lunch yet and suddenly, you feel hungry.\nThey glance at you, noticing your hunger, and offer to give you a snack.\nA. Nod shyly and accept their offer.\nB. Accept their offer with a bright smile on your face.\nC. Stare at them in silence for a moment before awkwardly nodding.")
+        time.sleep(1)
+        choice = str(input("~ What do you do? "))
 
-    if choice == "A" or choice == "a":
-        print("❀࿐ ")
-        lovemeter = lovemeter + 2
-    elif choice == "B" or choice == "b":
-        print("❀࿐ ")
-        lovemeter = lovemeter + 4
-    elif choice == "C" or choice == "c":
-        print("❀࿐ ")
-        lovemeter = lovemeter - 1
-    else:
-        input("Please choose an existing option. (Enter to continue.)")
-        scenario23()
+        if choice == "A" or choice == "a":
+            print("❀࿐ They slide the other snack towards you, watching with a smile as you gingerly accept it.")
+            lovemeter = lovemeter + 2
+        elif choice == "B" or choice == "b":
+            print("❀࿐  They slide the other snack towards you, a small smile on their face as you begin munching happily.")
+            lovemeter = lovemeter + 4
+        elif choice == "C" or choice == "c":
+            print("❀࿐ They seemed somewhat amused at your awkward reply and slide the snack towards you.")
+            lovemeter = lovemeter + 1
+        else:
+            input("Please choose an existing option. (Enter to continue.)")
+            scenario23()
+
+    elif lovemeter < 60:
+        print("\n❀࿐ After a long moment of silence, they slide your favorite snack towards you. They seemed to be initiating a lot today...\nA. Ask, 'For me?' and then take the snack.\nB. Ask, 'Is this for me?' and follow up with, 'How'd you know this is my fav snack?'\nC. Don't take the snack because what if they just put it there and it's for them. :( ( you overthinker )")
+        time.sleep(1)
+        choice = str(input("~ What do you do? "))
+
+        if choice == "A" or choice == "a":
+            print("❀࿐ They nod at your question. A smile graces their face as they notice your grateful expression.")
+            lovemeter = lovemeter + 2
+        elif choice == "B" or choice == "b":
+            print("❀࿐ They nod at your question. They seemed to tense up when you asked them the second question.\nThey laughed nervously and said, 'Lucky guess.'")
+            lovemeter = lovemeter + 4
+        elif choice == "C" or choice == "c":
+            print("❀࿐ They keep glancing at you, wondering why you're not taking the snack. 'It's for you,' they eventually say with a small smile.\n'Me?' You ask before you quietly take the snack, grateful.")
+            lovemeter = lovemeter + 1
+        else:
+            input("Please choose an existing option. (Enter to continue.)")
+            scenario23()
 
 def scenario24():
     global lovemeter
-    print("\n❀࿐ #scenario\nA. \nB. \nC. .")
+    print("\n❀࿐ As you neared the end of your book, you decide that you should wrap up your reading session for today.\nIt seems that they were gonna stay here a little longer to read...\nA. Shyly wave goodbye to them.\nB. Leave without saying anything.\nC. Before leaving, tell them 'bye bye' and wave to them as you walk out.")
     time.sleep(1)
     choice = str(input("~ What do you do? "))
 
     if choice == "A" or choice == "a":
-        print("❀࿐ ")
+        print("❀࿐ They smile and wave back at you as you leave.")
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
-        print("❀࿐ ")
+        print("❀࿐ They look up as you walk off, giving you a small unreciprocated wave.")
         lovemeter = lovemeter - 1
     elif choice == "C" or choice == "c":
-        print("❀࿐ ")
+        print("❀࿐ They reply with a 'goodbye' and wave back with a smile.")
         lovemeter = lovemeter + 4
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -509,19 +529,19 @@ def scenario24():
 
 def scenario25():
     global lovemeter
-    print("\n❀࿐ It’s once again the end of classes, and you exit your classroom. Heading outside, you realize that it’s raining and pull out your umbrella from your bag. Before you could open it and leave, you catch them standing near the entrance, shivering from the cold air. They seemed to not have an umbrella and was waiting for the rain to clear.\nA. Give them your umbrella and accept the fact you’ll just run home drenched.\nB. Walk up to them, offer to share your umbrella, and walk them home.\nC. Look at them for a few seconds and contemplate whether or not to give them your umbrella. You decide not to and leave.")
+    print("\n❀࿐ It’s once again the end of classes, and you exit your classroom. Heading outside, you realize that it’s raining and pull out your umbrella from your bag. Before you could open it and leave, you catch them standing near the entrance, shivering from the cold air. They seemed to not have an umbrella and was waiting for the rain to clear.\nA. Give them your umbrella and accept the fact you’ll just run home drenched.\nB. Walk up to them, offer to share your umbrella, and walk them home.\nC. Walk up to them and contemplate whether or not to give them your umbrella. You decide not to and leave.")
     time.sleep(1)
     choice = str(input("~ What do you do? "))
 
     if choice == "A" or choice == "a":
-        input("❀࿐ They stare at you for a moment before stopping you, offering to walk home together so you wouldn't get sick.\nYou feel your ears flush as they chuckled at your awkward nod.")
+        input("❀࿐ They stare at you for a moment before stopping you, offering to walk home together so you wouldn't get sick.\nYou feel your ears flush as they chuckle at your awkward nod.")
         lovemeter = lovemeter + 4
     elif choice == "B" or choice == "b":
-        print("❀࿐ ")
+        print("❀࿐ As you offer to share your umbrella, they smile in relief. The two of you talk on the way home, and you couldn't help but feel like they seemed content. This interaction ended up keeping you up at night.")
         lovemeter = lovemeter + 6
     elif choice == "C" or choice == "c":
-        print("❀࿐ ")
-        lovemeter = lovemeter - 3
+        print("❀࿐ They seem to perk up as you approach them, but when you suddenly turn away, a sense of false hope washes over them.\nFor a second, they thought you would share your umbrella. They guessed wrong.")
+        lovemeter = lovemeter - 2
     else:
         input("Please choose an existing option. (Enter to continue.)")
         scenario25()
@@ -1023,7 +1043,7 @@ def creds():
 def flower():
     global lovemeter
 
-    if lovemeter < 75:
+    if lovemeter <= 60:
         print("┌─┐┬┌─┐┬┌─  ┌─┐  ┌─┐┬  ┌─┐┬ ┬┌─┐┬─┐ ")
         print("├─┘││  ├┴┐  ├─┤  ├┤ │  │ ││││├┤ ├┬┘ ")
         print("┴  ┴└─┘┴ ┴  ┴ ┴  └  ┴─┘└─┘└┴┘└─┘┴└─o")
@@ -1072,7 +1092,7 @@ def flower():
         print("===========================")
         input("Press enter to continue.")
 
-    elif lovemeter >= 75:
+    elif lovemeter > 60:
         print("┌─┐┬┌─┐┬┌─  ┌─┐  ┌─┐┬  ┌─┐┬ ┬┌─┐┬─┐ ")
         print("├─┘││  ├┴┐  ├─┤  ├┤ │  │ ││││├┤ ├┬┘ ")
         print("┴  ┴└─┘┴ ┴  ┴ ┴  └  ┴─┘└─┘└┴┘└─┘┴└─o")
