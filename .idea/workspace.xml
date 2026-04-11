@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="added day 5 (FINALLY)">
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="continued the secret scene">
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -393,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775888410063</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="continued the secret scene">
+      <option name="closed" value="true" />
+      <created>1775890208899</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1775890208899</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +416,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed char comments" />
     <MESSAGE value="added spaces after every situation" />
     <MESSAGE value="comments after each choice" />
     <MESSAGE value="added comments + added scenarios + finished final scenario" />
@@ -433,6 +440,7 @@
     <MESSAGE value="added secret scene for endings 6-7" />
     <MESSAGE value="fixed text formatting + moved around the time.sleep" />
     <MESSAGE value="added day 5 (FINALLY)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added day 5 (FINALLY)" />
+    <MESSAGE value="continued the secret scene" />
+    <option name="LAST_COMMIT_MESSAGE" value="continued the secret scene" />
   </component>
 </project>
