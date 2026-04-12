@@ -35,7 +35,7 @@ def main_menu():
                 print("=======================================================================================")
                 print("~ Incorrect. Return to menu?")
                 time.sleep(1)
-                next_move = input("Yes\tor\tNo\n")
+                next_move = input("Yes\tor\tNo\nNext move: ")
                 if next_move == "Yes" or next_move == "yes":
                     main_menu()
     elif choice == "To where they promised.":
@@ -47,6 +47,12 @@ def main_menu():
     elif choice == "E" or choice == "e":
         mini_games()
     elif choice == "F" or choice == "f":
+        print("=======================================================================================")
+        print("╔═╗┌─┐┌┬┐┌─┐  ╔═╗┬  ┌─┐┌─┐┬┌┐┌┌─┐   ")
+        print("║ ╦├─┤│││├┤   ║  │  │ │└─┐│││││ ┬   ")
+        print("╚═╝┴ ┴┴ ┴└─┘  ╚═╝┴─┘└─┘└─┘┴┘└┘└─┘ooo")
+        print("=======================================================================================")
+        time.sleep(3)
         quit()
     else:
         print("~ That path does not exist.")
@@ -970,12 +976,12 @@ def wedsecret():
 
 def locker():
     print("=======================================================================================")
-    choice = input("~ Go through the locker?\nYes\tor\tNo\n")
+    choice = input("~ Go through the locker?\nYes\tor\tNo\nNext move: ")
     print("=======================================================================================")
     if choice == "yes" or choice == "Yes":
         print("❀࿐ You found: Note!")
         print("❀࿐ You found a note with a red ribbon tied around it.")
-        second_choice = input("~ Untie it and read?\nYes\tor\tNo\n")
+        second_choice = input("~ Untie it and read?\nYes\tor\tNo\nNext move: ")
         print("=======================================================================================")
         if second_choice == "yes" or second_choice == "Yes":
             print("❀࿐ You open it and see:")
