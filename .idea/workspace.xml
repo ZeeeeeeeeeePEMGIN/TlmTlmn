@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="added designs to all minigame functions">
-      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="Finished an ending!">
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -426,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775898045653</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Finished an ending!">
+      <option name="closed" value="true" />
+      <created>1775992892420</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1775992892420</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,7 +448,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed the json file" />
     <MESSAGE value="fixed a json error in the code" />
     <MESSAGE value="added an exit option in the main menu" />
     <MESSAGE value="fixed an error in scenarios + added more options in final scenario" />
@@ -466,6 +472,7 @@
     <MESSAGE value="added minigames!" />
     <MESSAGE value="updated minigame 2!" />
     <MESSAGE value="added designs to all minigame functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added designs to all minigame functions" />
+    <MESSAGE value="Finished an ending!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished an ending!" />
   </component>
 </project>

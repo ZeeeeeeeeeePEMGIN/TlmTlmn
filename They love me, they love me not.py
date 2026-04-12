@@ -1568,5 +1568,3 @@ def main():
         main_menu()
 
 main_menu()
-
-# all that's left to complete: ending 4, and secret ending 6 and 8
