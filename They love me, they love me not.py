@@ -833,6 +833,7 @@ def final():
                 endings["ending1"] = "Heartbroken"
             with open(filename, 'w') as file:
                 json.dump(data, file)
+            print("=======================================================================================")
             print(f"\n{end1} end.")
             print("===========================")
 
@@ -845,6 +846,7 @@ def final():
                 endings["ending2"] = "At least I tried"
             with open(filename, 'w') as file:
                 json.dump(data, file)
+            print("=======================================================================================")
             print(f"\n{end2} end.")
             print("===========================")
 
@@ -857,6 +859,7 @@ def final():
                 endings["ending3"] = "Just friends"
             with open(filename, 'w') as file:
                 json.dump(data, file)
+            print("=======================================================================================")
             print(f"\n{end3} end.")
             print("===========================")
 
@@ -869,6 +872,7 @@ def final():
                 endings["ending4"] = "Hopeful"
             with open(filename, 'w') as file:
                 json.dump(data, file)
+            print("=======================================================================================")
             print(f"\n{end4} end.")
             print("===========================")
 
@@ -881,10 +885,12 @@ def final():
             end5 = "Happy"
             for endings in data:
                 endings["ending5"] = "Happy"
-                with open(filename, 'w') as file:
-                    json.dump(data, file)
+            with open(filename, 'w') as file:
+                json.dump(data, file)
+            print("=======================================================================================")
             time.sleep(4)
             print(f"\n{end5} end.")
+            print("===========================")
 
         else:
             yansecret()
@@ -917,7 +923,7 @@ def yansecret():
 
             with open(filename, 'w') as file:
                 json.dump(data, file)
-
+            print("=======================================================================================")
             print(f"\n{end6} end.")
             print("===========================")
 
@@ -928,7 +934,7 @@ def yansecret():
                 endings["secretend2"] = "Won't work out anymore"
             with open(filename, 'w') as file:
                 json.dump(data, file)
-
+            print("=======================================================================================")
             print(f"\n{end7} end.")
             print("===========================")
 
@@ -952,6 +958,7 @@ def wedsecret():
         with open(filename, 'w') as file:
             json.dump(data, file)
         time.sleep(4)
+        print("=======================================================================================")
         print(f"\n{end8} end.")
         print("===========================")
         input("~ Press enter to return to main menu.")
