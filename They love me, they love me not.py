@@ -448,7 +448,7 @@ def scenario21():
     choice = str(input("~ What do you do? "))
 
     if choice == "A" or choice == "a":
-        print("❀࿐ They seem hurt at being ignored.")
+        print("❀࿐ They seem hurt at being ignored. You feel terrible :(")
         lovemeter = lovemeter - 1
     elif choice == "B" or choice == "b":
         print("❀࿐ They smile cooly at your reply, nodding in acknowledgement.")
