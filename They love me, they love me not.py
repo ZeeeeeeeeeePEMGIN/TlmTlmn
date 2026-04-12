@@ -360,18 +360,18 @@ def scenario16():
 
 def scenario17():
     global lovemeter
-    print("\n❀࿐ Break finally arrived, and you exited the classroom. As you got in line at the canteen, you suddenly got the idea to buy them a snack, and so you did!\nWalking towards their classroom, you take a deep breath and enter the classroom ( YOU SECTION HOPPER ).\n You see them sitting on their table while looking at their phone.\nA. Come up to them and tap their shoulder, and give them the snacks before walk out.\nB. You choose not to approach him and instead throw the snack toward their table then immediately leave.\nC. Come up to them and start a conversation. When break time is almost over, you give them the snacks and wave bye as you leave.")
+    print("\n❀࿐ Break finally arrived, and you exited the classroom. As you got in line at the canteen, you suddenly got the idea to buy them a snack, and so you did!\nWalking towards their classroom, you take a deep breath and enter the classroom ( YOU SECTION HOPPER ).\n You see them sitting on their table while looking at their phone.\nA. Come up to them and tap their shoulder, and give them the snacks before walking out.\nB. You choose not to approach them and instead throw the snack toward their table then immediately leave.\nC. Come up to them and start a conversation. When break time is almost over, you give them the snacks and wave bye as you leave.")
     time.sleep(1)
     choice = str(input("~ What do you do? "))
 
     if choice == "A" or choice == "a":
-        print("❀࿐ ")
+        print("❀࿐ They seemed grateful, but before they could say thank you, you nervously left.")
         lovemeter = lovemeter + 2
     elif choice == "B" or choice == "b":
-        print("❀࿐ ")
+        print("❀࿐ You quickly left and didn't turn back, but you felt oddly bad.")
         lovemeter = lovemeter - 1
     elif choice == "C" or choice == "c":
-        print("❀࿐ ")
+        print("❀࿐ They seemed to enjoy your conversation, and was grateful for the snacks.")
         lovemeter = lovemeter + 4
     else:
         input("Please choose an existing option. (Enter to continue.)")
@@ -423,10 +423,10 @@ def scenario20():
     choice = str(input("~ What do you do? "))
 
     if choice == "A" or choice == "a":
-        print("❀࿐ ")
+        print("❀࿐ They seemed to perk up at you cheering for their team despite everyone else cheering for the opposing team.\nMotivated, they ended up carrying their team to victory!")
         lovemeter = lovemeter + 6
     elif choice == "B" or choice == "b":
-        print("❀࿐ ")
+        print("❀࿐ You had fun watching their game, and while they didn't win, they seemed like they genuinely had fun.")
         lovemeter = lovemeter + 4
     elif choice == "C" or choice == "c":
         input("❀࿐ They notice your intense gaze at THEM only and begin to get nervous. They made many mistakes during their game and feel guilty for their team's loss.")
@@ -743,7 +743,7 @@ def final():
     global lovemeter
     global charname
     global username
-    print("\n❀࿐ Today is the day. Confession day. You don't know what's going to happen; however you trust in the choices you've made this entire week. \nBefore you go, you realize you should, of course, buy something to give during your confession. \nA. Plushie\nB. Sweets\nC. A bouquet of flowers")
+    print("\n❀࿐ Today is the day. Confession day. You don't know what's going to happen; however you trust in the choices you've made this entire week.\nBefore you go, you realize you should, of course, buy something to give during your confession. \nA. Plushie\nB. Sweets\nC. A bouquet of flowers")
     choice = input("\n~ What do you get them? ")
     if choice == "A" or choice == "a":
         print("A. A fluffy and derpy black cat plushie\nB. A cute blue penguin plushie\nC. A fluffy and cute purple cat plushie\nD. A chonky pufferfish plusie")
@@ -898,7 +898,7 @@ def yansecret():
     global username
     input(f"\n𓇢𓆸 Waiting for {charname}’s class to end, you fidget with the gift you bought for them while looking around at the surrounding greenery.\nYou look at your phone, checking the time. You notice that it's about time their class ends.\nYou take deep breaths while looking around to see if they're near.\nYou then spot them coming closer and your heart starts beating uncontrollably from your chest like it wants to jump out.\nAs they get closer to the amphitheatre, you start panicking, thinking of all the scenarios that could happen.\nYou stand up and wait for them to get closer, afraid of what’s going to happen.\nYou look up at them, staring at you intensely with an almost lovesick gaze.\nTheir smile was saccharine sweet. You feel rather... uneasy?\nYou’re unsure what to say anymore, but you gesture at them to sit beside you.\nYou end up confessing smoothly, pouring out everything you’ve felt from the very first day you both met, to this week you’ve spent together.\nAs you rant about your feelings and emotions you've held for them, you notice their gaze fixated on you.\nThey were wearing a rather wide smile on their face.\nYou pause for a moment, a bit creeped out, before finishing off your rant with a final,\n\n“I love you,”\n\nto really set in stone how you feel towards them.\nAfter you utter the final words, they abruptly grab both of your hands,\nand stare into your eyes with sheer joy—joy that seemed... crazed, in a way.\n\n“I love you too!”\n\nThey quickly reply. Too quickly. It was like they knew you were going to confess.\nDespite their odd actions, you feel ecstatic knowing they loved you back.\n\n\n. . .")
     time.sleep(2)
-    input(f"\n\n\nIt's been about a year since you confessed. You and {charname}'s relationship has been smooth sailing. Until...\nOne day, you find yourself talking with an old friend from elementary while you were out on a walk in the park with {charname}. They feel oddly still beside you as you chat with your friend. After a couple exchanged goodbyes, your friend takes their leave. {charname} suddenly tells you that they need to use the restroom and excuse themself.\n\nIt's been a while since they went to the restroom. Where were they?\nAfter another ten minutes pass, you decide to start looking for them.\nOf course, your first thought was to check the public restrooms. However, they didn't seem to be there.\nA. Stay in place and try to figure out what happened.\nB.  Quickly and quietly leave the scene.")
+    input(f"\n\n\nIt's been about a year since you confessed. You and {charname}'s relationship has been smooth sailing. Until...\nOne day, you find yourself talking with an old friend from elementary while you were out on a walk in the park with {charname}. They feel oddly still beside you as you chat with your friend. After a couple exchanged goodbyes, your friend takes their leave. {charname} suddenly tells you that they need to use the restroom, and they quickly walk off and excuse themself.\n\nIt's been a while since they went to the restroom. Where were they?\nAfter another ten minutes pass, you decide to start looking for them.\nOf course, your first thought was to check the public restrooms. However, they didn't seem to be there.\nBefore you left, you smelled a strange stench in the air. You turned and concluded that the smell was coming from the alleyway near the public restrooms.\nCuriosity took over your body and you decide to investigate.\nWhat you saw next made you wanna throw up.\nA pool of blood, and your old friend laying there. You knew exactly who was the culprit. You decide to. . .\nA. Stay in place and try to figure out what happened.\nB.  Quickly and quietly leave the scene.")
     choice = str(input("\n~ What is your choice? . . . "))
 
     try:  # checks for errors
@@ -920,7 +920,7 @@ def yansecret():
             print("===========================")
 
         else:
-            input("\n𓇢𓆸 breakup scene")
+            input("\n𓇢𓆸 You quickly fled from the scene and called the cops shortly after. It felt as though you made the right choice.\nAfter a while, they found you sitting on a bench. You froze, and you knew exactly what you had to do.\nWatching them beam as they approach you made your heart ache. But you knew you couldn't go on with the relationship.\n\nYou stood up, approaching them with a grim expression. Noticing the serious atmosphere, they fell silent.\nThey looked anxious. Then, you began by telling them that you had something important to say.\nAs you went on, recalling how much you enjoyed every minute of their company, they seemed to get more and more anxious. Then, you finally said the words.\n\n\"I don't think this is going to work out. I'm sorry, and I truly did love you.\"\nSilence fell over the both of you, and they looked heartbroken. As horrible as you felt, you know what they did.\nAnd you knew that as long as you two were together, the worse things they'll end up doing.\nSo, without saying anything else, you quietly turned and left.")
             end7 = "Won't work out anymore"
             for endings in data:
                 endings["secretend2"] = "Won't work out anymore"
@@ -1568,3 +1568,5 @@ def main():
         main_menu()
 
 main_menu()
+
+# all that's left to complete: ending 4, and secret ending 6 and 8
