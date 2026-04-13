@@ -1401,7 +1401,7 @@ def main():
     if charname == "Zeryl" or charname == "zeryl":
         print("Unless ur a certain camia, she wants nothing to do with u /lh")
     elif charname == "Krisha" or charname == "krisha":
-        print("If ur not a fictional character, u better GET OUUUUU--/j ( Please stay. :( )")
+        print("Only roses catches this one's eye 👀")
     elif charname == "Lordwyn" or charname == "lordwyn":
         print("You must be one shady guy...")
 
