@@ -1051,7 +1051,7 @@ def creds():
     print("├─┤│ │││││ │├┬┘├─┤├┴┐│  ├┤   │││├┤ │││ │ ││ ││││└─┐")
     print("┴ ┴└─┘┘└┘└─┘┴└─┴ ┴└─┘┴─┘└─┘  ┴ ┴└─┘┘└┘ ┴ ┴└─┘┘└┘└─┘")
     print("=======================================================================================")
-    print("ᯓ★ Ma'am Kaye --- for guiding us through this project and teaching us so we could finish this game!\nᯓ★ insert mention --- \"insert ur statement\" -Krisha\nᯓ★ insert mention --- \"insert ur statement\" -Lordwyn\nᯓ★ Spotify --- \"for giving me music to listen to so i don't go insane\" -Zeryl\nᯓ★ Coffee --- for keeping us awake to finish the game!\nᯓ★ And... you! --- for playing our game :)")
+    print("ᯓ★ Ma'am Kaye --- for guiding us through this project and teaching us so we could finish this game!\nᯓ★ FaceBook --- \"for lettign me stalk people\" -Krisha\nᯓ★ My 20+ crushes --- \"gave me inspiration to never fall for red flags 🤪\" -Lordwyn\nᯓ★ Spotify --- \"for giving me music to listen to so i don't go insane\" -Zeryl\nᯓ★ Coffee --- for keeping us awake to finish the game!\nᯓ★ And... you! --- for playing our game :)")
     print("=======================================================================================")
     input("Press Enter to return to the main menu.")
     main_menu()
