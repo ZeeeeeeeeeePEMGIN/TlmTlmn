@@ -1185,7 +1185,7 @@ def minigame2():
     print("=======================================================================================")
     print("ᯓ★ They want you to try and guess the word they're thinking of! Guess the 7 letter word correctly to gain +4 love! (Total of 7 tries)\n\"✅️\": The letter is in the right spot\n\"➕\": The letter is in the word, but in the wrong spot\n\"❌\": The letter is in the wrong spot\nHint: The word is related to this game!")
     print("=======================================================================================")
-    words = ["flowers", "confess", "longing", "passion", "choices", "present", "promise"]
+    words = ["flowers", "confess", "longing", "passion", "choices", "present", "promise", "honesty", "diverge"]
     hidden_word = random.choice(words)
     attempt = 7
     while attempt > 0:

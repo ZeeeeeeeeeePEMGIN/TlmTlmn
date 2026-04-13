@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="fixed flower and minigame1 functions">
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="edited a comment">
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,22 +73,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771643923112</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Fixed the print format or smthsmth">
-      <option name="closed" value="true" />
-      <created>1771645827680</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1771645827680</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added json file">
-      <option name="closed" value="true" />
-      <created>1771737274389</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1771737274389</updated>
     </task>
     <task id="LOCAL-00004" summary="changed variables">
       <option name="closed" value="true" />
@@ -465,7 +450,23 @@
       <option name="project" value="LOCAL" />
       <updated>1776031939799</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="added more designs">
+      <option name="closed" value="true" />
+      <created>1776032311547</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1776032311547</updated>
+    </task>
+    <task id="LOCAL-00052" summary="edited a comment">
+      <option name="closed" value="true" />
+      <created>1776032378068</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1776032378068</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,8 +481,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adjusted some text errors in the situations" />
-    <MESSAGE value="added day 4 situations" />
     <MESSAGE value="added day 4 situations x2" />
     <MESSAGE value="fixed the spacing :P" />
     <MESSAGE value="ascii art :D" />
@@ -505,6 +504,8 @@
     <MESSAGE value="added final designs :D" />
     <MESSAGE value="added &quot;press enter&quot; after ending sequences" />
     <MESSAGE value="fixed flower and minigame1 functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed flower and minigame1 functions" />
+    <MESSAGE value="added more designs" />
+    <MESSAGE value="edited a comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited a comment" />
   </component>
 </project>
