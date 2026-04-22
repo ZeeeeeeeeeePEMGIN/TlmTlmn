@@ -826,7 +826,7 @@ def final():
 
     try:  # checks for errors
         # opens the json file and saves it in the variable "data"
-        filename = "endings.json"
+        filename = "badges.json"
         with open(filename, 'r') as file:
             data = json.load(file)
 
@@ -902,7 +902,7 @@ def final():
 
     # prints if errors are found
     except FileNotFoundError:
-        print("Error: The file 'endings.json' was not found.")
+        print("Error: The file 'badges.json' was not found.")
     except json.JSONDecodeError as e:
         print(f"Failed to decode JSON: {e}")
 
@@ -916,7 +916,7 @@ def yansecret():
 
     try:  # checks for errors
         # opens the json file and saves it in the variable "data"
-        filename = "endings.json"
+        filename = "badges.json"
         with open(filename, 'r') as file:
             data = json.load(file)
 
@@ -944,14 +944,14 @@ def yansecret():
 
     # prints if errors are found
     except FileNotFoundError:
-        print("Error: The file 'endings.json' was not found.")
+        print("Error: The file 'badges.json' was not found.")
     except json.JSONDecodeError as e:
         print(f"Failed to decode JSON: {e}")
 
 def wedsecret():
     try:  # checks for errors
         # opens the json file and saves it in the variable "data"
-        filename = "endings.json"
+        filename = "badges.json"
         with open(filename, 'r') as file:
             data = json.load(file)
 
@@ -970,7 +970,7 @@ def wedsecret():
 
     # prints if errors are found
     except FileNotFoundError:
-        print("Error: The file 'endings.json' was not found.")
+        print("Error: The file 'badges.json' was not found.")
     except json.JSONDecodeError as e:
         print(f"Failed to decode JSON: {e}")
 
@@ -1022,16 +1022,16 @@ def endings():
     print("=======================================================================================")
     try:  # checks for errors
         # opens the json file and saves it in the variable "data"
-        filename = "endings.json"
+        filename = "badges.json"
         with open(filename, 'r') as file:
             data = json.load(file)
 
         for endings in data:
-            print(f"˚˖᪥ Ending 1: {endings["ending1"]}\n˚˖᪥ Ending 2: {endings["ending2"]}\n˚˖᪥ Ending 3: {endings["ending3"]}\n˚˖᪥ Ending 4: {endings["ending4"]}\n˚˖᪥ Ending 5: {endings["ending5"]}\n˚˖᪥ Ending 6: {endings["secretend1"]}\n˚˖᪥ Ending 7: {endings["secretend2"]}\n˚˖᪥ Ending 8: {endings["secretend3"]}")
+            print(f"˚˖᪥ Ending 1: {endings["ending1"]}\n˚˖᪥ Ending 2: {endings["ending2"]}\n˚˖᪥ Ending 3: {endings["ending3"]}\n˚˖᪥ Ending 4: {endings["ending4"]}\n˚˖᪥ Ending 5: {endings["ending5"]}\n˚˖᪥ Ending 6: {endings["secretend1"]}\n˚˖᪥ Ending 7: {endings["secretend2"]}\n˚˖᪥ Ending 8: {endings["secretend3"]}\n\n˚˖᪥ BADGE OF COMPLETION!: {endings["specialbadge"]}")
 
     # prints if errors are found
     except FileNotFoundError:
-        print("Error: The file 'endings.json' was not found.")
+        print("Error: The file 'badges.json' was not found.")
     except json.JSONDecodeError as e:
         print(f"Failed to decode JSON: {e}")
 

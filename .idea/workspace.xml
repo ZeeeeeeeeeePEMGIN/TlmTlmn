@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="added more words to minigame2">
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="changed the name easter egg thingy">
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/endings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/badges.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +74,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771643923112</updated>
-    </task>
-    <task id="LOCAL-00005" summary="used json for the endings">
-      <option name="closed" value="true" />
-      <created>1771739651847</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1771739651847</updated>
     </task>
     <task id="LOCAL-00006" summary="enter to return to the main menu">
       <option name="closed" value="true" />
@@ -465,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776045217274</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="changed the name easter egg thingy">
+      <option name="closed" value="true" />
+      <created>1776246376498</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1776246376498</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -480,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed the spacing :P" />
     <MESSAGE value="ascii art :D" />
     <MESSAGE value="Added harsh ending" />
     <MESSAGE value="adjusted the formatting" />
@@ -505,6 +506,7 @@
     <MESSAGE value="added more designs" />
     <MESSAGE value="edited a comment" />
     <MESSAGE value="added more words to minigame2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more words to minigame2" />
+    <MESSAGE value="changed the name easter egg thingy" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the name easter egg thingy" />
   </component>
 </project>
