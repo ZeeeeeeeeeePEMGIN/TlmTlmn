@@ -2,6 +2,7 @@ import time
 import json
 import random
 
+endings_collected = 0
 lovemeter = 0
 code = "0828"
 
@@ -837,10 +838,13 @@ def final():
             end1 = "Heartbroken"
             for endings in data:
                 endings["ending1"] = "Heartbroken"
+                if endings["ending1"] != "?":
+                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
             print("=======================================================================================")
             print(f"\n{end1} end.")
+            print(f"{endings_collected}/8 endings collected.")
             print("===========================")
 
         elif lovemeter <= 25:
