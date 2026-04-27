@@ -2,8 +2,7 @@ import time
 import json
 import random
 
-endings_collected = 0
-lovemeter = 0
+lovemeter = -700
 code = "0828"
 
 def main_menu():
@@ -838,21 +837,35 @@ def final():
             end1 = "Heartbroken"
             for endings in data:
                 endings["ending1"] = "Heartbroken"
-                if endings["ending1"] != "?":
-                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
-            print("=======================================================================================")
-            print(f"\n{end1} end.")
-            print(f"{endings_collected}/8 endings collected.")
-            for endings in data:
-                if endings["endings_collected"] == 8:
-                    print("❀࿐ ALL ENDINGS COLLECTED!")
-                    print("˚˖᪥ Special badge has been obtained!")
-                    endings["specialbadge"] = "In the another life..."
-                    with open(filename, 'w') as file:
-                        json.dump(data, file)
-            print("===========================")
+
+            try:  # checks for errors
+                # opens the json file and saves it in the variable "data"
+                filename = "endings_collected.json"
+                with open(filename, 'r') as file:
+                    data = json.load(file)
+
+                for status in data:
+                    if status["ending1"] != "collected":
+                        status["endings_collected"] = status["endings_collected"] + 1
+                with open(filename, 'w') as file:
+                    json.dump(data, file)
+                for status in data:
+                    status["ending1"] = "collected"
+                with open(filename, 'w') as file:
+                    json.dump(data, file)
+                print("=======================================================================================")
+                print(f"\n{end1} end.")
+                for status in data:
+                    print(f"{status["endings_collected"]}/8 endings collected.")
+                print("===========================")
+
+            # prints if errors are found
+            except FileNotFoundError:
+                print("Error: The file 'endings_collected.json' was not found.")
+            except json.JSONDecodeError as e:
+                print(f"Failed to decode JSON: {e}")
 
         elif lovemeter <= 25:
             input(f"\n❀࿐ The sunset was beyond you and {charname}, as its rays landed on their perfect face, creating a scene that looked straight out of a movie.\nDiverting your eyes away from them, their piercing eyes stare at you expectantly, wondering why you called them here.\nTerrified, you hear the sound of your heart beat ringing in your ears. You couldn’t help but feel afraid.\nHowever, despite your fears and your overwhelming thoughts, you open your mouth and decide to just go for it.\n\nYour story starts on how you initially fell in love with them, and how it grew further and further as the year went by up until the recent week you spent together.\nYou let out everything you’ve kept from them and say everything you’ve been meaning to say all this time.\nAnd tying it all together, you finally say it,\n\n“I love you.”\n\n. . .\n\n(Press enter to progress.)")
@@ -861,21 +874,31 @@ def final():
             end2 = "At least I tried"
             for endings in data:
                 endings["ending2"] = "At least I tried"
-                if endings["ending2"] != "?":
-                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
-            print("=======================================================================================")
-            print(f"\n{end2} end.")
-            print(f"{endings_collected}/8 endings collected.")
-            for endings in data:
-                if endings["endings_collected"] == 8:
-                    print("❀࿐ ALL ENDINGS COLLECTED!")
-                    print("˚˖᪥ Special badge has been obtained!")
-                    endings["specialbadge"] = "In the another life..."
-                    with open(filename, 'w') as file:
-                        json.dump(data, file)
-            print("===========================")
+
+            try:  # checks for errors
+                # opens the json file and saves it in the variable "data"
+                filename = "endings_collected.json"
+                with open(filename, 'r') as file:
+                    data = json.load(file)
+                for status in data:
+                    if status["ending2"] != "collected":
+                        status["endings_collected"] = status["endings_collected"] + 1
+                    status["ending2"] = "collected"
+                with open(filename, 'w') as file:
+                    json.dump(data, file)
+                print("=======================================================================================")
+                print(f"\n{end2} end.")
+                for status in data:
+                    print(f"{status["endings_collected"]}/8 endings collected.")
+                print("===========================")
+
+            # prints if errors are found
+            except FileNotFoundError:
+                print("Error: The file 'endings_collected.json' was not found.")
+            except json.JSONDecodeError as e:
+                print(f"Failed to decode JSON: {e}")
 
         elif lovemeter <= 60:
             input(f"\n❀࿐ Clutching on to the gift you’re going to give them, you wait for {charname} expectantly.\nAfter taking a deep breath, your mind starts compiling everything you were meant to say to them over the past year you’ve liked them.\nFrom the day you first laid your eyes on them, to the week you’ve both spent hanging out together.\nYou begin to think back on the decisions you’ve made this past week and trust yourself that you’ve made the right choices.\nWhatever those decisions were, you knew it was going to significantly impact this moment.\nA few minutes later, and there they were.\nTheir expecting eyes watched you while you attempted to compose yourself.\nAfter another deep breath, everything that was hidden finally poured out like a raging flood.\nThe feelings you’ve kept away.\nThe secrets you’ve held in your heart.\nThe emotions you yourself can’t explain whenever you’re with them.\nYou let it all out. And to tie all you have said together, you uttered the final words,\n\n“I love you.”\n\n. . .\n\n(Press enter to progress.)")
@@ -884,21 +907,31 @@ def final():
             end3 = "Just friends"
             for endings in data:
                 endings["ending3"] = "Just friends"
-                if endings["ending3"] != "?":
-                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
-            print("=======================================================================================")
-            print(f"\n{end3} end.")
-            print(f"{endings_collected}/8 endings collected.")
-            for endings in data:
-                if endings["endings_collected"] == 8:
-                    print("❀࿐ ALL ENDINGS COLLECTED!")
-                    print("˚˖᪥ Special badge has been obtained!")
-                    endings["specialbadge"] = "In the another life..."
-                    with open(filename, 'w') as file:
-                        json.dump(data, file)
-            print("===========================")
+
+            try:  # checks for errors
+                # opens the json file and saves it in the variable "data"
+                filename = "endings_collected.json"
+                with open(filename, 'r') as file:
+                    data = json.load(file)
+                for status in data:
+                    status["ending3"] = "collected"
+                    if status["ending3"] != "collected":
+                        status["endings_collected"] = status["endings_collected"] + 1
+                with open(filename, 'w') as file:
+                    json.dump(data, file)
+                print("=======================================================================================")
+                print(f"\n{end3} end.")
+                for status in data:
+                    print(f"{status["endings_collected"]}/8 endings collected.")
+                print("===========================")
+
+            # prints if errors are found
+            except FileNotFoundError:
+                print("Error: The file 'endings_collected.json' was not found.")
+            except json.JSONDecodeError as e:
+                print(f"Failed to decode JSON: {e}")
 
         elif lovemeter <= 100:
             input(f"❀࿐ Clutching the small gift in your hands, your fingers tighten around it as if it might somehow steady your racing heart.\nYou wait for {charname}, your breath uneven, your thoughts louder than the world around you.\nEverything you’ve wanted to say over the past year begins to line up in your mind messily.\nYou begin revisiting your choices. Every word, every hesitation, every choice you made to get here.\nWas it enough? Was it too much?\nBefore doubt can fully take over, you see them. They approach, eyes soft but curious.\nYou take another breath. And then—everything spills.\nIt wasn't perfect, not the way you practiced. But it was honest. Real.\nAll the feelings you tried to hide. All the moments you overthought.\nAll the little things about them that made your world feel lighter without you even realizing it.\nIt comes out like a flood you can’t stop, and maybe don’t want to anymore. And at the end of it all, you say it.\n\n“I love you.”\n\n. . .\n\n(Press enter to progress.)")
@@ -907,21 +940,31 @@ def final():
             end4 = "Hopeful"
             for endings in data:
                 endings["ending4"] = "Hopeful"
-                if endings["ending4"] != "?":
-                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
-            print("=======================================================================================")
-            print(f"\n{end4} end.")
-            print(f"{endings_collected}/8 endings collected.")
-            for endings in data:
-                if endings["endings_collected"] == 8:
-                    print("❀࿐ ALL ENDINGS COLLECTED!")
-                    print("˚˖᪥ Special badge has been obtained!")
-                    endings["specialbadge"] = "In the another life..."
-                    with open(filename, 'w') as file:
-                        json.dump(data, file)
-            print("===========================")
+
+            try:  # checks for errors
+                # opens the json file and saves it in the variable "data"
+                filename = "endings_collected.json"
+                with open(filename, 'r') as file:
+                    data = json.load(file)
+                for status in data:
+                    status["ending4"] = "collected"
+                    if status["ending4"] != "collected":
+                        status["endings_collected"] = status["endings_collected"] + 1
+                with open(filename, 'w') as file:
+                    json.dump(data, file)
+                print("=======================================================================================")
+                print(f"\n{end4} end.")
+                for status in data:
+                    print(f"{status["endings_collected"]}/8 endings collected.")
+                print("===========================")
+
+            # prints if errors are found
+            except FileNotFoundError:
+                print("Error: The file 'endings_collected.json' was not found.")
+            except json.JSONDecodeError as e:
+                print(f"Failed to decode JSON: {e}")
 
         elif lovemeter <= 150:
             input(f"❀࿐ Sitting in your classroom, you await your impending doom as you watch the clock’s hand intensely, anxiously waiting for dismissal.\nYou take a deep breath once again.\nMinutes upon minutes of tirelessly trying to compose yourself were in vain\nas realization that there were only 5 more minutes until the end of classes struck.\nDread begins overwhelming you, as your thoughts begin convincing you to schedule this for another day; the clock then strikes five.\nThe teacher dismisses you, and your hand goes to grab your bag while your other clutched onto the gift.\n\nPlacing your bag down outside of your classroom, you begin readying yourself physically, mentally, and emotionally (and maybe spiritually).\nWhile preparing youself for your impending doom, your eyes wander outside to find them already stationed, waiting at the amphitheater.\n\nHow were they already there??\n\nYou silently curse under your breath, knowing how underprepared you are. However, you know you can’t keep them waiting for too long.\nAfter slowly counting to ten in your head, you begin to walk towards them, your gait so slow it was almost comparable to a toddler.\nHowever, it was a given. You’re planning to confess after a year of yearning.\nA year of hiding your feelings, emotions. And it’s scary.\nBut it was now or never.\nYour mind begins recalling the decisions you’ve made over the past week, and you finally decide that you should stop being a coward,\nand trust the decisions you’ve made.\nWith newfound confidence, you quicken your pace, and your eyes meet.\nImmediately beaming in your presence, they get up to greet you, and your heart feels it's been struck by Cupid's arrow.\nFor a moment, you felt moonstruck, yet shrugged off the feeling since this wasn’t the time for that; it was time to confess.\nDeclaring the feelings you’ve hidden for so long, you begin saying everything you’ve been meaning to say.\nYou don’t care that your voice was shaking, all that mattered was that you were finally saying it.\nYou utter your kept feelings towards them, the reasons why you love them, and the secrets you’ve bottled up for the longest time.\nYou felt yourself running out of breath.\nAnd to wrap up all you've poured out, your speech ends with an awaited phrase,\n\n“I love you.”\n\n. . .\n\n(Press enter to progress.)")
@@ -932,21 +975,31 @@ def final():
             end5 = "Happy"
             for endings in data:
                 endings["ending5"] = "Happy"
-                if endings["ending5"] != "?":
-                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
-            print("=======================================================================================")
-            print(f"\n{end5} end.")
-            print(f"{endings_collected}/8 endings collected.")
-            for endings in data:
-                if endings["endings_collected"] == 8:
-                    print("❀࿐ ALL ENDINGS COLLECTED!")
-                    print("˚˖᪥ Special badge has been obtained!")
-                    endings["specialbadge"] = "In the another life..."
-                    with open(filename, 'w') as file:
-                        json.dump(data, file)
-            print("===========================")
+
+            try:  # checks for errors
+                # opens the json file and saves it in the variable "data"
+                filename = "endings_collected.json"
+                with open(filename, 'r') as file:
+                    data = json.load(file)
+                for status in data:
+                    status["ending5"] = "collected"
+                    if status["ending5"] != "collected":
+                        status["endings_collected"] = status["endings_collected"] + 1
+                with open(filename, 'w') as file:
+                    json.dump(data, file)
+                print("=======================================================================================")
+                print(f"\n{end5} end.")
+                for status in data:
+                    print(f"{status["endings_collected"]}/8 endings collected.")
+                print("===========================")
+
+            # prints if errors are found
+            except FileNotFoundError:
+                print("Error: The file 'endings_collected.json' was not found.")
+            except json.JSONDecodeError as e:
+                print(f"Failed to decode JSON: {e}")
 
         else:
             yansecret()
@@ -976,42 +1029,61 @@ def yansecret():
             end6 = "Happy...?"
             for endings in data:
                 endings["secretend1"] = "Happy...?"
-                if endings["secretend1"] != "?":
-                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
-            print("=======================================================================================")
-            print(f"\n{end6} end.")
-            print(f"{endings_collected}/8 endings collected.")
-            for endings in data:
-                if endings["endings_collected"] == 8:
-                    print("❀࿐ ALL ENDINGS COLLECTED!")
-                    print("˚˖᪥ Special badge has been obtained!")
-                    endings["specialbadge"] = "In the another life..."
-                    with open(filename, 'w') as file:
-                        json.dump(data, file)
-            print("===========================")
 
+            try:  # checks for errors
+                # opens the json file and saves it in the variable "data"
+                filename = "endings_collected.json"
+                with open(filename, 'r') as file:
+                    data = json.load(file)
+                for status in data:
+                    status["secretend1"] = "collected"
+                    if status["secretend1"] != "collected":
+                        status["endings_collected"] = status["endings_collected"] + 1
+                with open(filename, 'w') as file:
+                    json.dump(data, file)
+                print("=======================================================================================")
+                print(f"\n{end6} end.")
+                for status in data:
+                    print(f"{status["endings_collected"]}/8 endings collected.")
+                print("===========================")
+
+            # prints if errors are found
+            except FileNotFoundError:
+                print("Error: The file 'endings_collected.json' was not found.")
+            except json.JSONDecodeError as e:
+                print(f"Failed to decode JSON: {e}")
         else:
             input("\n𓇢𓆸 You didn’t stay. The moment everything settled, you turned and walked away, each step heavier than the last.\nYour hands trembled as you reached into your pocket, pulling out your phone. The screen blurred.\nYou blinked hard, forcing it into focus, forcing your fingers to cooperate as you dialed 911. You told yourself it was the right choice.\nYou knew it was the right choice. Still… It didn’t make it hurt any less.\n\nTime passed in a blur before they found you. Sitting alone on a cold bench, you stared blankly ahead, your thoughts looping, refusing to quiet down.\nWhen you heard footsteps, you didn’t need to look up to know it was them. Your body went still. This is it.\n\nYou straightened, forcing yourself to stand before they could say anything.\nWhen you finally looked at them, they were smiling. Their smile was soft, relieved, completely unaware.\nIt made your chest tighten painfully.\n\n“…Hey,” they greeted, their voice warm, but it faltered slightly when they noticed your expression. Their smile faded.\n\n“I… I need to tell you something.” That was all it took. They went quiet, their eyes searching yours, uncertainty creeping in.\nYou could see it — the way their shoulders tensed, the way their hands stilled at their sides.\nYou told them everything, but not everything. You talked about the good moments.\nThe way they made you laugh when you didn’t want to.\nThe way being with them felt like coming home to something you didn’t know you were missing.\nThe quiet moments. The warmth. The comfort.\nWith every word, their expression changed. Hope flickering, then wavering, then slowly unraveling into something more fragile.\n\n“I don’t think this is going to work,” you said quietly. “I’m sorry.”\n\nYou forced yourself to continue. “I did love you. I truly did.”\n\nSilence followed. They didn’t speak right away.\nWhen you finally looked at them, their expression said everything — the confusion, the hurt, the quiet realization settling in piece by piece.\n\n“…What?” they whispered, like they hadn’t quite heard you right.\n\nYour chest tightened, but you didn’t move closer. Didn’t reach out. You couldn’t.\n\nBecause you knew what they had done. You knew what they were capable of.\nAnd more than anything, you knew that staying meant watching things get worse. It meant watching them become someone you couldn’t save.\nIf you stayed, what would stop them from doing it again? Who would be next? Anyone who got too close?\nAnyone who threatened what they thought they had with you?\n\nSo you shook your head slightly, your voice softer now, almost breaking. “I can’t do this. Not anymore.”\n\nThey took a step forward. You took one back. Something in their eyes shifted. Not anger, just hurt. Deep, quiet hurt.\nAnd it nearly shattered you. But you held your ground because this wasn’t about what you wanted anymore.\nWithout another word, you turned. You didn’t look back.\n\nBecause if you did...\n\nYou weren’t sure you’d have the strength to leave.\n\n(Press enter to progress.)")
             end7 = "Won't work out anymore"
             for endings in data:
                 endings["secretend2"] = "Won't work out anymore"
-                if endings["secretend2"] != "?":
-                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
-            print("=======================================================================================")
-            print(f"\n{end7} end.")
-            print(f"{endings_collected}/8 endings collected.")
-            for endings in data:
-                if endings["endings_collected"] == 8:
-                    print("❀࿐ ALL ENDINGS COLLECTED!")
-                    print("˚˖᪥ Special badge has been obtained!")
-                    endings["specialbadge"] = "In the another life..."
-                    with open(filename, 'w') as file:
-                        json.dump(data, file)
-            print("===========================")
+
+            try:  # checks for errors
+                # opens the json file and saves it in the variable "data"
+                filename = "endings_collected.json"
+                with open(filename, 'r') as file:
+                    data = json.load(file)
+                for status in data:
+                    status["secretend2"] = "collected"
+                    if status["secretend2"] != "collected":
+                        status["endings_collected"] = status["endings_collected"] + 1
+                with open(filename, 'w') as file:
+                    json.dump(data, file)
+                print("=======================================================================================")
+                print(f"\n{end7} end.")
+                for status in data:
+                    print(f"{status["endings_collected"]}/8 endings collected.")
+                print("===========================")
+
+            # prints if errors are found
+            except FileNotFoundError:
+                print("Error: The file 'endings_collected.json' was not found.")
+            except json.JSONDecodeError as e:
+                print(f"Failed to decode JSON: {e}")
 
     # prints if errors are found
     except FileNotFoundError:
@@ -1030,22 +1102,31 @@ def wedsecret():
         end8 = "The future promised"
         for endings in data:
             endings["secretend3"] = "The future promised"
-            if endings["secretend3"] != "?":
-                endings["endings_collected"] = endings["endings_collected"] + 1
         with open(filename, 'w') as file:
             json.dump(data, file)
-        time.sleep(4)
-        print("=======================================================================================")
-        print(f"\n{end8} end.")
-        print(f"{endings_collected}/8 endings collected.")
-        for endings in data:
-            if endings["endings_collected"] == 8:
-                print("❀࿐ ALL ENDINGS COLLECTED!")
-                print("˚˖᪥ Special badge has been obtained!")
-                endings["specialbadge"] = "In the another life..."
-                with open(filename, 'w') as file:
-                    json.dump(data, file)
-        print("===========================")
+
+        try:  # checks for errors
+            # opens the json file and saves it in the variable "data"
+            filename = "endings_collected.json"
+            with open(filename, 'r') as file:
+                data = json.load(file)
+            for status in data:
+                status["secretend3"] = "collected"
+                if status["secretend3"] != "collected":
+                    status["endings_collected"] = status["endings_collected"] + 1
+            with open(filename, 'w') as file:
+                json.dump(data, file)
+            print("=======================================================================================")
+            print(f"\n{end8} end.")
+            for status in data:
+                print(f"{status["endings_collected"]}/8 endings collected.")
+            print("===========================")
+
+        # prints if errors are found
+        except FileNotFoundError:
+            print("Error: The file 'endings_collected.json' was not found.")
+        except json.JSONDecodeError as e:
+            print(f"Failed to decode JSON: {e}")
         input("~ Press enter to return to main menu.")
         main_menu()
 
@@ -1485,6 +1566,8 @@ def main():
         print("This one only has eyes for a certain rose :p")
     elif charname == "Lordwyn" or charname == "lordwyn":
         print("You must be... one shady guy...")
+
+    final()
 
     input("MINOR WARNING!!!\nThis character has their own fixed persona---If you attempt this with your special someone, it's not guaranteed they'll like you back (ehe)")
 
