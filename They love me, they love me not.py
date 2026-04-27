@@ -845,6 +845,13 @@ def final():
             print("=======================================================================================")
             print(f"\n{end1} end.")
             print(f"{endings_collected}/8 endings collected.")
+            for endings in data:
+                if endings["endings_collected"] == 8:
+                    print("❀࿐ ALL ENDINGS COLLECTED!")
+                    print("˚˖᪥ Special badge has been obtained!")
+                    endings["specialbadge"] = "In the another life..."
+                    with open(filename, 'w') as file:
+                        json.dump(data, file)
             print("===========================")
 
         elif lovemeter <= 25:
@@ -854,10 +861,20 @@ def final():
             end2 = "At least I tried"
             for endings in data:
                 endings["ending2"] = "At least I tried"
+                if endings["ending2"] != "?":
+                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
             print("=======================================================================================")
             print(f"\n{end2} end.")
+            print(f"{endings_collected}/8 endings collected.")
+            for endings in data:
+                if endings["endings_collected"] == 8:
+                    print("❀࿐ ALL ENDINGS COLLECTED!")
+                    print("˚˖᪥ Special badge has been obtained!")
+                    endings["specialbadge"] = "In the another life..."
+                    with open(filename, 'w') as file:
+                        json.dump(data, file)
             print("===========================")
 
         elif lovemeter <= 60:
@@ -867,10 +884,20 @@ def final():
             end3 = "Just friends"
             for endings in data:
                 endings["ending3"] = "Just friends"
+                if endings["ending3"] != "?":
+                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
             print("=======================================================================================")
             print(f"\n{end3} end.")
+            print(f"{endings_collected}/8 endings collected.")
+            for endings in data:
+                if endings["endings_collected"] == 8:
+                    print("❀࿐ ALL ENDINGS COLLECTED!")
+                    print("˚˖᪥ Special badge has been obtained!")
+                    endings["specialbadge"] = "In the another life..."
+                    with open(filename, 'w') as file:
+                        json.dump(data, file)
             print("===========================")
 
         elif lovemeter <= 100:
@@ -880,10 +907,20 @@ def final():
             end4 = "Hopeful"
             for endings in data:
                 endings["ending4"] = "Hopeful"
+                if endings["ending4"] != "?":
+                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
             print("=======================================================================================")
             print(f"\n{end4} end.")
+            print(f"{endings_collected}/8 endings collected.")
+            for endings in data:
+                if endings["endings_collected"] == 8:
+                    print("❀࿐ ALL ENDINGS COLLECTED!")
+                    print("˚˖᪥ Special badge has been obtained!")
+                    endings["specialbadge"] = "In the another life..."
+                    with open(filename, 'w') as file:
+                        json.dump(data, file)
             print("===========================")
 
         elif lovemeter <= 150:
@@ -895,10 +932,20 @@ def final():
             end5 = "Happy"
             for endings in data:
                 endings["ending5"] = "Happy"
+                if endings["ending5"] != "?":
+                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
             print("=======================================================================================")
             print(f"\n{end5} end.")
+            print(f"{endings_collected}/8 endings collected.")
+            for endings in data:
+                if endings["endings_collected"] == 8:
+                    print("❀࿐ ALL ENDINGS COLLECTED!")
+                    print("˚˖᪥ Special badge has been obtained!")
+                    endings["specialbadge"] = "In the another life..."
+                    with open(filename, 'w') as file:
+                        json.dump(data, file)
             print("===========================")
 
         else:
@@ -929,10 +976,20 @@ def yansecret():
             end6 = "Happy...?"
             for endings in data:
                 endings["secretend1"] = "Happy...?"
+                if endings["secretend1"] != "?":
+                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
             print("=======================================================================================")
             print(f"\n{end6} end.")
+            print(f"{endings_collected}/8 endings collected.")
+            for endings in data:
+                if endings["endings_collected"] == 8:
+                    print("❀࿐ ALL ENDINGS COLLECTED!")
+                    print("˚˖᪥ Special badge has been obtained!")
+                    endings["specialbadge"] = "In the another life..."
+                    with open(filename, 'w') as file:
+                        json.dump(data, file)
             print("===========================")
 
         else:
@@ -940,10 +997,20 @@ def yansecret():
             end7 = "Won't work out anymore"
             for endings in data:
                 endings["secretend2"] = "Won't work out anymore"
+                if endings["secretend2"] != "?":
+                    endings["endings_collected"] = endings["endings_collected"] + 1
             with open(filename, 'w') as file:
                 json.dump(data, file)
             print("=======================================================================================")
             print(f"\n{end7} end.")
+            print(f"{endings_collected}/8 endings collected.")
+            for endings in data:
+                if endings["endings_collected"] == 8:
+                    print("❀࿐ ALL ENDINGS COLLECTED!")
+                    print("˚˖᪥ Special badge has been obtained!")
+                    endings["specialbadge"] = "In the another life..."
+                    with open(filename, 'w') as file:
+                        json.dump(data, file)
             print("===========================")
 
     # prints if errors are found
@@ -963,11 +1030,21 @@ def wedsecret():
         end8 = "The future promised"
         for endings in data:
             endings["secretend3"] = "The future promised"
+            if endings["secretend3"] != "?":
+                endings["endings_collected"] = endings["endings_collected"] + 1
         with open(filename, 'w') as file:
             json.dump(data, file)
         time.sleep(4)
         print("=======================================================================================")
         print(f"\n{end8} end.")
+        print(f"{endings_collected}/8 endings collected.")
+        for endings in data:
+            if endings["endings_collected"] == 8:
+                print("❀࿐ ALL ENDINGS COLLECTED!")
+                print("˚˖᪥ Special badge has been obtained!")
+                endings["specialbadge"] = "In the another life..."
+                with open(filename, 'w') as file:
+                    json.dump(data, file)
         print("===========================")
         input("~ Press enter to return to main menu.")
         main_menu()
