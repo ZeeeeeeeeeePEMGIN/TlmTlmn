@@ -2,8 +2,9 @@ import time
 import json
 import random
 
-lovemeter = -700
-code = "0828"
+secretbadge = "unobtained"
+lovemeter = 0
+code = "0821"
 
 def main_menu():
     print("=======================================================================================")
@@ -37,6 +38,11 @@ def main_menu():
                 time.sleep(1)
                 next_move = input("Yes\tor\tNo\nNext move: ")
                 if next_move == "Yes" or next_move == "yes":
+                    main_menu()
+                elif next_move == "No" or next_move == "no":
+                    continue
+                else:
+                    print("Invalid input. Returning to menu...")
                     main_menu()
     elif choice == "To where they promised.":
         wedsecret()
@@ -849,16 +855,13 @@ def final():
                 for status in data:
                     if status["ending1"] != "collected":
                         status["endings_collected"] = status["endings_collected"] + 1
-                with open(filename, 'w') as file:
-                    json.dump(data, file)
-                for status in data:
                     status["ending1"] = "collected"
                 with open(filename, 'w') as file:
                     json.dump(data, file)
                 print("=======================================================================================")
                 print(f"\n{end1} end.")
                 for status in data:
-                    print(f"{status["endings_collected"]}/8 endings collected.")
+                    print(f"{status["endings_collected"]}/8 endings collected.\n")
                 print("===========================")
 
             # prints if errors are found
@@ -891,7 +894,7 @@ def final():
                 print("=======================================================================================")
                 print(f"\n{end2} end.")
                 for status in data:
-                    print(f"{status["endings_collected"]}/8 endings collected.")
+                    print(f"{status["endings_collected"]}/8 endings collected.\n")
                 print("===========================")
 
             # prints if errors are found
@@ -916,15 +919,16 @@ def final():
                 with open(filename, 'r') as file:
                     data = json.load(file)
                 for status in data:
-                    status["ending3"] = "collected"
                     if status["ending3"] != "collected":
                         status["endings_collected"] = status["endings_collected"] + 1
+                    status["ending3"] = "collected"
+
                 with open(filename, 'w') as file:
                     json.dump(data, file)
                 print("=======================================================================================")
                 print(f"\n{end3} end.")
                 for status in data:
-                    print(f"{status["endings_collected"]}/8 endings collected.")
+                    print(f"{status["endings_collected"]}/8 endings collected.\n")
                 print("===========================")
 
             # prints if errors are found
@@ -949,15 +953,15 @@ def final():
                 with open(filename, 'r') as file:
                     data = json.load(file)
                 for status in data:
-                    status["ending4"] = "collected"
                     if status["ending4"] != "collected":
                         status["endings_collected"] = status["endings_collected"] + 1
+                    status["ending4"] = "collected"
                 with open(filename, 'w') as file:
                     json.dump(data, file)
                 print("=======================================================================================")
                 print(f"\n{end4} end.")
                 for status in data:
-                    print(f"{status["endings_collected"]}/8 endings collected.")
+                    print(f"{status["endings_collected"]}/8 endings collected.\n")
                 print("===========================")
 
             # prints if errors are found
@@ -984,15 +988,15 @@ def final():
                 with open(filename, 'r') as file:
                     data = json.load(file)
                 for status in data:
-                    status["ending5"] = "collected"
                     if status["ending5"] != "collected":
                         status["endings_collected"] = status["endings_collected"] + 1
+                    status["ending5"] = "collected"
                 with open(filename, 'w') as file:
                     json.dump(data, file)
                 print("=======================================================================================")
                 print(f"\n{end5} end.")
                 for status in data:
-                    print(f"{status["endings_collected"]}/8 endings collected.")
+                    print(f"{status["endings_collected"]}/8 endings collected.\n")
                 print("===========================")
 
             # prints if errors are found
@@ -1038,15 +1042,15 @@ def yansecret():
                 with open(filename, 'r') as file:
                     data = json.load(file)
                 for status in data:
-                    status["secretend1"] = "collected"
                     if status["secretend1"] != "collected":
                         status["endings_collected"] = status["endings_collected"] + 1
+                    status["secretend1"] = "collected"
                 with open(filename, 'w') as file:
                     json.dump(data, file)
                 print("=======================================================================================")
                 print(f"\n{end6} end.")
                 for status in data:
-                    print(f"{status["endings_collected"]}/8 endings collected.")
+                    print(f"{status["endings_collected"]}/8 endings collected.\n")
                 print("===========================")
 
             # prints if errors are found
@@ -1068,15 +1072,15 @@ def yansecret():
                 with open(filename, 'r') as file:
                     data = json.load(file)
                 for status in data:
-                    status["secretend2"] = "collected"
                     if status["secretend2"] != "collected":
                         status["endings_collected"] = status["endings_collected"] + 1
+                    status["secretend2"] = "collected"
                 with open(filename, 'w') as file:
                     json.dump(data, file)
                 print("=======================================================================================")
                 print(f"\n{end7} end.")
                 for status in data:
-                    print(f"{status["endings_collected"]}/8 endings collected.")
+                    print(f"{status["endings_collected"]}/8 endings collected.\n")
                 print("===========================")
 
             # prints if errors are found
@@ -1111,15 +1115,15 @@ def wedsecret():
             with open(filename, 'r') as file:
                 data = json.load(file)
             for status in data:
-                status["secretend3"] = "collected"
                 if status["secretend3"] != "collected":
                     status["endings_collected"] = status["endings_collected"] + 1
+                status["secretend3"] = "collected"
             with open(filename, 'w') as file:
                 json.dump(data, file)
             print("=======================================================================================")
             print(f"\n{end8} end.")
             for status in data:
-                print(f"{status["endings_collected"]}/8 endings collected.")
+                print(f"{status["endings_collected"]}/8 endings collected.\n")
             print("===========================")
 
         # prints if errors are found
@@ -1177,6 +1181,7 @@ def locker():
         main_menu()
 
 def endings():
+    global secretbadge
     print("=======================================================================================")
     print("╔═╗┌┐┌┌┬┐┬┌┐┌┌─┐┌─┐  ┌─┐┌┐┌┌┬┐  ┌┐ ┌─┐┌┬┐┌─┐┌─┐┌─┐")
     print("║╣ │││ │││││││ ┬└─┐  ├─┤│││ ││  ├┴┐├─┤ │││ ┬├┤ └─┐")
@@ -1184,10 +1189,31 @@ def endings():
     print("=======================================================================================")
     try:  # checks for errors
         # opens the json file and saves it in the variable "data"
+        filename = "endings_collected.json"
+        with open(filename, 'r') as file:
+            data = json.load(file)
+
+        for status in data:
+            if status["endings_collected"] == 8:
+                secretbadge = "obtained"
+
+    # prints if errors are found
+    except FileNotFoundError:
+        print("Error: The file 'endings_collected.json' was not found.")
+    except json.JSONDecodeError as e:
+        print(f"Failed to decode JSON: {e}")
+
+    try:  # checks for errors
+        # opens the json file and saves it in the variable "data"
         filename = "badges.json"
         with open(filename, 'r') as file:
             data = json.load(file)
 
+        for endings in data:
+            if secretbadge == "obtained":
+                endings["specialbadge"] = "In another life..."
+        with open(filename, 'w') as file:
+            json.dump(data, file)
         for endings in data:
             print(f"˚˖᪥ Ending 1: {endings["ending1"]}\n˚˖᪥ Ending 2: {endings["ending2"]}\n˚˖᪥ Ending 3: {endings["ending3"]}\n˚˖᪥ Ending 4: {endings["ending4"]}\n˚˖᪥ Ending 5: {endings["ending5"]}\n˚˖᪥ Ending 6: {endings["secretend1"]}\n˚˖᪥ Ending 7: {endings["secretend2"]}\n˚˖᪥ Ending 8: {endings["secretend3"]}\n\n˚˖᪥ BADGE OF COMPLETION!: {endings["specialbadge"]}")
 
@@ -1383,7 +1409,7 @@ def minigame3():
     print("╩ ╩└─┘└┴┘  ╚╩╝└─┘┴─┘┴─┘  ═╩╝└─┘   ╩ └─┘└─┘  ╩ ╩┘└┘└─┘└┴┘   ╩ ┴ ┴└─┘┴ ┴ o")
     print("=======================================================================================")
     print("ᯓ★ We recommend you play this after at least 1 playthrough :)")
-    choice = input("Continue?\nYes\tor\tNo")
+    choice = input("Continue?\nYes\tor\tNo\nNext move: ")
     if choice == "Yes" or choice == "yes":
         score = 0
         print("=======================================================================================")
@@ -1566,8 +1592,6 @@ def main():
         print("This one only has eyes for a certain rose :p")
     elif charname == "Lordwyn" or charname == "lordwyn":
         print("You must be... one shady guy...")
-
-    final()
 
     input("MINOR WARNING!!!\nThis character has their own fixed persona---If you attempt this with your special someone, it's not guaranteed they'll like you back (ehe)")
 

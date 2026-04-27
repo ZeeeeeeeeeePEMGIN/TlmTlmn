@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="added the special badge!">
+    <list default="true" id="a5c6afd0-00aa-46f3-8a9a-856d8c4b395f" name="Changes" comment="new json file">
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/They love me, they love me not.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../They love me, they love me not/badges.json" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/badges.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../They love me, they love me not/endings_collected.json" beforeDir="false" afterPath="$PROJECT_DIR$/../They love me, they love me not/endings_collected.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,22 +75,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771643923112</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added flower function">
-      <option name="closed" value="true" />
-      <created>1771761205524</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1771761205524</updated>
-    </task>
-    <task id="LOCAL-00009" summary="updated project proposal--pseudocode">
-      <option name="closed" value="true" />
-      <created>1772594588863</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1772594588863</updated>
     </task>
     <task id="LOCAL-00010" summary="polished code">
       <option name="closed" value="true" />
@@ -467,13 +452,39 @@
       <option name="project" value="LOCAL" />
       <updated>1777250765718</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="fixing the special badge thingy">
+      <option name="closed" value="true" />
+      <created>1777257266362</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1777257266362</updated>
+    </task>
+    <task id="LOCAL-00058" summary="new json file">
+      <option name="closed" value="true" />
+      <created>1777257281196</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1777257281196</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="e24dba5f-c706-4cf3-b14e-7eb53d0e0cd2" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="e24dba5f-c706-4cf3-b14e-7eb53d0e0cd2">
           <value>
             <State />
           </value>
@@ -482,8 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adjusted the formatting" />
-    <MESSAGE value="fixed some typos :p" />
     <MESSAGE value="endings 2-5 (excluding 4) added + changed char's favorite flower :P" />
     <MESSAGE value="more comments hehe" />
     <MESSAGE value="added designs" />
@@ -507,6 +516,8 @@
     <MESSAGE value="changed the name easter egg thingy" />
     <MESSAGE value="changed json file name to badges" />
     <MESSAGE value="added the special badge!" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the special badge!" />
+    <MESSAGE value="fixing the special badge thingy" />
+    <MESSAGE value="new json file" />
+    <option name="LAST_COMMIT_MESSAGE" value="new json file" />
   </component>
 </project>
